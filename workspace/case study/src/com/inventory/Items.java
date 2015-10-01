@@ -35,6 +35,7 @@ public class Items
 	public String getWarehousename() {
 		return warehousename;
 	}
+	<!--devops-->
 
 	public void setWarehousename(String warehousename) {
 		this.warehousename = warehousename;
