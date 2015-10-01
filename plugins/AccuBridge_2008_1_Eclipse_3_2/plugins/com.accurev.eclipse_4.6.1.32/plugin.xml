@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="com.accurev.eclipse"
+   name="AccuRev Team Provider"
+   version="4.6.1.32"
+   provider-name="AccuRev"
+   class="com.accurev.ide.eclipse.EclipsePlugin">
+
+   <runtime>
+      <library name="eclipse.jar">
+         <export name="*"/>
+         <packages prefixes="com.accurev.ide.eclipse"/>
+      </library>
+      <library name="AccuRevCommon.jar">
+         <packages prefixes="com.accurev.common,com.accurev.common.data,com.accurev.common.parsers,com.accurev.common.process"/>
+      </library>
+      <library name="xercesImpl.jar">
+         <packages prefixes="org.apache.xerces.jaxp,org.apache.xerces.parsers,org.apache.xerces.xni,org.apache.xerces.xs,org.apache.xerces.util,org.apache.xerces.impl"/>
+      </library>
+      <library name="xml-apis.jar">
+         <packages prefixes="org.xml.sax,javax.xml.parsers"/>
+      </library>
+      <library name="oro.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+   <requires>
+   		<import plugin="org.eclipse.ui"/>
+   		<import plugin="org.eclipse.core.runtime"/>
+      	<import plugin="org.eclipse.core.resources"/>
+      	<import plugin="org.eclipse.ui.ide"/>
+      	<import plugin="org.eclipse.jface.text"/>
+      	<import plugin="org.eclipse.team.core"/>
+      	<import plugin="org.eclipse.team.ui"/>
+      	<import plugin="org.eclipse.compare"/>
+      	<import plugin="org.eclipse.jdt.core"/>
+      	<import plugin="org.eclipse.jdt.ui"/>
+		<import plugin="org.eclipse.ui.editors"/>
+		<import plugin="org.eclipse.core.filesystem"/>
+   </requires>
+
+
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.ui.resourcePerspective">
+         <view
+               relative="org.eclipse.ui.views.TaskList"
+               relationship="stack"
+               id="com.accurev.ide.eclipse.views.AccuRevConsoleView">
+         </view>
+         <view
+               relative="org.eclipse.ui.views.TaskList"
+               relationship="stack"
+               id="com.accurev.ide.eclipse.views.AccuRevFiltersView">
+         </view>
+      </perspectiveExtension>
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.resources.IResource"
+            adaptable="true"
+            id="com.accurev.ide.eclipse.contribution.popup.object">
+         <filter
+               name="projectPersistentProperty"
+               value="org.eclipse.team.core.repository=com.accurev.ide.eclipse.AccuRevProvider">
+         </filter>
+         <menu
+               label="Team"
+               path="additions"
+               id="team.main">
+            <separator
+                  name="accurev1">
+            </separator>
+            <separator
+                  name="accurev2">
+            </separator>
+            <separator
+                  name="accurev3">
+            </separator>
+            <separator
+                  name="accurev4">
+            </separator>
+            <separator
+                  name="accurev5">
+            </separator>
+         </menu>
+         <menu
+               label="Refresh"
+               path="team.main/accurev5"
+               id="accurev.eclipse.RefreshWorkspacesSubMenu">
+            <separator
+                  name="workspaces">
+            </separator>
+         </menu>
+         <action
+               label="All Projects"
+               class="com.accurev.ide.eclipse.actions.RefreshAllWorkspacesAction"
+               menubarPath="team.main/accurev.eclipse.RefreshWorkspacesSubMenu/workspaces"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.refreshAllWorkspacesAction">
+         </action>
+         <action
+               label="Selected Projects"
+               class="com.accurev.ide.eclipse.actions.RefreshSelectedWorkspacesAction"
+               menubarPath="team.main/accurev.eclipse.RefreshWorkspacesSubMenu/workspaces"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.refreshSelectedWorkspacesAction">
+         </action>
+         <action
+               label="AccuRev Statuses"
+               class="com.accurev.ide.eclipse.actions.ElementStatusAction"
+               menubarPath="team.main/accurev4"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.elementStatusAction">
+         </action>
+         <action
+               label="AccuRev History"
+               class="com.accurev.ide.eclipse.actions.HistoryAction"
+               menubarPath="team.main/accurev4"
+               enablesFor="1"
+               id="com.accurev.ide.eclipse.historyAction">
+         </action>
+         <menu
+               label="AccuRev Searches"
+               path="team.main/accurev4"
+               id="accurev.eclipse.SearchesSubMenu">
+            <separator
+                  name="searches">
+            </separator>
+         </menu>
+         <action
+               label="Defunct"
+               class="com.accurev.ide.eclipse.actions.DefunctSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.defunctSearchesAction">
+         </action>
+         <action
+               class="com.accurev.ide.eclipse.actions.StrandedSearchesAction"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.strandedSearchesAction"
+               label="Stranded"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"/>
+         <action
+               class="com.accurev.ide.eclipse.actions.MissingSearchesAction"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.MissingSearchesAction"
+               label="Missing"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"/>
+         <action
+               label="External"
+               class="com.accurev.ide.eclipse.actions.ExternalSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.externalSearchesAction">
+         </action>
+         <action
+               label="Mod. in Def. Grp."
+               class="com.accurev.ide.eclipse.actions.ModifiedInDefaultGroupSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.modifiedInDefaultGroupSearchesAction">
+         </action>
+         <action
+               class="com.accurev.ide.eclipse.actions.DeepOverlapSearchesAction"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.deepOverlapSearchesAction"
+               label="Deep Overlap"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"/>
+         <action
+               label="Overlap"
+               class="com.accurev.ide.eclipse.actions.OverlapSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.overlapSearchesAction">
+         </action>
+         <action
+               label="Default Group"
+               class="com.accurev.ide.eclipse.actions.DefaultGroupSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.defaultGroupSearchesAction">
+         </action>
+         <action
+               label="Non-member"
+               class="com.accurev.ide.eclipse.actions.NonMemberSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.nonMemberSearchesAction">
+         </action>
+         <action
+               label="Kept"
+               class="com.accurev.ide.eclipse.actions.KeptSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.keptSearchesAction">
+         </action>
+         <action
+               label="Modified"
+               class="com.accurev.ide.eclipse.actions.ModifiedSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.modifiedSearchesAction">
+         </action>
+         <action
+               label="Pending"
+               class="com.accurev.ide.eclipse.actions.PendingSearchesAction"
+               menubarPath="team.main/accurev.eclipse.SearchesSubMenu/searches"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.pendingSearchesAction">
+         </action>
+         <action
+               label="AccuRev Workspace Information"
+               class="com.accurev.ide.eclipse.actions.WorkspaceInformationAction"
+               menubarPath="team.main/accurev3"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.workspaceInformationAction">
+         </action>
+         <action
+               label="Synchronize Time"
+               class="com.accurev.ide.eclipse.actions.SynchronizeTimeAction"
+               menubarPath="team.main/accurev3"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.synchronizeTimeAction">
+         </action>
+         <menu
+               label="Update AccuRev Workspace"
+               path="team.main/accurev3"
+               id="accurev.eclipse.UpdateWorkspaceSubMenu">
+            <separator
+                  name="updateWorkspace">
+            </separator>
+         </menu>
+         <action
+               class="com.accurev.ide.eclipse.actions.UpdateWorkspacePreviewAction"
+               enablesFor="*"
+               icon="icons/preview.gif"
+               id="com.accurev.ide.eclipse.updateWorkspacePreviewAction"
+               label="Preview"
+               menubarPath="team.main/accurev.eclipse.UpdateWorkspaceSubMenu/updateWorkspace">
+         </action>
+         <action
+               label="Entire Workspace"
+               icon="icons/update.gif"
+               class="com.accurev.ide.eclipse.actions.UpdateWorkspaceForRealAction"
+               menubarPath="team.main/accurev.eclipse.UpdateWorkspaceSubMenu/updateWorkspace"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.updateWorkspaceForRealAction">
+         </action>
+         <menu
+               label="Diff Against"
+               path="team.main/accurev2"
+               id="accurev.eclipse.DiffAgainstSubMenu">
+            <separator
+                  name="diffAgainst">
+            </separator>
+         </menu>
+         <action
+               class="com.accurev.ide.eclipse.actions.DiffBasisAction"
+               enablesFor="1"
+               icon="icons/diff.gif"
+               id="com.accurev.ide.eclipse.diffBasisAction"
+               label="Basis Version"
+               menubarPath="team.main/accurev.eclipse.DiffAgainstSubMenu/diffAgainst"/>
+         <action
+               label="Backed Version"
+               icon="icons/diff.gif"
+               class="com.accurev.ide.eclipse.actions.DiffBackedAction"
+               menubarPath="team.main/accurev.eclipse.DiffAgainstSubMenu/diffAgainst"
+               enablesFor="1"
+               id="com.accurev.ide.eclipse.diffBackedAction">
+         </action>
+         <action
+               label="Most Recent Version"
+               icon="icons/diff.gif"
+               class="com.accurev.ide.eclipse.actions.DiffMostRecentAction"
+               menubarPath="team.main/accurev.eclipse.DiffAgainstSubMenu/diffAgainst"
+               enablesFor="1"
+               id="com.accurev.ide.eclipse.diffMostRecentAction">
+         </action>
+         <menu
+               label="Revert To"
+               path="team.main/accurev2"
+               id="accurev.eclipse.RevertToSubMenu">
+            <separator
+                  name="revertTo">
+            </separator>
+         </menu>
+         <action
+               label="Backed Version"
+               icon="icons/erase.gif"
+               class="com.accurev.ide.eclipse.actions.RevertBackedAction"
+               menubarPath="team.main/accurev.eclipse.RevertToSubMenu/revertTo"
+               enablesFor="1"
+               id="com.accurev.ide.eclipse.revertBackedAction">
+         </action>
+         <action
+               label="Most Recent Version"
+               icon="icons/erase.gif"
+               class="com.accurev.ide.eclipse.actions.RevertMostRecentAction"
+               menubarPath="team.main/accurev.eclipse.RevertToSubMenu/revertTo"
+               enablesFor="1"
+               id="com.accurev.ide.eclipse.revertMostRecentAction">
+         </action>
+         <action
+               label="Defunct"
+               icon="icons/defunct.gif"
+               class="com.accurev.ide.eclipse.actions.DefunctAction"
+               menubarPath="team.main/accurev2"
+               enablesFor="+"
+               id="com.accurev.ide.eclipse.defunctAction">
+         </action>
+         
+         <action
+               class="com.accurev.ide.eclipse.actions.MergeAction"
+               enablesFor="+"
+               id="com.accurev.ide.eclipse.merge"
+               label="Merge"
+               icon="icons/merge.png"
+               menubarPath="team.main/accurev1">
+         </action>  
+         
+         <action
+               label="Promote"
+               icon="icons/promote.gif"
+               class="com.accurev.ide.eclipse.actions.PromoteAction"
+               menubarPath="team.main/accurev1"
+               enablesFor="+"
+               id="com.accurev.ide.eclipse.promoteAction">
+         </action>
+         <action
+               label="Anchor"
+               icon="icons/anchor.gif"
+               class="com.accurev.ide.eclipse.actions.AnchorAction"
+               menubarPath="team.main/accurev1"
+               enablesFor="+"
+               id="com.accurev.ide.eclipse.anchorAction">
+         </action>
+         <action
+               label="Keep"
+               icon="icons/save.gif"
+               class="com.accurev.ide.eclipse.actions.KeepAction"
+               menubarPath="team.main/accurev1"
+               enablesFor="+"
+               id="com.accurev.ide.eclipse.keepAction">
+         </action>
+         <action
+               label="Add To AccuRev Depot"
+               icon="icons/new.gif"
+               class="com.accurev.ide.eclipse.actions.AddToDepotAction"
+               menubarPath="team.main/accurev1"
+               enablesFor="+"
+               id="com.accurev.ide.eclipse.addToDepotAction">
+                              
+         </action>
+           <action
+                 class="com.accurev.ide.eclipse.actions.LoginAction"
+                 enablesFor="+"
+                 icon="icons/server.png"
+                 id="com.accurev.ide.eclipse.loginAction"
+                 label="Login"
+                 menubarPath="team.main/accurev1"/>
+         <action
+               class="com.accurev.ide.eclipse.actions.CompareWithRevision"
+               id="com.accurev.ide.eclipse.AccuRevRevision"
+               label="AccuRev Revision"
+               menubarPath="compareWithMenu/compareWithGroup"/>
+         <action
+               class="com.accurev.ide.eclipse.actions.ReplaceWithRevision"
+               id="com.accurev.ide.eclipse.ReplaceAccuRevRevision"
+               label="AccuRev Revision"
+               menubarPath="replaceWithMenu/replaceWithGroup"/>
+         <action
+               class="com.accurev.ide.eclipse.actions.SynchronizeAction"
+               enablesFor="*"
+               id="com.accurev.ide.eclipse.Sync"
+               label="Synchronize with AccuRev repository"
+               menubarPath="team.main/accurev1"
+               tooltip="Sychronize"/>
+      </objectContribution>
+      <viewerContribution
+            id="com.accurev.eclipse.consoleViewer"
+            targetID="com.accurev.ide.eclipse.views.AccuRevConsoleView">
+         <action
+               class="com.accurev.ide.eclipse.actions.ConsoleActions"
+               id="com.accurev.eclipse.selectAll"
+               label="Select All"
+               menubarPath="additions"/>
+         <action
+               class="com.accurev.ide.eclipse.actions.ConsoleActions"
+               id="com.accurev.eclipse.copy"
+               label="Copy"
+               menubarPath="additions"/>
+         <action
+               class="com.accurev.ide.eclipse.actions.ConsoleActions"
+               id="com.accurev.eclipse.saveAs"
+               label="Save As"
+               menubarPath="additions"/>
+        <action
+		       class="com.accurev.ide.eclipse.actions.ConsoleActions"
+		       id="com.accurev.eclipse.clearConsole"
+		       label="Clear Console"
+      		   menubarPath="additions"/>
+      </viewerContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="AccuRev"
+            id="com.accurev.ide.eclipse.AccuRevCategory">
+      </category>
+      <view
+            name="AccuRev Console"
+            icon="icons/accli16.gif"
+            category="com.accurev.ide.eclipse.AccuRevCategory"
+            class="com.accurev.ide.eclipse.views.AccuRevConsoleView"
+            id="com.accurev.ide.eclipse.views.AccuRevConsoleView">
+      </view>
+      <view
+            name="AccuRev Search/Status"
+            icon="icons/accli16.gif"
+            category="com.accurev.ide.eclipse.AccuRevCategory"
+            class="com.accurev.ide.eclipse.views.AccuRevFiltersView"
+            id="com.accurev.ide.eclipse.views.AccuRevFiltersView">
+      </view>
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.decorators">
+      <decorator
+            objectClass="org.eclipse.core.resources.IResource"
+            adaptable="true"
+            label="AccuRev Decorator"
+            state="true"
+            class="com.accurev.ide.eclipse.AccuRevElementDecorator"
+            id="com.accurev.ide.eclipse.AccuRevElementDecorator">
+         <description>
+            Shows specific information on resources in AccuRev workspaces.
+         </description>
+      </decorator>
+   </extension>
+   <extension
+         point="org.eclipse.team.core.repository">
+      <repository
+            class="com.accurev.ide.eclipse.AccuRevProvider"
+            id="com.accurev.ide.eclipse.AccuRevProvider">
+      </repository>
+   </extension>
+   <extension
+         point="org.eclipse.team.ui.configurationWizards">
+      <wizard
+            name="AccuRev"
+            icon="icons/accli16.gif"
+            class="com.accurev.ide.eclipse.AccuRevConfigurationWizard"
+            id="com.accurev.ide.eclipse.AccuRevConfigurationWizard">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="AccuRev"
+            category="org.eclipse.team.ui.TeamPreferences"
+            class="com.accurev.ide.eclipse.preferences.AccuRevPreferencePage"
+            id="com.accurev.ide.eclipse.preferences.AccuRevPreferencePage">
+      </page>
+      <page
+            name="Label Decorations"
+            category="com.accurev.ide.eclipse.preferences.AccuRevPreferencePage"
+            class="com.accurev.ide.eclipse.preferences.LabelDecorationsPreferencePage"
+            id="com.accurev.ide.eclipse.preferences.LabelDecorationsPreferencePage">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="com.accurev.eclipse.ide.newWizard"
+            name="AccuRev"/>
+      <wizard
+            category="com.accurev.eclipse.ide.newWizard"
+            class="com.accurev.ide.eclipse.wizards.CheckoutActionWizard"
+            icon="icons/accli16.gif"
+            id="com.accurev.eclipse.ide.checkoutNewWizard"
+            name="Checkout from AccuRev"
+            project="true"/>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="com.accurev.ide.eclipse.AccuRevPreferenceInitializer"/>
+   </extension>
+  <extension
+       point="org.eclipse.ui.perspectives">
+    <perspective
+          class="com.accurev.ide.eclipse.AccuRevPerspectiveFactory"
+          icon="icons/accli16.gif"
+          id="com.accurev.ide.eclipse.perspective"
+          name="AccuRev"/>
+ </extension>
+ 
+  <extension
+       point="org.eclipse.team.ui.synchronizeWizards">
+    <wizard
+          class="com.accurev.ide.eclipse.team.synchronize.AccuRevTeamSyncWizard"
+          description="AccuRev Synchronize Wizard"
+          icon="icons/accli16.gif"
+          id="com.accurev.team.synchronize.wizard"
+          name="AccuRev"/>
+ </extension>
+ <extension
+	 point="org.eclipse.team.ui.synchronizeParticipants">  
+	        <participant
+               class="com.accurev.ide.eclipse.team.synchronize.AccuRevTeamParticipant"
+               icon="icons/accli16.gif"
+               id="com.accurev.team.synchronize.participant"               
+               name="AccuRev"
+               persistent="true"/>
+	</extension>
+ <extension
+       point="org.eclipse.ui.commands">
+    <category
+          id="com.accurev.ide.eclipse.AccuRevCommands"
+          name="AccuRev Commands"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.addToDepotAction"
+          name="Add To AccuRev Depot"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.anchorAction"
+          name="Anchor"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.AccuRevRevision"
+          name="AccuRev Revision"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.defaultGroupSearchesAction"
+          name="Default Group"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.defunctAction"
+          name="Defunct"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.defunctSearchesAction"
+          name="Defunct"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.diffBackedAction"
+          name="Backed Version"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.diffBasisAction"
+          name="Basis Version"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.revertMostRecentAction"
+          name="Most Recent Version"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.elementStatusAction"
+          name="AccuRev Statuses"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.externalSearchesAction"
+          name="External"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.historyAction"
+          name="AccuRev History"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.keepAction"
+          name="Keep"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.keptSearchesAction"
+          name="Kept"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.loginAction"
+          name="Login"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.merge"
+          name="Merge"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.modifiedInDefaultGroupSearchesAction"
+          name="Mod. in Def. Grp."/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.modifiedSearchesAction"
+          name="Modified"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.nonMemberSearchesAction"
+          name="Non-member"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.overlapSearchesAction"
+          name="Overlap"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.pendingSearchesAction"
+          name="Pending"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.promoteAction"
+          name="Promote"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.refreshAllAction"
+          name="All Projects"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.refreshAllWorkspacesAction"
+          name="All Projects"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.refreshSelectedAction"
+          name="Selected Projects"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.refreshSelectedWorkspacesAction"
+          name="Selected Projects"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.ReplaceAccuRevRevision"
+          name="AccuRev Revision"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.revertBasisAction"
+          name="Basis Version"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.revertBackedAction"
+          name="Backed Version"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.diffMostRecentAction"
+          name="Most Recent Version"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.Sync"
+          name="Synchronize with AccuRev repository"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.synchronizeTimeAction"
+          name="Synchronize Time"/>
+<!-- 
+	Comment::
+		This as been commented on request for the fix of Bug 472 
+		The bug is related to remove old Synchronize Workspace option as it creates confusion.
+-->          
+<!--    
+	<command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.synchronizeWorkspace"
+          name="Synchronize Workspace"/>
+-->
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.updateWorkspaceForRealAction"
+          name="Entire Workspace"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.updateWorkspacePreviewAction"
+          name="Preview"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.workspaceInformationAction"
+          name="AccuRev Workspace Information"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.MissingSearchesAction"
+          name="Missing"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.strandedSearchesAction"
+          name="Stranded"/>
+    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.deepOverlapSearchesAction"
+          name="Deep Overlap"/>
+	    <command
+          category="com.accurev.ide.eclipse.AccuRevCommands"
+          id="com.accurev.ide.eclipse.populateAction"
+          name="Populate"/>          
+ </extension>
+ 
+ <!-- history support -->
+ <extension
+       point="org.eclipse.core.runtime.adapters">
+    <factory
+          adaptableType="com.accurev.ide.eclipse.AccuRevProvider"
+          class="com.accurev.ide.eclipse.team.history.AccuRevAdapterFactory">
+       <adapter type="org.eclipse.team.ui.history.IHistoryPageSource"/>
+    </factory>
+ </extension>
+ 
+</plugin>

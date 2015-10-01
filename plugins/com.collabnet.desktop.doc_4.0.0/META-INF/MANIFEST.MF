@@ -1,0 +1,851 @@
+Manifest-Version: 1.0
+Bundle-Vendor: CollabNet
+Bundle-Version: 4.0.0
+Bundle-Name: CollabNet Desktop Documentation
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.collabnet.desktop.doc; singleton:=true
+
+Name: images/screenshots/cndesktop-favoriteprojecttools.png
+SHA1-Digest: 4qjhwkI8rfLm4nSLa5tyf+WsaO4=
+
+Name: images/screenshots/cndesktop-addtfconnector4.png
+SHA1-Digest: hbkM2BvFHt0Xjl9D/Ya6YyoIGb4=
+
+Name: images/screenshots/cndesktop-addLMsite.png
+SHA1-Digest: GN1CJz3VBaqqbCi8Z55+4xOkn5I=
+
+Name: action/desktop_editdocument.html
+SHA1-Digest: y89tE0Y0pceBi0eKwdUnPrMe4ZY=
+
+Name: faq/vsdesktop_cubit_tunnels.html
+SHA1-Digest: PQonJloqcOtvRtNMSnYjcvR6ef4=
+
+Name: images/screenshots/ccf_resumesync.png
+SHA1-Digest: A3zaMjOwhO/69cR8zUW4fVcDITU=
+
+Name: images/screenshots/cndesktop-addsvnedgeserver2.png
+SHA1-Digest: lRR2ZbSbkOy7w4vbuFf/cukGcAA=
+
+Name: action/cndesktop_connectors.html
+SHA1-Digest: KmhTmC5mSt1ES2gzVAzmN+0YWGA=
+
+Name: images/screenshots/cndesktop-orc-webui.png
+SHA1-Digest: AdrjIoTH21EInCka06Z5BxaTflQ=
+
+Name: action/desktop_reorderplanningfolders.html
+SHA1-Digest: L3PNy0xz6RpXiBA5CH3q5LfE9oU=
+
+Name: action/desktop_addCTFdocfolder.html
+SHA1-Digest: /S+Xn6/Dx4RcOsbLRs92tn0A8+g=
+
+Name: action/cndesktop_usetaskboard.html
+SHA1-Digest: o1K0N1+y4bTHbVPRvOHxkWc8fyw=
+
+Name: action/add_CTF_tracker_association.html
+SHA1-Digest: LceV8N1j/ZD3C6hV2i8zmfQfT5k=
+
+Name: action/createplanningfolder.html
+SHA1-Digest: b0pHtXK6S/1EVqk0wuUCAzwQhPg=
+
+Name: action/cndesktop_addfavoritetools.html
+SHA1-Digest: syZ9FzA9daO7M0IWWRN2MNrsVrs=
+
+Name: css/onlinehelp.css
+SHA1-Digest: ilzg+1v4+9R28RNADS5DE87XH8M=
+
+Name: faq/cubit_client_node.html
+SHA1-Digest: bDqtB2AZlQP4Ha2u0vszU7jFLHc=
+
+Name: action/add_cubit_site.html
+SHA1-Digest: mztmJohsjxUUvLKo7XoRLiI503g=
+
+Name: action/documents.html
+SHA1-Digest: ZQQ3GSVHuKjR7LrqpXbSy4ydYrM=
+
+Name: action/cndesktop_csvn.html
+SHA1-Digest: 9PH+sFaREAjCHmjjWFEvXjDMD0w=
+
+Name: images/screenshots/cndesktop-favoritetftools.png
+SHA1-Digest: MCUDi/ZVsM2hPHAn4qOiGWm+xbo=
+
+Name: images/screenshots/add-tunnel.png
+SHA1-Digest: TUkmz5ofk+FNe4ZVwATFOU7YGp4=
+
+Name: faq/effort.html
+SHA1-Digest: JHw4/+9UYfCYm8CIzRSQNLHdCSY=
+
+Name: action/cndesktop_reviewboard.html
+SHA1-Digest: /Y/opvrWpWoLL6pi3GzNOPF+u7k=
+
+Name: action/cndesktop_associatingdocuments.html
+SHA1-Digest: PrTa7DIeGZ/ZHpV4UepPJvRwLLw=
+
+Name: action/cndesktop_exportquerydefinition.html
+SHA1-Digest: mRirIEnf4xJdOzdmKm/9cc1sc/0=
+
+Name: faq/desktop_documentconcept.html
+SHA1-Digest: 29rzDtnG6SFQVabV8W/dCwXAMMw=
+
+Name: images/screenshots/eclipsedesktop-synchronizeconnector.png
+SHA1-Digest: 5uiKKP1zly1UqCw3TR/ryvUFLJ4=
+
+Name: images/screenshots/ccf_reversemapping_2.png
+SHA1-Digest: YID+HMJGj0q5iFMjZApaf+AKRRQ=
+
+Name: images/screenshots/add-mylyn-task-repo.png
+SHA1-Digest: hiZiGGJNdqKjXzC8EeFrQa+m4YI=
+
+Name: css/commonltr.css
+SHA1-Digest: BwyVWMfpiiZHmLwe7IT/biLfQX4=
+
+Name: images/screenshots/cndesktop-autoassigntasks-eclipse.png
+SHA1-Digest: X5U+le2+Gydx+DfpGoDCYXni+CE=
+
+Name: images/screenshots/cndesktop-addCEEsite.png
+SHA1-Digest: 6EBFWXxmLhVi1mXXcNK4FT78TjI=
+
+Name: action/cndesktop_addCTFtask.html
+SHA1-Digest: HSPyDiR4BdMRRtmwQdZQRh/pTes=
+
+Name: action/desktop_usedynamicplanning.html
+SHA1-Digest: X57vaKaZ7AX7qCkWl1BiMcen+l0=
+
+Name: action/cndesktop_updatereleasedata.html
+SHA1-Digest: lyyEeEoGDNSQQP413o08inq1tg0=
+
+Name: action/cndesktop_viewassociations.html
+SHA1-Digest: S78FI1Lzx6A1ER2yHZQxHju07WQ=
+
+Name: images/screenshots/eclipsedesktop-addtfconnector2.png
+SHA1-Digest: n9gNQkINESlNYjTWjpPv9r/AOpI=
+
+Name: action/cndesktop_addfavoriteprojects.html
+SHA1-Digest: GmqZ9SlEQ8aeiHPpUscgyOqAhfQ=
+
+Name: faq/workwitheclipse.html
+SHA1-Digest: GGvUt1SNdiWoNvrFW7FuPDhCtF0=
+
+Name: action/view_host_details.html
+SHA1-Digest: mHaI552h9HV+9xjr1sHoJWO+y1Q=
+
+Name: images/screenshots/rankicon.png
+SHA1-Digest: AIVpOmTd0IggqZqf5ZR9HnHntrs=
+
+Name: images/screenshots/add-mylyn-query.png
+SHA1-Digest: b6uhSMPS92WLfpp30kAUjsUAj7I=
+
+Name: faq/tfconnector_swpconcepts.html
+SHA1-Digest: Y6SEpjX/u1WcKcKz+ptdNV4xcsE=
+
+Name: images/screenshots/cndesktop-favoritesitetools.png
+SHA1-Digest: HjvgssZ5KYq5l7//YkJnQpUvZw0=
+
+Name: faq/changesetmerge_concept.html
+SHA1-Digest: ghdl2tfKamHQgD5CUAy+9Wudxuk=
+
+Name: images/screenshots/cndesktop-addqcrepomapping2.png
+SHA1-Digest: tI0gei6QYWvKUfSiAhq0ZLD53wc=
+
+Name: action/cndesktop_switchfm.html
+SHA1-Digest: 81D+t5rKn+VXI2JmZgfXR9EFH54=
+
+Name: action/desktop_cubit.html
+SHA1-Digest: J1O9OygLIMvwFvS5KqfIm+TVV/c=
+
+Name: action/cndesktop_editfm.html
+SHA1-Digest: +4cVkFftTdjc/O8HNBIZNGARofc=
+
+Name: faq/getting_started.html
+SHA1-Digest: jgrNcFgW4yqHJtykxnwkJzrqLH8=
+
+Name: action/desktop_CTF.html
+SHA1-Digest: h9bzsyhEDcvzakHVbmYDqpISKf8=
+
+Name: delta.gif
+SHA1-Digest: wPncfaZojTlMN7x7To/TFOqUKZA=
+
+Name: faq/burndown.html
+SHA1-Digest: NfmpTqgrACYux4TlQicQG0tg7fs=
+
+Name: images/screenshots/taskboard1-eclipse.png
+SHA1-Digest: aBy0RotsFGF0/htfCz742N47nzc=
+
+Name: action/eclipsedesktop_reversemapping.html
+SHA1-Digest: BtRTPfUIa5PP4ADQk2RUv5nqFcg=
+
+Name: faq/ccf_swptf_whynosynchronization.html
+SHA1-Digest: 95XqFT4sXqTx4QFchehjXcKBqSE=
+
+Name: action/cndesktop_qcconnector.html
+SHA1-Digest: Rzhta1wBbyWNTixfIMtEDTaNVVE=
+
+Name: faq/cubit_user_role.html
+SHA1-Digest: f/NbOovYNGjXhQLYbBFNNFFrE0A=
+
+Name: action/desktop_addcfusers.html
+SHA1-Digest: RW0jQEKtEmEQgvIVj7QKzgehfiw=
+
+Name: action/cndesktop_importfmt.html
+SHA1-Digest: qQrhZl580VQDhPl0VtjZYHWgJes=
+
+Name: faq/ccf_pausesync.html
+SHA1-Digest: B4iEhlwRTT15aM/lDE76CkC2xBQ=
+
+Name: contexts.xml
+SHA1-Digest: 3dtgRdQrK8dtt9qWMroi/T5/Lm4=
+
+Name: faq/ccf_swptf_syncPBIs.html
+SHA1-Digest: KYrwQPn21zJaU2D2MY0imODwQOU=
+
+Name: faq/cndesktop_tasksconcept.html
+SHA1-Digest: oTV1ajFtFaX3KuTdo0jj50/CLXA=
+
+Name: topics/cndesktop_fmt.html
+SHA1-Digest: 3eeHOZ1DVqLzv4+i5WKv4AqSUqI=
+
+Name: action/cndesktop_addCNsite.html
+SHA1-Digest: 5F59U05Gri0Dc20MuQrLmG+LLx4=
+
+Name: images/screenshots/giteye-clonegitoptions.png
+SHA1-Digest: HudzmYzgK6I84lZwbOUE1nG0saY=
+
+Name: images/screenshots/cndesktop-connectorsubnode.png
+SHA1-Digest: r9nVeyVIG652HeSw04M68J1NuEA=
+
+Name: action/cndesktop_svnurl.html
+SHA1-Digest: 1BWX+kPAAjDoUvH1RJPRqMOoYqs=
+
+Name: action/add_external_RDP_client.html
+SHA1-Digest: 6vlaU2yy2jt+wjfWedIUCUDO77Q=
+
+Name: images/screenshots/eclipsedesktop-importfmt.png
+SHA1-Digest: +Oa/gft5NMHp8A+pga+0xfJuGcs=
+
+Name: action/cndesktop_addCTFfiletorelease.html
+SHA1-Digest: XFKJVa222OgJlKFWCuVloi8aoUk=
+
+Name: faq/eclipsedesktop_mylynfeatures.html
+SHA1-Digest: utTdJBaU0QpinwPMYdwtWU4Jp9A=
+
+Name: action/add_iz_task.html
+SHA1-Digest: 9pVHi+9GoOt/qorntsA8tVnZtNA=
+
+Name: action/attach_cndesktop_task.html
+SHA1-Digest: 4qHGrUvT9wuBLG8eieq3jDIO13k=
+
+Name: reference/cndesktop_fieldmappingqctf.html
+SHA1-Digest: L6gDRBxn1JolPAhx3c42r/M3uWU=
+
+Name: action/cndesktop_configuretaskboard.html
+SHA1-Digest: UErzIxN4P10OJp2fTx6uGwEn31s=
+
+Name: images/screenshots/eclipsedesktop-createfm2.png
+SHA1-Digest: zyv2AdpcRH8kgVJAri5epRl7Sgg=
+
+Name: images/screenshots/eclipsedesktop-addqcrepomapping1.png
+SHA1-Digest: JOtI5eHe1RhQVOlhwC7emukyxIA=
+
+Name: faq/openbypriority.html
+SHA1-Digest: jI2mWL4enHBYs9fapyY1Q/TyqSo=
+
+Name: images/screenshots/eclipse-cnsitesview.png
+SHA1-Digest: XjBIergPVxh2rKzyb9DEDgCrAdg=
+
+Name: action/desktop_addCTFrelease.html
+SHA1-Digest: gIfWUTeNREaz6dU6BgEgB7Rxjvk=
+
+Name: action/cndesktop_setuptaskrepo.html
+SHA1-Digest: Pdd494hVrUYGUa63pyl6Q4GuoPw=
+
+Name: action/vsdesktop_iz.html
+SHA1-Digest: T50NywjG2Ag0bGIBxiX6QiZcb3Y=
+
+Name: images/screenshots/configureplanningboard-eclipse-30.png
+SHA1-Digest: eNDTTKgveXcwECfi/6FZQ6QSEEo=
+
+Name: images/screenshots/cndesktop-associationtree.png
+SHA1-Digest: OnHsaWtQ2wjStUk+BqTL86tGNLs=
+
+Name: faq/vsdesktop_iz_concept.html
+SHA1-Digest: jS+QUVkadB3Wjc6sT8UTfR/PjCw=
+
+Name: action/cndesktop_sharequerysettings.html
+SHA1-Digest: 1F1PFR1JqNO2kXeKagQ1fpfuRK4=
+
+Name: action/open_cntracker_task.html
+SHA1-Digest: N/jj2ZCCdYFKAVRpVGbfgVZJiF8=
+
+Name: images/screenshots/cndesktop-favoriteprojects.png
+SHA1-Digest: A/C29vXVgiOepMXwmP1uqKxdj/c=
+
+Name: css/commonrtl.css
+SHA1-Digest: D5WR+QmEjBEy/QM675yiC9W/53A=
+
+Name: action/vsdesktop_pt.html
+SHA1-Digest: GC9hsas5jMfvqmLpdYILPhXCl8k=
+
+Name: faq/releasesconcept.html
+SHA1-Digest: mQ1AL0JTkhoSkT1lNapUZtIbLY4=
+
+Name: images/screenshots/eclipsedesktop-editfm1.png
+SHA1-Digest: avKNcxPEOks3UDpJ/TSYE+QaCF8=
+
+Name: faq/cndesktop_connectoraccess.html
+SHA1-Digest: y43UAN8cEBGHCGtkrqBnHI0HF64=
+
+Name: action/cndesktop_addqcrepomapping.html
+SHA1-Digest: MMVEe7Oks19KnBdDwQ3+fYeEyn0=
+
+Name: images/screenshots/eclipsedesktop-addswprepomapping4.png
+SHA1-Digest: pMN5L+nKCvDXY5J2wEe6+SBWhBI=
+
+Name: action/tasks.html
+SHA1-Digest: ygr06A8svGwPly74cogaDuA6nyo=
+
+Name: images/screenshots/cndesktop-eclipse-clientcert.png
+SHA1-Digest: 2XevhMEzvQEPBx5TI9QXy73Q3EU=
+
+Name: faq/ccf_swptf_syncmetadata.html
+SHA1-Digest: XnH5NiNCtCABbpJ3vkv7kM+lah0=
+
+Name: images/screenshots/planeditor-reorder.png
+SHA1-Digest: 3yOS32x936wEilq+wA81JbOpi4Q=
+
+Name: faq/cndesktop_clientcert.html
+SHA1-Digest: TFGHIZsLRBQjvXgapvwj1tVZ3WA=
+
+Name: images/screenshots/cndesktop-autoassigntasks-checkbox-eclipse.pn
+ g
+SHA1-Digest: 0gyw5FSPVyXYGheROLYeYRsrmD8=
+
+Name: faq/cloudforge_overview.html
+SHA1-Digest: J2TPLN4HyXm5XealVVbhRr5a/Nk=
+
+Name: action/add_pt_task.html
+SHA1-Digest: 5og7UM4osDManwzPxizL1VLwk18=
+
+Name: reference/iz_attributes.html
+SHA1-Digest: GP3uUgm7ZGAoYx6a5Id3sIYHISQ=
+
+Name: action/cndesktop_agiletaskboard.html
+SHA1-Digest: GxRISlJPhrxrcnqmuJRwoJUfSME=
+
+Name: images/screenshots/eclipsedesktop-connectorstatus.png
+SHA1-Digest: 9bdaflssftaHswGiXvtEnn1LzJc=
+
+Name: images/screenshots/newstory-eclipse.png
+SHA1-Digest: DTkQef25LYEJqtuggsr1VLOoAME=
+
+Name: action/cndesktop_addCEEsite.html
+SHA1-Digest: QzG8fdiFrwO3eit+MKHqEUpGF3c=
+
+Name: faq/storypoints.html
+SHA1-Digest: GFDmT5e0tUva6GU83tGF0DLJxHM=
+
+Name: images/screenshots/planeditor-charts.png
+SHA1-Digest: Z1QilembtDLjaQ6FdWPL8oEZmQw=
+
+Name: action/cndesktop_updatedocumentdata.html
+SHA1-Digest: 4NQStooSAxg/phnDe1RC26bjPDg=
+
+Name: images/screenshots/eclipsedesktop-addtfconnector3.png
+SHA1-Digest: t8uZhxbGxdN7RYI1quCd8B+6710=
+
+Name: action/monitorprogress_desktop.html
+SHA1-Digest: mrCqxvFeOKse3tNKQEomTncFrlg=
+
+Name: faq/iteration.html
+SHA1-Digest: MR9isyhF2JTLnHCwIJFZLS+ErKU=
+
+Name: action/manage_cubit_tunnel.html
+SHA1-Digest: +/T8Fz1PDbWgAQPORDjh0OfP/h4=
+
+Name: action/add_CTF_task_association.html
+SHA1-Digest: V9KNq9CWOl0yEaNPsqEdjtn8wVg=
+
+Name: faq/CTF_tracker_concept.html
+SHA1-Digest: O6JLJR5/saIjU2jf/2GeDo8Y34s=
+
+Name: action/common_cndesktop_tasks.html
+SHA1-Digest: MEIzVCh9g2R5Wf4yhFUIl/nov7Q=
+
+Name: images/screenshots/eclipsedesktop-exportfmt1.png
+SHA1-Digest: DLHGixE5E7XBIbcW3sJojskx2Ko=
+
+Name: action/cndesktop_viewconnectorlogs.html
+SHA1-Digest: 18lSAr4K3flUtx1+OxFYgEZW+fo=
+
+Name: images/screenshots/configureplanningboard-eclipse-10.png
+SHA1-Digest: 28Zxz70TJfuAg6BTShu4kPMLxXM=
+
+Name: action/cndesktop_configureplanningboard.html
+SHA1-Digest: Z960x2axvc2fFVu5S1lSOA9y22Q=
+
+Name: images/screenshots/taskboard22-eclipse.png
+SHA1-Digest: V3IsMe21gIDFzHgPdaRXKO/SA2I=
+
+Name: action/cndesktop_exportfmt.html
+SHA1-Digest: rwTjYvPKIWbjePIvedy8xZLphso=
+
+Name: action/cndesktop_lockdocument.html
+SHA1-Digest: JIv7wlL4UdWcSuxPYM15tWtLLyc=
+
+Name: images/screenshots/tf-tracker-query.png
+SHA1-Digest: LjFRPGcZZ9fpoRV10hiXevu+g9s=
+
+Name: action/cndesktop_addCTFtaskfolder.html
+SHA1-Digest: Gf6Bm/h+KatyG2kJlzO/f5YBTfQ=
+
+Name: action/cndesktop_merge.html
+SHA1-Digest: 9PEiSpRqpw/NExlJaR3XWSOkWbg=
+
+Name: action/cndesktop_tf_gerrit_integration.html
+SHA1-Digest: rROdVt7F3q5XiO0wbOmfECjhBck=
+
+Name: action/desktop_addIZquery.html
+SHA1-Digest: dhYjiX5Xc9P2ejA2Rnr9netNMHQ=
+
+Name: action/add_external_SSH_client.html
+SHA1-Digest: 8bhvB3ktczaVK8G3LkzVKhSZGEA=
+
+Name: action/desktop_moveplanningfolder.html
+SHA1-Digest: 5ET0eI/Oyc+ukXG+PX6mkZaBphs=
+
+Name: index.xml
+SHA1-Digest: +FDwkmWWOv6aYBc4tkjP5GSBi3A=
+
+Name: action/cndesktop_addfavoritecfprojects.html
+SHA1-Digest: 38nq0bhiR6CpqHTbYKYSqcIHqBo=
+
+Name: action/desktop_addCTFpackage.html
+SHA1-Digest: A494wyoPclHju2FGtGxG8Rs6P1w=
+
+Name: images/screenshots/eclipsedesktop-addswprepomapping1.png
+SHA1-Digest: WuHaz2r0GVRmVl4KXvjmLbxQDHE=
+
+Name: images/screenshots/cndesktop_reviewboard.png
+SHA1-Digest: HZqwyKydo4w0M+wFdBQGJx0YhhY=
+
+Name: images/screenshots/artifactcard-eclipse.png
+SHA1-Digest: iBaobpoQF96uLoa7hf6anGAQ2vY=
+
+Name: action/tfconnector_install.html
+SHA1-Digest: g24Gi6bSjQBiiKWBfyJlk9eyAKU=
+
+Name: images/screenshots/eclipsedesktop-addswprepomapping2.png
+SHA1-Digest: JSVubu6NxnmmP4MQqy2dJ64S9hk=
+
+Name: deltaend.gif
+SHA1-Digest: gok7I6VKs42bg9fQFaX//n7ocbI=
+
+Name: action/cndesktop_codesion.html
+SHA1-Digest: 36hKHZ6linBRaEw8a7bm0U/BFG4=
+
+Name: action/desktop_reordertrackers.html
+SHA1-Digest: CksD45qw7EaofCKax4JAOcwfjPA=
+
+Name: faq/cubit_concepts.html
+SHA1-Digest: RLVLeGsgYMgPXL1vor0GsHYXzUc=
+
+Name: faq/cubit_profile.html
+SHA1-Digest: 1t4YsPklNbEpsIwjBXIEmAQGMuM=
+
+Name: action/get_api_key.html
+SHA1-Digest: BZP5d0O6Vx1kSrPJcbP6X2XhWSw=
+
+Name: faq/ccf_swptf_limitations.html
+SHA1-Digest: 5doAqOwT14R0j2FiDeaTmdxStNU=
+
+Name: images/screenshots/eclipsedesktop-createfm1.png
+SHA1-Digest: RngcDkOo6QBOByP1NxSzpuGnF3Y=
+
+Name: images/screenshots/eclipsedesktop-addswprepomapping3.png
+SHA1-Digest: 3X9NgmEi5I+6nHNiw9h/xnzzcHQ=
+
+Name: images/screenshots/cf-webui-users.png
+SHA1-Digest: CD3ioNdMUnJSGLDwUgPb170tGYQ=
+
+Name: action/cndesktop_useplanningboard.html
+SHA1-Digest: /MTsF2XD+tGiNKSLMTugh4srkHM=
+
+Name: action/cndesktop_checkstatus.html
+SHA1-Digest: dJbyp5twsmcw0XLn/5JVUGBeHOA=
+
+Name: images/screenshots/cndesktop-orc.png
+SHA1-Digest: 8JtKZSdFTHc96RwgnwCbI8H8P8I=
+
+Name: images/screenshots/eclipsedesktop-failedshipments.png
+SHA1-Digest: SWDBblXYj8qz9MHMOTT6NfTMSqI=
+
+Name: images/screenshots/planningboard-listmode-eclipse.png
+SHA1-Digest: 8SAwqTN1CuZPIwA+UqD9kc9v4UI=
+
+Name: action/vsdesktop_runPTquery.html
+SHA1-Digest: XA0wcQ89af/JZqT1QwpOEdP+NmM=
+
+Name: images/screenshots/ccf_reversemapping_1.png
+SHA1-Digest: laCSySP9TWMYvRXzEMJ92WZKyas=
+
+Name: reference/ccf_swptf_fieldmappingpbi.html
+SHA1-Digest: xNHAAu/EcZyc4XIrAta+XOkx9vo=
+
+Name: reference/ccf_swptf_fieldmappingtasks.html
+SHA1-Digest: IP3bU45/AuUyImeZNI1YjctCCAY=
+
+Name: images/screenshots/cndesktop-addtrackerquery.png
+SHA1-Digest: eLlZRzSt1Nms9FFw7gNx+2Wmzag=
+
+Name: faq/velocity.html
+SHA1-Digest: s5iZaGA9MNUhGzncZrLu24jXTAo=
+
+Name: com.collabnet.doc.eclipsedesktop.xml
+SHA1-Digest: Gypqevz8AdCgZjO4EL7Y2YPHP+s=
+
+Name: action/cndesktop_connectorsync.html
+SHA1-Digest: 6CVj7NkBDxIQYOE0fgvvHCTl7AM=
+
+Name: images/screenshots/add-collabnetsite-icon.png
+SHA1-Digest: TQIERsEE2fI3uRpv4K2nrcyZjWg=
+
+Name: faq/desktop_faqs.html
+SHA1-Digest: hiEmpaXCUFQHQ9+8lYtZ4oUYlHE=
+
+Name: faq/capacity.html
+SHA1-Digest: q9R1S4KyCmsgGDGLK63LQfxlsjA=
+
+Name: reference/ccf_swptf_reference.html
+SHA1-Digest: 4Z3x3CldaviBwFDP4mBbB3/PUEw=
+
+Name: faq/eclipsedesktop_pdeuiplugin.html
+SHA1-Digest: aQaCqb+XcwMkg+WBce2cHaEhAQg=
+
+Name: action/delete_CTF_tracker_association.html
+SHA1-Digest: UE3nLiCnCkEa1z+4G1A1cKVIN9Q=
+
+Name: faq/ccf_swptf_synctasks.html
+SHA1-Digest: 6W134bqIl615yoFQ2SCytlNJRt0=
+
+Name: reference/iz_query_fields.html
+SHA1-Digest: KKfuQQAnBGmH92uMj5wTSprh7is=
+
+Name: action/cndesktop_addCTFsite.html
+SHA1-Digest: 5fXMq9w9aaJCdkQGaCfGnzAOgWc=
+
+Name: action/cndesktop_createfm.html
+SHA1-Digest: RDBJzK5WcIzTno/1WCe6T6o0koQ=
+
+Name: action/desktop_addCTFtrackerquery.html
+SHA1-Digest: UjMVmheD3atPtV43fdomR1f5J3Q=
+
+Name: images/screenshots/eclipse-cf-tfproject.png
+SHA1-Digest: FAa2KgS+Zs9ctvqDMYm5xDvR1Us=
+
+Name: action/delete_CTF_task_association.html
+SHA1-Digest: WY+8rdBG43jjsvSS9zEtSF5pHmw=
+
+Name: action/view_pt_commit.html
+SHA1-Digest: H87yMey4A+k2NbtXSqQlh183Lv8=
+
+Name: action/vsdesktop_addpreconfiguredsite.html
+SHA1-Digest: VB2SrMV2qdEA5VbkI2SEdZInZ54=
+
+Name: images/screenshots/planningfolderarea-eclipse.png
+SHA1-Digest: uQICG0aBzRuMGSvrKiF8lywZ5CI=
+
+Name: reference/cndesktop_ceereference.html
+SHA1-Digest: TagIPeW+EEvrfHO4gao54LPmLQk=
+
+Name: action/favorites_in_eclipsedesktop.html
+SHA1-Digest: +3BoPVKjXU9KEdTNlnApABipEC0=
+
+Name: action/cndesktop_addCTFtrackerartifact.html
+SHA1-Digest: aCDkZCLqO2N4j5jBpZ7yxKBBf/U=
+
+Name: images/screenshots/tf-gerrit-node.png
+SHA1-Digest: EIsXHzrQOmdfSIx2xuGzKNEQCXM=
+
+Name: action/ccf2_register.html
+SHA1-Digest: 5EEVDWYded+6KUxeFDQN4rdrvfs=
+
+Name: images/screenshots/taskboard-highlight-eclipse.png
+SHA1-Digest: XAvkyYvWeFa6f2glTdIvr2U8vO0=
+
+Name: action/desktop_monitoranitem.html
+SHA1-Digest: NQtmXIRqeYEe9wFgK6Fk2LCmWHg=
+
+Name: action/scope.html
+SHA1-Digest: H5jcCC0nBQHwnzx21TrAOqYc7C4=
+
+Name: action/cndesktop_unlockdocument.html
+SHA1-Digest: JMZ+jBDK4gjToryWSRqhIVQhsz0=
+
+Name: images/screenshots/charts-burndown.png
+SHA1-Digest: vsD+oBLrwQHUuLy3+YJC8kvvytw=
+
+Name: images/screenshots/vsdesktop-integratedbrowser.png
+SHA1-Digest: v9Df80Fls4v4Ap2d3Kcvb030lP4=
+
+Name: action/uat.html
+SHA1-Digest: EyNTpvEDScyI1Vuo4x+KyK9vooE=
+
+Name: action/cndesktop_configuringartifactdependencies.html
+SHA1-Digest: IBjqFD8K/wG9c6YNtUCzuvdQS3U=
+
+Name: images/screenshots/desktop-eclipse-exportdata.png
+SHA1-Digest: eQVZ0hou9IQzvwcybD0AUVsjCjg=
+
+Name: images/screenshots/taskboard3-eclipse.png
+SHA1-Digest: mejW6n9kXSYuUbaMW85IQZxKDZ8=
+
+Name: images/screenshots/cndesktop-connectorsite.png
+SHA1-Digest: 7jT0o8SdQYxE7DSmyFb72+AnUGc=
+
+Name: images/screenshots/external-RDP-client.png
+SHA1-Digest: G5UE/UT1ICbFkU4LSUCruzcbnW0=
+
+Name: action/vsdesktop_cee.html
+SHA1-Digest: BhMoZNNau8O2aA8BvpCm8ZxVI70=
+
+Name: action/eclipsedesktop_failedshipments.html
+SHA1-Digest: pAUvmqsdzE1j/J7Vu4NE77IHOh0=
+
+Name: images/screenshots/taskboard21-eclipse.png
+SHA1-Digest: KGgL4IkDYa7p6zzVNrGpUr3da+Q=
+
+Name: images/screenshots/cndesktop-addcfsite3.png
+SHA1-Digest: NUnLC5OByVdBRhw9Ay1Rlt2MsfU=
+
+Name: faq/planningfolder.html
+SHA1-Digest: 45epUJodhkG0VzFXyOWhwtGlZP4=
+
+Name: images/screenshots/ccf_reversemapping_3.png
+SHA1-Digest: +8kjqt1FGnkn3tvcQJPfsV5DB4o=
+
+Name: images/screenshots/cndesktop-associationtreexml.png
+SHA1-Digest: 7EEUAFEF3D3YETK2ULhFB45dCOY=
+
+Name: images/screenshots/planeditor-selectpf.png
+SHA1-Digest: OcfIZd2Nt9uJK/U6yMgrumgtzjg=
+
+Name: faq/cubit_mgr.html
+SHA1-Digest: 46JmkA8zABbRJIN5FH4p1yGWz6E=
+
+Name: images/screenshots/taskboard-addnewstory-eclipse.png
+SHA1-Digest: XjT/ih5yk8Xb5weITHMrcY2d/e8=
+
+Name: plugin.xml
+SHA1-Digest: uI4EGnymrkrVobd3O7uIi99s34g=
+
+Name: images/screenshots/configureplanningboard-eclipse-20.png
+SHA1-Digest: +SMG3/PhsWGpg0TJqJxAdAld7lk=
+
+Name: action/ccf_importsslcert.html
+SHA1-Digest: s/dcAX5a91RRKn0SfOVe2HQ0fNM=
+
+Name: action/desktop_addCTFdoc.html
+SHA1-Digest: K1/E0ljxJuX2MMI7g6wZd20HSLY=
+
+Name: images/screenshots/eclipsedesktop-switchfm2.png
+SHA1-Digest: haZEiT8UbzZTNaY+083HX4T+ruA=
+
+Name: images/screenshots/taskboard-notification-eclipse.png
+SHA1-Digest: e9StwHUBgNFkVk5QNqTOfQKpt8A=
+
+Name: images/screenshots/eclipsedesktop-addtfconnector1.png
+SHA1-Digest: jeoRH9Nk17g/VC9QDO62q69QGm0=
+
+Name: images/screenshots/planeditor-newpf.png
+SHA1-Digest: 5pxVYDl2IEom0ycGu/JDFJE/fvc=
+
+Name: images/screenshots/eclipsedesktop-switchfm1.png
+SHA1-Digest: c/dHvtMNkzUKpcLzmPGNxrcZpsk=
+
+Name: action/cndesktop_createfmt.html
+SHA1-Digest: 9rLtPg9qSjoSEIDvIjCqPSVcvlc=
+
+Name: images/screenshots/eclipsedesktop-identitymapping.png
+SHA1-Digest: +vEkf4o7HRoL4HqqiNSGkBmyDh8=
+
+Name: images/screenshots/agiletaskboardui-eclipse.png
+SHA1-Digest: us0WvtedVYrZUcnVPaR6j7HUv6g=
+
+Name: images/screenshots/configureplanningboard-eclipse-40.png
+SHA1-Digest: jtIzDQG8I3Ii84hfzXzUlgoeXPE=
+
+Name: action/cndesktop_importquerydefinition.html
+SHA1-Digest: dIguhP1vJpnjGxZ+F+y8o2RKgtE=
+
+Name: action/access_iz_comments.html
+SHA1-Digest: 5AfLjsUA9d8q93Xc8UFWDMSEXg0=
+
+Name: faq/openvsclosed.html
+SHA1-Digest: 9topA0HSfGotHTDEd/IK1Zdm/GE=
+
+Name: images/screenshots/taskboard-submitchanges-eclipse.png
+SHA1-Digest: Sc8qlrkb2ZHStEvla80hArCjn3k=
+
+Name: images/screenshots/eclipsedesktop-addfmt2.png
+SHA1-Digest: WP8IW/jb9C7qsBzBE4Hvp5O+lg4=
+
+Name: images/screenshots/eclipsedesktop-addfmt1.png
+SHA1-Digest: uXPfmYvafXolKK30Q7n5czrbcCs=
+
+Name: action/cndesktop_svnedge.html
+SHA1-Digest: 2LjUg6bazk3mp+PsttSKvX4wIOo=
+
+Name: action/eclipsedesktop_addtfconnector.html
+SHA1-Digest: fh3+dbb2XTsAg+d4siv8LrdibL8=
+
+Name: action/add_site_ocn_view.html
+SHA1-Digest: 6/xFd1v6JtQy7ZbnMLgZRW+G9pY=
+
+Name: images/screenshots/commit-pt-task.png
+SHA1-Digest: d8JCC7ko6GEFpyXoyGian1P4UKY=
+
+Name: action/trackers.html
+SHA1-Digest: GHi5EWPHsxsnbyTDT0872xlEGAQ=
+
+Name: faq/ccf_swptf_artifactssynchronized.html
+SHA1-Digest: 9RHbeqcCzOmgDe0KJwpVTgdv8Nk=
+
+Name: faq/charts.html
+SHA1-Digest: 9Wqx/muSHkT51jxkjebaJVrrdug=
+
+Name: images/screenshots/taskboard-taskeditor-eclipse.png
+SHA1-Digest: HsmN2BByOnRvCnxdfd7VXKjksE0=
+
+Name: action/cndesktop_configureccfcore.html
+SHA1-Digest: t5sioVwHIT9nxyX0kZoNKYNTkLU=
+
+Name: faq/cubit_plugin_concept.html
+SHA1-Digest: tL9k8wVL+TdMH2zBMCpIs4CCILQ=
+
+Name: action/add_cubit_tunnel.html
+SHA1-Digest: ObgSwwLoIcvejPddlS7v7XRPY+Y=
+
+Name: action/desktop_updateplanningfolder.html
+SHA1-Digest: czh7CqUi6+wfysWNTMua0pttfPg=
+
+Name: action/link_iz_task.html
+SHA1-Digest: 6RgccsPwg5GHsEqx/0lvpDSd+R4=
+
+Name: images/screenshots/add-mylyn-task-repo2.png
+SHA1-Digest: iOBfhCl8B8Sx/ebPOEk1Gg1vRMU=
+
+Name: faq/eclipsedesktop_artifactattributes.html
+SHA1-Digest: 98lIQOVUtAezNNbMpXF5DbJr+N4=
+
+Name: action/desktop_addcodesionproject.html
+SHA1-Digest: 83+yMDLdtdGkYwgFsBJT97Glfw0=
+
+Name: action/cndesktop_planningboard.html
+SHA1-Digest: jPp1zJbVLZYAOIDJoPPutbgO1Ys=
+
+Name: images/screenshots/planningboard-eclipse.png
+SHA1-Digest: 59Io0DDftlpkaUIn0rEmpOwefxo=
+
+Name: action/create_sfee_tracker_task_list.html
+SHA1-Digest: AL0xSj2F+WeK2HHTRFNhLv8WldQ=
+
+Name: action/releases.html
+SHA1-Digest: ioVHXakU5ORfaMzkvcsleGaSEAY=
+
+Name: faq/eclipsedesktop_validateerror.html
+SHA1-Digest: okKOTJINmPauvjLyBagKLTYxR8k=
+
+Name: action/windesktop_communitysites.html
+SHA1-Digest: lu6YdvzvMqpdgxRCkt47yKxabNQ=
+
+Name: action/assigntoplanningfolder_desktop.html
+SHA1-Digest: fcpmsNlMBh2aCa5LnX606Xg2ARU=
+
+Name: action/link_pt_task.html
+SHA1-Digest: w4MNg1Bq/63wlRLYJvH3kzQ47Y8=
+
+Name: action/tfconnector_configureproperties.html
+SHA1-Digest: J3hoM/ujGDsJ62aGFNsSDt1Mf+0=
+
+Name: faq/cubit_concept.html
+SHA1-Digest: 4bP0VvoejRw1tapM7bXV0j0XS2A=
+
+Name: faq/client_proxy_settings.html
+SHA1-Digest: WYkoIWFYz+gwggdvgPMDSwNrTak=
+
+Name: action/eclipsedesktop_addswprepomapping.html
+SHA1-Digest: 4InA6oKezbuei5CBlhNtqrKn1RE=
+
+Name: faq/dynamicplanning.html
+SHA1-Digest: jTxjyhdg17UKQygquSUxyFfKU6A=
+
+Name: action/desktop_reorderplanningfoldercontent.html
+SHA1-Digest: Gtnbgw4OU/6hDzRhiDkEcOdEXyQ=
+
+Name: action/cndesktop_createCTFtaskdependency.html
+SHA1-Digest: y+HkQV1vOUArjBbFOK12/8F9nz4=
+
+Name: action/planningfolder.html
+SHA1-Digest: 7mLjzhvCbtc3mHMjHO+EQOHIRDM=
+
+Name: faq/cubit_domain.html
+SHA1-Digest: 1yoIuQqtErRrjeYaP6cbwA+3q6o=
+
+Name: action/cndesktop_swpconnector.html
+SHA1-Digest: Iou+Kf//C75a3bPAsvlldaBdt1k=
+
+Name: images/screenshots/external-SSH-client.png
+SHA1-Digest: KH2YYMs4wJ14tq29RpSFD4PUYQs=
+
+Name: faq/ccf_dedicatedusers.html
+SHA1-Digest: Am1oxdy7iqfJAnLLhOg69zyrT/o=
+
+Name: faq/cubit_project.html
+SHA1-Digest: U7EELcXrhMMIpCKs4GEsyT8nRB0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: action/desktop_exportdata.html
+SHA1-Digest: l82kvsUI+9ghpVgheg0L9EMVub4=
+
+Name: action/geteclipsedesktop.html
+SHA1-Digest: gqd3WTSu6sLk7KCFwClPYmYz8aM=
+
+Name: faq/vsdesktop_pt_concept.html
+SHA1-Digest: pOuG9PgjAV5QwO48By6LpF4S9Cw=
+
+Name: images/screenshots/cndesktop-addcnsite-icon.png
+SHA1-Digest: 2N0ba+cs0EpkryhYD6sE6CVrnA0=
+
+Name: faq/whatiseclipsedesktop.html
+SHA1-Digest: /9US2GS6Rj3Kwx/M2oSzCD8VCYQ=
+
+Name: action/eclipsedesktop_editidentitymapping.html
+SHA1-Digest: VWlOLWRRmz+IcJOX38T/GXevKtM=
+
+Name: images/screenshots/sfee_associations.png
+SHA1-Digest: VjQA6K0FjE7dnBVO+ER/HHXOUCQ=
+
+Name: action/cndesktop_addcodesionsite.html
+SHA1-Digest: rb1R8RQrhAlsbhd4sOW39yzKKTo=
+
+Name: faq/cubit_tunnels.html
+SHA1-Digest: 4SNjyIwUGZwyPPF+f4Fiffzixzk=
+
+Name: action/cndesktop_addCTFtaskquery.html
+SHA1-Digest: VAJ++cLp3d0smui+6WKisNxSFgw=
+
+Name: faq/cubit_host.html
+SHA1-Digest: BTMHRwsqyqEAPFLhye024X5pcQc=
+
+Name: faq/eclipsedesktop_releaseinfo.html
+SHA1-Digest: RVwIhsnpuQyQ64qvNxQopKft//0=
+
+Name: images/screenshots/cndesktop-addsvnedgeserver.png
+SHA1-Digest: CBfOv7WOVsO9QDr/N+NT2hBUvfM=
+
+Name: action/cndesktop_orchestrate.html
+SHA1-Digest: sw5T0pKgyXYBZh9oFotez4iJSik=
+
+Name: images/screenshots/cndesktop-IZquery.png
+SHA1-Digest: Dd1DZ/9y4uJdsgIW6eFUrSM0MGY=
+

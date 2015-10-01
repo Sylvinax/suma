@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://downloads.open.collab.net/eclipse/update-site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1427784383410'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='3626001620'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='16'>
+    <artifact classifier='osgi.bundle' id='com.collabnet.ee.api' version='4.4.1.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.ee.api_4.4.1.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.subversion.merge' version='1.8.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.subversion.merge_1.8.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.ee.tracker.core' version='1.8.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.ee.tracker.core_1.8.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.subversion' version='1.8.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.subversion_1.8.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.cee' version='1.8.0.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.cee_1.8.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.ee' version='1.8.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.ee_1.8.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.webservices.common' version='1.4.0.200711091233'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.webservices.common_1.4.0.200711091233.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.collabnet.desktop.feature' version='1.8.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/features/com.collabnet.desktop.feature_1.8.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.issuezilla.mylyn.core' version='1.8.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.issuezilla.mylyn.core_1.8.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.tracker.mylyn.ui' version='1.8.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.tracker.mylyn.ui_1.8.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.desktop.doc' version='1.6.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.desktop.doc_1.6.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.cee.api' version='5.1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.cee.api_5.1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.issuezilla.mylyn.ui' version='1.8.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.issuezilla.mylyn.ui_1.8.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.tracker.mylyn.core' version='1.8.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.tracker.mylyn.core_1.8.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.ee.tracker.ui' version='1.8.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.ee.tracker.ui_1.8.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.collabnet.desktop' version='1.8.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.open.collab.net/eclipse/update-site/plugins/com.collabnet.desktop_1.8.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

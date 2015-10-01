@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='CollabNet Desktop'
+    type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
+    version='1.0.0'>
+  <properties size='2'>
+     <property name="p2.compressed" value="true"/>
+     <property name="p2.timestamp" value="1418053809000"/>
+  </properties>
+  <children size='8'>
+     <child location='../../drops/4.4.0/'/>
+     <child location='../../update-site/gerrit-workflow/'/>
+     <child location='http://subclipse.tigris.org/update_1.10.x'/>
+     <child location='http://download.eclipse.org/mylyn/releases/latest'/>
+     <child location='http://rombert.github.com/ereviewboard/update/'/>
+     <child location='http://download.eclipse.org/egit/updates'/>
+     <child location='http://download.eclipse.org/tools/gef/updates/releases/'/>
+     <child location='http://download.eclipse.org/birt/update-site/4.3'/>
+  </children>
+</repository>

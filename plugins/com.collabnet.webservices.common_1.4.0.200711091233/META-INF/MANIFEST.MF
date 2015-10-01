@@ -1,0 +1,100 @@
+Manifest-Version: 1.0
+Export-Package: javax.activation,javax.mail,javax.mail.event,javax.mai
+ l.internet,javax.mail.search,javax.wsdl,javax.wsdl.extensions,javax.w
+ sdl.extensions.http,javax.wsdl.extensions.mime,javax.wsdl.extensions.
+ schema,javax.wsdl.extensions.soap,javax.wsdl.factory,javax.wsdl.xml,j
+ avax.xml.messaging,javax.xml.namespace,javax.xml.rpc,javax.xml.rpc.en
+ coding,javax.xml.rpc.handler,javax.xml.rpc.handler.soap,javax.xml.rpc
+ .holders,javax.xml.rpc.server,javax.xml.rpc.soap,javax.xml.soap,org.a
+ pache.axis,org.apache.axis.attachments,org.apache.axis.client,org.apa
+ che.axis.client.async,org.apache.axis.collections,org.apache.axis.com
+ ponents.compiler,org.apache.axis.components.encoding,org.apache.axis.
+ components.image,org.apache.axis.components.jms,org.apache.axis.compo
+ nents.logger,org.apache.axis.components.net,org.apache.axis.component
+ s.script,org.apache.axis.components.threadpool,org.apache.axis.compon
+ ents.uuid,org.apache.axis.configuration,org.apache.axis.constants,org
+ .apache.axis.deployment.wsdd,org.apache.axis.deployment.wsdd.provider
+ s,org.apache.axis.description,org.apache.axis.encoding,org.apache.axi
+ s.encoding.ser,org.apache.axis.encoding.ser.castor,org.apache.axis.en
+ um,org.apache.axis.handlers,org.apache.axis.handlers.http,org.apache.
+ axis.handlers.soap,org.apache.axis.holders,org.apache.axis.i18n,org.a
+ pache.axis.management,org.apache.axis.management.jmx,org.apache.axis.
+ message,org.apache.axis.monitor,org.apache.axis.providers,org.apache.
+ axis.providers.java,org.apache.axis.schema,org.apache.axis.security,o
+ rg.apache.axis.security.servlet,org.apache.axis.security.simple,org.a
+ pache.axis.server,org.apache.axis.session,org.apache.axis.soap,org.ap
+ ache.axis.strategies,org.apache.axis.tools.ant.axis,org.apache.axis.t
+ ools.ant.foreach,org.apache.axis.tools.ant.wsdl,org.apache.axis.trans
+ port.http,org.apache.axis.transport.java,org.apache.axis.transport.jm
+ s,org.apache.axis.transport.local,org.apache.axis.transport.mail,org.
+ apache.axis.types,org.apache.axis.utils,org.apache.axis.utils.bytecod
+ e,org.apache.axis.utils.cache,org.apache.axis.wsdl,org.apache.axis.ws
+ dl.fromJava,org.apache.axis.wsdl.gen,org.apache.axis.wsdl.symbolTable
+ ,org.apache.axis.wsdl.toJava,org.apache.commons.logging
+Bundle-Vendor: CollabNet
+Bundle-ClassPath: lib/axis.jar,lib/axis-ant.jar,lib/activation.jar,lib
+ /mail.jar,lib/commons-discovery-0.2.jar,lib/commons-logging-1.0.4.jar
+ ,lib/jaxrpc.jar,lib/saaj.jar,lib/wsdl4j-1.5.1.jar,lib/log4j-1.2.8.jar
+ ,lib/
+Bundle-Version: 1.4.0.200711091233
+Eclipse-BuddyPolicy: registered
+Bundle-Localization: plugin
+Bundle-Name: CollabNet Web Service Infrastructure
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.collabnet.webservices.common
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+
+Name: lib/mail.jar
+SHA1-Digest: eE5++MNP99oLjALviT+l+1SrKdw=
+
+Name: about_files/NOTICE
+SHA1-Digest: Gw/OdDnEUGQQJ9V7EzZk2tTyTWA=
+
+Name: lib/saaj.jar
+SHA1-Digest: dh+U+1DpoKAUwY5BFQetr+3L0QM=
+
+Name: about_files/release-notes.html
+SHA1-Digest: +4JNsKWwee/ZxPoUxtpXb24ealc=
+
+Name: lib/wsdl4j-1.5.1.jar
+SHA1-Digest: PceY+8rblVeb6Ts6tzbJWmM+klk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: lib/axis-ant.jar
+SHA1-Digest: h3bkiMl4BtREI4xtsE1E9ymRmcI=
+
+Name: plugin.properties
+SHA1-Digest: bs1UMwO6SO/RTUb9ZawwF0ASrik=
+
+Name: lib/log4j-1.2.8.jar
+SHA1-Digest: o5HoQoWE7YSnKH82dUgiCFPdy/M=
+
+Name: about_files/README
+SHA1-Digest: 4dv4MruxFAYsfeA4B1xQ4Rez0sU=
+
+Name: about_files/LICENSE
+SHA1-Digest: Wn199lW6QEeProCmq6/Gr8Nvm2o=
+
+Name: lib/commons-discovery-0.2.jar
+SHA1-Digest: 8QNty8v7YZXW1HsZ/B80W59404Y=
+
+Name: lib/commons-logging-1.0.4.jar
+SHA1-Digest: 9TCXKGyEMyNN6W+tDFQfhQL/qyE=
+
+Name: lib/axis.jar
+SHA1-Digest: PccMh7lcYpNHdAqjrbPFpKf3TOA=
+
+Name: about.html
+SHA1-Digest: AW2Yb0zft60qSZ4Lghxn4SxLrko=
+
+Name: lib/activation.jar
+SHA1-Digest: COSs3Lt74D4B3FHrUZp/5E0vaI4=
+
+Name: lib/jaxrpc.jar
+SHA1-Digest: o2S4+HccdzL6YZ1OIAnPzHymB6Q=
+
+Name: lib/log4j.properties
+SHA1-Digest: rFBni7R6zeLwUSdVTCpj1rxfq+s=
+

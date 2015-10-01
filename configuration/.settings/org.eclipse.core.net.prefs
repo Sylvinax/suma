@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+org.eclipse.core.net.hasMigrated=true
+proxiesEnabled=true
+proxyData/HTTP/hasAuth=false
+proxyData/HTTP/host=proxy.msat
+proxyData/HTTP/port=80
+proxyData/HTTPS/hasAuth=false
+proxyData/HTTPS/host=proxy.msat
+proxyData/HTTPS/port=80
+systemProxiesEnabled=false

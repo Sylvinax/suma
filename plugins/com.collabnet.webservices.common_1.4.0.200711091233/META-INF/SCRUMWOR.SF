@@ -1,0 +1,59 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: rPz2N7E8+X1IeMzrsq7YlnnNPrA=
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: +Spd3NC4r2G7BLDwgxlE9obLssw=
+
+Name: lib/mail.jar
+SHA1-Digest: iY2nm+zw/G/sFf+7PNcfrs9yF+o=
+
+Name: about_files/NOTICE
+SHA1-Digest: bQKU15uYFhCgZyVDfjZqHmw4LLU=
+
+Name: lib/saaj.jar
+SHA1-Digest: 9mBQFbJnqnKOlEKN5548+g/dr1k=
+
+Name: about_files/release-notes.html
+SHA1-Digest: FVe/V8DCOvUDiDFL6/sIkkvbwnQ=
+
+Name: lib/wsdl4j-1.5.1.jar
+SHA1-Digest: OgzWdZ3Y//D8MZ/pQxBtynp0/WY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SwPvGXzoqhbu6llulpm8WpBxiUo=
+
+Name: lib/axis-ant.jar
+SHA1-Digest: Qn4fN8e50oEYbk2O1R+7cnqCojE=
+
+Name: plugin.properties
+SHA1-Digest: vPFuQxHLls3ra+2tCjSYfIlBSMw=
+
+Name: lib/log4j-1.2.8.jar
+SHA1-Digest: iflXtwntFLER0T0YzZgTuQVe7/w=
+
+Name: about_files/README
+SHA1-Digest: /1SeNsqwOEL3CEteQkmaBzrPjqU=
+
+Name: about_files/LICENSE
+SHA1-Digest: ON1b1TTvuJt4uBN0fd1/HIk/Dws=
+
+Name: lib/commons-discovery-0.2.jar
+SHA1-Digest: axGIvd3znmOtVcg9P5CVTTTpx9w=
+
+Name: lib/commons-logging-1.0.4.jar
+SHA1-Digest: ee/SFZBSIQ83qWQAIcxS4RkgxaY=
+
+Name: lib/axis.jar
+SHA1-Digest: albPoIk/vjocFzeyS7hPJWGxVyM=
+
+Name: about.html
+SHA1-Digest: 6/fU4t7f5yBVzU2eE9vgH9XxsKc=
+
+Name: lib/activation.jar
+SHA1-Digest: tkp9Y4+78At4FjbJGdyqCZMKoDQ=
+
+Name: lib/jaxrpc.jar
+SHA1-Digest: Tn3E1PSJyNVD+UnFexS4B945daM=
+
+Name: lib/log4j.properties
+SHA1-Digest: CTcnEIhmYLCJqlMlYyXhpcS5VwU=
+

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+	<extension-point id="artifactCommitUtilProvider" name="Artifact Commit Utilities" schema="schema/artifactCommitUtilProvider.exsd"/>
+
+   <extension
+         point="com.collabnet.desktop.collabNetSiteProviders">
+      <site
+            name="%siteType"
+            class="com.collabnet.subversion.SubversionSiteProvider"
+            id="com.collabnet.subversion.SubversionSiteProvider">
+      </site>
+   </extension>
+   
+   <extension
+         point="com.collabnet.subversion.merge.mergeInputProviders">
+      <mergeInput
+            name="%inputProviderName.changeSet"
+            description="%inputProviderDescription.changeSet"
+            sequence="20"         
+            image="changesets.png"
+            class="com.collabnet.subversion.merge.changeset.ChangeSetMergeInputProvider"
+            id="com.collabnet.subversion.merge.changeset.ChangeSetMergeInputProvider">
+      </mergeInput>                         
+   </extension>   
+   
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="com.collabnet.subversion.SubversionRepositorySite"
+            id="com.collabnet.subversion.SubversionRepositorySite">
+         <action
+               label="%actionLabel.properties"
+               class="com.collabnet.subversion.actions.PropertiesAction"
+               menubarPath="propertiesGroup"
+               id="com.collabnet.subversion.actions.PropertiesAction">
+         </action>
+      </objectContribution>
+      <objectContribution
+            objectClass="org.eclipse.mylyn.tasks.core.ITask"
+            id="org.eclipse.mylyn.tasks.core.ITask">
+         <action
+               label="%actionLabel.merge"
+               icon="icons/merge.gif"
+               class="com.collabnet.subversion.merge.changeset.ChangeSetMergeAction"
+               id="com.collabnet.subversion.merge.changeset.ChangeSetMergeAction">
+         </action>            
+      </objectContribution>
+      <objectContribution
+            objectClass="com.collabnet.subversion.merge.IChangeSetMergeInput"
+            id="com.collabnet.subversion.IChangeSetMergeInput">
+         <action
+               label="%actionLabel.merge"
+               icon="icons/merge.gif"
+               class="com.collabnet.subversion.merge.changeset.ChangeSetMergeAction"
+               id="com.collabnet.subversion.merge.changeset.ChangeSetMergeAction">
+         </action>            
+      </objectContribution>
+      <objectContribution
+            objectClass="com.collabnet.desktop.IDesktopChangeSetMergeInput"
+            id="com.collabnet.desktop.IDesktopChangeSetMergeInput">
+         <action
+               label="%actionLabel.merge"
+               icon="icons/merge.gif"
+               class="com.collabnet.subversion.merge.changeset.ChangeSetMergeAction"
+               id="com.collabnet.subversion.merge.changeset.ChangeSetMergeAction">
+         </action>            
+      </objectContribution>                                          
+      <objectContribution
+            objectClass="com.collabnet.subversion.merge.MergeOutput"
+            id="com.collabnet.subversion.merge.MergeOutput">
+         <action
+               label="%actionLabel.exportMergeResults"
+               menubarPath="delete"
+               enablesFor="1"
+               class="com.collabnet.subversion.merge.changeset.ExportMergeOutputAction"
+               id="com.collabnet.subversion.merge.changeset.ExportMergeOutputAction">
+         </action>
+      </objectContribution>                
+    </extension>       
+   
+   <extension
+         point="org.eclipse.ui.preferenceTransfer">
+       <transfer
+            icon="icons/svn16.gif"
+            name="%transferName"
+            id="com.collabnet.subversion.preferenceTransfer">
+            <mapping scope="instance">
+                <entry node="com.collabnet.subversion/svnSites">
+                </entry>
+            </mapping>
+     <description>
+             %transferDescription
+      </description>
+    </transfer>
+         
+   </extension>
+   
+   <extension
+         id="com.collabnet.subversion.adapters"
+         name="Subversion Adapters"
+         point="org.eclipse.core.runtime.adapters">
+         <factory
+         	class="com.collabnet.subversion.SubversionAdapterFactory"
+         	adaptableType="com.collabnet.subversion.SubversionRepositorySite">
+         	<adapter type="org.tigris.subversion.subclipse.core.ISVNRepositoryLocation"/>
+         </factory>
+         <factory
+         	class="com.collabnet.subversion.SubversionAdapterFactory"
+         	adaptableType="com.collabnet.subversion.SubversionRepositoryItem">
+         	<adapter type="org.tigris.subversion.subclipse.core.ISVNRemoteResource"/>
+         </factory>
+         <factory
+         	class="com.collabnet.subversion.SubversionAdapterFactory"
+         	adaptableType="com.collabnet.subversion.SubversionRepositoryItem">
+         	<adapter type="org.tigris.subversion.subclipse.core.ISVNRemoteFile"/>
+         </factory>   
+         <factory
+         	class="com.collabnet.subversion.SubversionAdapterFactory"
+         	adaptableType="com.collabnet.subversion.SubversionRepositoryItem">
+         	<adapter type="org.tigris.subversion.subclipse.core.ISVNRemoteFolder"/>
+         </factory>                                              
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.intro.configExtension">
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="intro/tutorials.xml">
+      </configExtension>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.cheatsheets.cheatSheetContent">
+      <cheatsheet
+            category="com.collabnet.desktop.cheatsheet"
+            contentFile="cheatsheets/checkout.xml"
+            id="com.collabnet.subversion.cheatsheet.checkout"
+            name="%cheatsheet.checkout">
+         <description>
+            %cheatsheet.checkoutDescription
+         </description>
+      </cheatsheet>
+      <cheatsheet
+            category="com.collabnet.desktop.cheatsheet"
+            contentFile="cheatsheets/merge.xml"
+            id="com.collabnet.subversion.cheatsheet.merge"
+            name="%cheatsheet.merge">
+         <description>
+            %cheatsheet.mergeDescription
+         </description>
+      </cheatsheet>
+   </extension>   
+
+</plugin>

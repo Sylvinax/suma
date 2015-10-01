@@ -1,0 +1,41 @@
+********************************************************************************
+*                        Subversive connectors Change Log                      *
+*                                                                              *
+* Subversive - a brand new Eclipse Client for Subversion (SVN)                 *
+* See details at http://www.eclipse.org/subversive and http://www.polarion.com *
+********************************************************************************
+
+This connectors works only with Subversive version which is distributed from Eclipse.org site.
+ 
+Version 4.1.3.I20150214-1700 release date: 14 February 2015
+
+1. What's New
+
+   The version is 4.1.3 service release. 
+   
+   Changes in compare with previous version are listed below. The full list of 
+   changes you can find in Change Log.	 
+
+	Features:
+	 * "Commit missing files" option does not work for JavaHL in Package Explorer (bug 459492)
+	 * SVN Kit 1.8.7 does not commit missing files (bug 458376)
+	 * Possible NPEs in connectors while processing SVNEntryReference/SVNEntryRevisionReference (bug 458195)
+
+2. Information
+
+2.1. System Requirements
+
+   Subversive requires JDK 1.6 or higher and supports following versions of Eclipse:
+    * 4.2
+    * 4.3
+    * 4.4
+       
+   Subversive supports 
+    Migration for Subversion below version 1.6 to version 1.7 and higher,
+    Subversion version 1.7 with SVN Kit 1.7.13 and JavaHL 1.7.9,
+    Subversion version 1.8 with SVN Kit 1.8.7 and JavaHL 1.8.10
+
+2.2 Known issues
+
+	* "Deadlock when JNA is loading" problem on Mac OS X [using SVN Kit connector 1.7.x]
+	* The latest SVN connectors are very slow on huge working copies [using SVN Kit 1.7-1.8 connectors]

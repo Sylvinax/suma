@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Check out from CollabNet Subversion">
+   <intro href="/org.eclipse.platform.doc.user/reference/ref-cheatsheets.htm">
+      <description>
+         This cheat sheet shows you how to explore a CollabNet Subversion repository and check out a project. If you need help at any step, click on the (?) icon to the right.
+      </description>
+   </intro>
+   <item title="Open the CollabNet perspective" dialog="true" skip="false">
+      <description>
+         From the main menu, select Window &gt; Open Perspective &gt; Other..., then select the <b>CollabNet</b> perspective.
+      </description>
+      <command serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=com.collabnet.desktop.perspective)" confirm="true" translate="">
+      </command>
+   </item>
+   <item title="Add a CollabNet Subversion Repository" dialog="true" skip="false">
+      <description>
+         In the CollabNet Sites view, click on the <b>Add CollabNet Site</b> toolbar button.  Choose CollabNet Subversion Repository in the site type dropdown.  Then provide a description for the repository connection and the URL to the root of your repository. For example, for the <b>Subclipse</b> repository, enter the following:<br/>
+      <br/>
+      Description: Subclipse<br/>
+      URL: http://subclipse.tigris.org/svn/subclipse/<br/>
+      Type: CollabNet Subversion Repository<br/>
+       <br/>
+NOTE:  Your credentials are managed by CollabNet Subversion.  You will be prompted for them when they are needed and you will have the option to allow CollabNet Subversion to cache those credentials.<br/>
+<br/>
+Click <b>Finish</b>.
+      </description>
+   </item>
+   <item title="Locate the project" dialog="true" skip="false">
+      <description>
+         Expand the newly added repository, and locate the project you wish to check out.
+      </description>
+   </item>
+   <item title="Check out the project" dialog="true" skip="false">
+      <description>
+         Right click on the project you wish to check out and select <b>Checkout</b>.  This will launch the Checkout wizard which will guide you through the rest of the process.
+      </description>
+   </item>
+   <item title="View the workspace" dialog="true" skip="false">
+      <description>
+         To see the project in your workspace, switch to the <b>Resource</b>
+      perspective via Window &gt; Open Perspective &gt; Resource to see the
+      project in the <b>Navigator</b> view. You can now view and work with the
+      contents of the project.
+      </description>
+      <command serialization="org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.ui.resourcePerspective)" confirm="false">
+      </command>
+   </item>
+</cheatsheet>

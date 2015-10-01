@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts>
+   <context id="xxx">
+      <description>Get started</description>
+      <topic label="Get started" href="faq/getting_started.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is CollabNet Desktop - Eclipse Edition?</description>
+      <topic label="What is CollabNet Desktop - Eclipse Edition?"
+             href="faq/whatiseclipsedesktop.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a CollabNet site</description>
+      <topic label="Add a CollabNet site" href="action/cndesktop_addCNsite.html#xxx"/>
+   </context>
+   <context id="sfee_tracker">
+      <description>Work with TeamForge</description>
+      <topic label="Work with TeamForge" href="action/desktop_CTF.html#sfee_tracker"/>
+   </context>
+   <context id="xxx">
+      <description>Add a new site</description>
+      <topic label="Add a new site" href="action/cndesktop_addCTFsite.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Customize the CollabNet Sites view</description>
+      <topic label="Customize the CollabNet Sites view"
+             href="action/favorites_in_eclipsedesktop.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with your favorite projects</description>
+      <topic label="Work with your favorite projects"
+             href="action/cndesktop_addfavoriteprojects.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with your favorite tools</description>
+      <topic label="Work with your favorite tools"
+             href="action/cndesktop_addfavoritetools.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Track your work</description>
+      <topic label="Track your work" href="action/trackers.html#xxx"/>
+   </context>
+   <context id="sfee_tracker_concept">
+      <description>What is a TeamForge tracker?</description>
+      <topic label="What is a TeamForge tracker?"
+             href="faq/CTF_tracker_concept.html#sfee_tracker_concept"/>
+   </context>
+   <context id="xxx">
+      <description>Create a tracker query</description>
+      <topic label="Create a tracker query"
+             href="action/desktop_addCTFtrackerquery.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Share tracker query settings</description>
+      <topic label="Share tracker query settings"
+             href="action/cndesktop_sharequerysettings.html#xxx"/>
+   </context>
+   <context id="exportquery">
+      <description>Export query settings</description>
+      <topic label="Export query settings"
+             href="action/cndesktop_exportquerydefinition.html#exportquery"/>
+   </context>
+   <context id="xxx">
+      <description>Import a query</description>
+      <topic label="Import a query" href="action/cndesktop_importquerydefinition.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a tracker artifact</description>
+      <topic label="Create a tracker artifact"
+             href="action/cndesktop_addCTFtrackerartifact.html#xxx"/>
+   </context>
+   <context id="add_sfee_tracker_association">
+      <description>Associate a tracker artifact with other items</description>
+      <topic label="Associate a tracker artifact with other items"
+             href="action/add_CTF_tracker_association.html#add_sfee_tracker_association"/>
+   </context>
+   <context id="xxx">
+      <description>Delete a tracker association</description>
+      <topic label="Delete a tracker association"
+             href="action/delete_CTF_tracker_association.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Make a tracker artifact depend on another artifact</description>
+      <topic label="Make a tracker artifact depend on another artifact"
+             href="action/cndesktop_configuringartifactdependencies.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Reorder trackers</description>
+      <topic label="Reorder trackers" href="action/desktop_reordertrackers.html#xxx"/>
+   </context>
+   <context id="agile-">
+      <description>Plan and monitor your project</description>
+      <topic label="Plan and monitor your project"
+             href="action/desktop_usedynamicplanning.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Define the scope of your project</description>
+      <topic label="Define the scope of your project" href="action/scope.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Organize your project with planning folders</description>
+      <topic label="Organize your project with planning folders"
+             href="action/planningfolder.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Create a planning folder</description>
+      <topic label="Create a planning folder" href="action/createplanningfolder.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Update a planning folder</description>
+      <topic label="Update a planning folder"
+             href="action/desktop_updateplanningfolder.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Reorder planning folders</description>
+      <topic label="Reorder planning folders"
+             href="action/desktop_reorderplanningfolders.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Move a planning folder</description>
+      <topic label="Move a planning folder"
+             href="action/desktop_moveplanningfolder.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>Reorder the contents of a planning folder</description>
+      <topic label="Reorder the contents of a planning folder"
+             href="action/desktop_reorderplanningfoldercontent.html#xxx"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Manage your sprint with the planning board</description>
+      <topic label="Manage your sprint with the planning board"
+             href="action/cndesktop_planningboard.html#use_taskboard"/>
+   </context>
+   <context id="xxx">
+      <description>Configure the planning board</description>
+      <topic label="Configure the planning board"
+             href="action/cndesktop_configureplanningboard.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Use the planning board</description>
+      <topic label="Use the planning board"
+             href="action/cndesktop_useplanningboard.html#xxx"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Manage tasks with the Agile task board</description>
+      <topic label="Manage tasks with the Agile task board"
+             href="action/cndesktop_agiletaskboard.html#use_taskboard"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Configure the task board</description>
+      <topic label="Configure the task board"
+             href="action/cndesktop_configuretaskboard.html#use_taskboard"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Use the task board</description>
+      <topic label="Use the task board"
+             href="action/cndesktop_usetaskboard.html#use_taskboard"/>
+   </context>
+   <context id="agile-">
+      <description>Monitor project output</description>
+      <topic label="Monitor project output" href="action/uat.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Monitor project progress</description>
+      <topic label="Monitor project progress"
+             href="action/monitorprogress_desktop.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>Dynamic planning in TeamForge - FAQ</description>
+      <topic label="Dynamic planning in TeamForge - FAQ" href="faq/dynamicplanning.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is velocity?</description>
+      <topic label="What is velocity?" href="faq/velocity.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a story point?</description>
+      <topic label="What is a story point?" href="faq/storypoints.html#xxx"/>
+   </context>
+   <context id="agile-">
+      <description>How do you measure "effort?"</description>
+      <topic label="How do you measure &#34;effort?&#34;" href="faq/effort.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What are all these charts about?</description>
+      <topic label="What are all these charts about?" href="faq/charts.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What can I learn from a burndown chart?</description>
+      <topic label="What can I learn from a burndown chart?" href="faq/burndown.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>What can I learn from a capacity chart?</description>
+      <topic label="What can I learn from a capacity chart?" href="faq/capacity.html#xxx"/>
+   </context>
+   <context id="agile-">
+      <description>What can I learn from an Open by Priority chart?</description>
+      <topic label="What can I learn from an Open by Priority chart?"
+             href="faq/openbypriority.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What can I learn from an Open vs. Closed chart?</description>
+      <topic label="What can I learn from an Open vs. Closed chart?"
+             href="faq/openvsclosed.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What is an iteration?</description>
+      <topic label="What is an iteration?" href="faq/iteration.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>Release products</description>
+      <topic label="Release products" href="action/releases.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a release?</description>
+      <topic label="What is a release?" href="faq/releasesconcept.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a package</description>
+      <topic label="Create a package" href="action/desktop_addCTFpackage.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a release</description>
+      <topic label="Create a release" href="action/desktop_addCTFrelease.html#xxx"/>
+   </context>
+   <context id="vsdesk_addSFEEfiletorelease">
+      <description>Add files to a release</description>
+      <topic label="Add files to a release"
+             href="action/cndesktop_addCTFfiletorelease.html#vsdesk_addSFEEfiletorelease"/>
+   </context>
+   <context id="xxx">
+      <description>Update release attributes</description>
+      <topic label="Update release attributes"
+             href="action/cndesktop_updatereleasedata.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work on tasks</description>
+      <topic label="Work on tasks" href="action/tasks.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a task?</description>
+      <topic label="What is a task?" href="faq/cndesktop_tasksconcept.html#xxx"/>
+   </context>
+   <context id="cndesk_addSFEEtaskquery">
+      <description>Add a task query</description>
+      <topic label="Add a task query"
+             href="action/cndesktop_addCTFtaskquery.html#cndesk_addSFEEtaskquery"/>
+   </context>
+   <context id="vsdesk_addSFEEtaskfolder">
+      <description>Create a task folder</description>
+      <topic label="Create a task folder"
+             href="action/cndesktop_addCTFtaskfolder.html#vsdesk_addSFEEtaskfolder"/>
+   </context>
+   <context id="xxx">
+      <description>Create a task</description>
+      <topic label="Create a task" href="action/cndesktop_addCTFtask.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Associate a task with other items</description>
+      <topic label="Associate a task with other items"
+             href="action/add_CTF_task_association.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Delete a task association</description>
+      <topic label="Delete a task association"
+             href="action/delete_CTF_task_association.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Make a task depend on another task</description>
+      <topic label="Make a task depend on another task"
+             href="action/cndesktop_createCTFtaskdependency.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Document your work</description>
+      <topic label="Document your work" href="action/documents.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a document?</description>
+      <topic label="What is a document?" href="faq/desktop_documentconcept.html#xxx"/>
+   </context>
+   <context id="addSFEEdocfolder">
+      <description>Create a document folder</description>
+      <topic label="Create a document folder"
+             href="action/desktop_addCTFdocfolder.html#addSFEEdocfolder"/>
+   </context>
+   <context id="vsdesk_addSFEEdoc">
+      <description>Create a document</description>
+      <topic label="Create a document"
+             href="action/desktop_addCTFdoc.html#vsdesk_addSFEEdoc"/>
+   </context>
+   <context id="vsdesk_updatedocdata">
+      <description>Edit a document</description>
+      <topic label="Edit a document"
+             href="action/desktop_editdocument.html#vsdesk_updatedocdata"/>
+   </context>
+   <context id="xxx">
+      <description>Update document data</description>
+      <topic label="Update document data"
+             href="action/cndesktop_updatedocumentdata.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Lock a document</description>
+      <topic label="Lock a document" href="action/cndesktop_lockdocument.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Unlock a document</description>
+      <topic label="Unlock a document" href="action/cndesktop_unlockdocument.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Associate a document with other items</description>
+      <topic label="Associate a document with other items"
+             href="action/cndesktop_associatingdocuments.html#xxx"/>
+   </context>
+   <context id="connect_orc">
+      <description>Connect to TeamForge Orchestrate</description>
+      <topic label="Connect to TeamForge Orchestrate"
+             href="action/cndesktop_orchestrate.html#connect_orc"/>
+   </context>
+   <context id="integrate_reviewboard">
+      <description>Integrate with Review Board</description>
+      <topic label="Integrate with Review Board"
+             href="action/cndesktop_reviewboard.html#integrate_reviewboard"/>
+   </context>
+   <context id="xxx">
+      <description>Work with Gerrit</description>
+      <topic label="Work with Gerrit" href="action/cndesktop_tf_gerrit_integration.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>See an item's association tree</description>
+      <topic label="See an item's association tree"
+             href="action/cndesktop_viewassociations.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Monitor an item</description>
+      <topic label="Monitor an item" href="action/desktop_monitoranitem.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Export data</description>
+      <topic label="Export data" href="action/desktop_exportdata.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with TeamForge connectors</description>
+      <topic label="Work with TeamForge connectors"
+             href="action/cndesktop_connectors.html#xxx"/>
+   </context>
+   <context id="geteclipsedesktop">
+      <description>Get TeamForge connector functionality in your Desktop</description>
+      <topic label="Get TeamForge connector functionality in your Desktop"
+             href="action/geteclipsedesktop.html#geteclipsedesktop"/>
+   </context>
+   <context id="xxx">
+      <description>What connector functionality can you access in your Desktop?</description>
+      <topic label="What connector functionality can you access in your Desktop?"
+             href="faq/cndesktop_connectoraccess.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a TeamForge connector</description>
+      <topic label="Add a TeamForge connector"
+             href="action/eclipsedesktop_addtfconnector.html#xxx"/>
+   </context>
+   <context id="configccf">
+      <description>Configure connector properties</description>
+      <topic label="Configure connector properties"
+             href="action/cndesktop_configureccfcore.html#configccf"/>
+   </context>
+   <context id="xxx">
+      <description>HP Quality Center connector</description>
+      <topic label="HP Quality Center connector"
+             href="action/cndesktop_qcconnector.html#xxx"/>
+   </context>
+   <context id="qcrepomapping">
+      <description>Add a repository mapping</description>
+      <topic label="Add a repository mapping"
+             href="action/cndesktop_addqcrepomapping.html#qcrepomapping"/>
+   </context>
+   <context id="xxx">
+      <description>Field mappings</description>
+      <topic label="Field mappings" href="topics/cndesktop_fmt.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a field mapping from a template</description>
+      <topic label="Create a field mapping from a template"
+             href="action/cndesktop_createfm.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Templatize a field mapping</description>
+      <topic label="Templatize a field mapping" href="action/cndesktop_createfmt.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Edit a field mapping</description>
+      <topic label="Edit a field mapping" href="action/cndesktop_editfm.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Switch the active field mapping</description>
+      <topic label="Switch the active field mapping"
+             href="action/cndesktop_switchfm.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Export a field mapping template</description>
+      <topic label="Export a field mapping template"
+             href="action/cndesktop_exportfmt.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Import a field mapping template</description>
+      <topic label="Import a field mapping template"
+             href="action/cndesktop_importfmt.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Reverse field mapping rules</description>
+      <topic label="Reverse field mapping rules"
+             href="action/eclipsedesktop_reversemapping.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>ScrumWorks Pro connector</description>
+      <topic label="ScrumWorks Pro connector" href="action/cndesktop_swpconnector.html#xxx"/>
+   </context>
+   <context id="eclipse-swprepomapping">
+      <description>Add a repository mapping</description>
+      <topic label="Add a repository mapping"
+             href="action/eclipsedesktop_addswprepomapping.html#eclipse-swprepomapping"/>
+   </context>
+   <context id="sfee_concepts">
+      <description>TeamForge - ScrumWorks Pro Connector FAQ</description>
+      <topic label="TeamForge - ScrumWorks Pro Connector FAQ"
+             href="faq/tfconnector_swpconcepts.html#sfee_concepts"/>
+   </context>
+   <context id="xxx">
+      <description>What artifacts are synchronized?</description>
+      <topic label="What artifacts are synchronized?"
+             href="faq/ccf_swptf_artifactssynchronized.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>How are SWP Tasks synchronized with TeamForge artifacts?</description>
+      <topic label="How are SWP Tasks synchronized with TeamForge artifacts?"
+             href="faq/ccf_swptf_synctasks.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>How are SWP Product Backlog Items synchronized with TeamForge artifacts?</description>
+      <topic label="How are SWP Product Backlog Items synchronized with TeamForge artifacts?"
+             href="faq/ccf_swptf_syncPBIs.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>How is SWP MetaData synchronized with TeamForge artifacts?</description>
+      <topic label="How is SWP MetaData synchronized with TeamForge artifacts?"
+             href="faq/ccf_swptf_syncmetadata.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Why do the user and resync user need to be dedicated connector users?</description>
+      <topic label="Why do the user and resync user need to be dedicated connector users?"
+             href="faq/ccf_dedicatedusers.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Why is data not synchronizing between TeamForge and ScrumWorks Pro?</description>
+      <topic label="Why is data not synchronizing between TeamForge and ScrumWorks Pro?"
+             href="faq/ccf_swptf_whynosynchronization.html#xxx"/>
+   </context>
+   <context id="swptf_reference">
+      <description>ScrumWorks Pro - TeamForge integration reference</description>
+      <topic label="ScrumWorks Pro - TeamForge integration reference"
+             href="reference/ccf_swptf_reference.html#swptf_reference"/>
+   </context>
+   <context id="ccfqcpt_xsltmap">
+      <description>Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker"
+             href="reference/ccf_swptf_fieldmappingpbi.html#ccfqcpt_xsltmap"/>
+   </context>
+   <context id="d40308e17">
+      <description>Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker"
+             href="#d40308e17"/>
+   </context>
+   <context id="d40308e20">
+      <description>Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker"
+             href="#d40308e20"/>
+   </context>
+   <context id="d40308e23">
+      <description>Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker"
+             href="#d40308e23"/>
+   </context>
+   <context id="d40308e26">
+      <description>Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker"
+             href="#d40308e26"/>
+   </context>
+   <context id="ccfqcpt_xsltmap">
+      <description>Mapping for ScrumWorks Pro Task and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Task and TeamForge Tracker"
+             href="reference/ccf_swptf_fieldmappingtasks.html#ccfqcpt_xsltmap"/>
+   </context>
+   <context id="d41001e19">
+      <description>Mapping for ScrumWorks Pro Task and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Task and TeamForge Tracker" href="#d41001e19"/>
+   </context>
+   <context id="d41001e22">
+      <description>Mapping for ScrumWorks Pro Task and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Task and TeamForge Tracker" href="#d41001e22"/>
+   </context>
+   <context id="d41001e25">
+      <description>Mapping for ScrumWorks Pro Task and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Task and TeamForge Tracker" href="#d41001e25"/>
+   </context>
+   <context id="d41001e28">
+      <description>Mapping for ScrumWorks Pro Task and TeamForge Tracker</description>
+      <topic label="Mapping for ScrumWorks Pro Task and TeamForge Tracker" href="#d41001e28"/>
+   </context>
+   <context id="xxx">
+      <description>Limitations of the connector</description>
+      <topic label="Limitations of the connector" href="faq/ccf_swptf_limitations.html#xxx"/>
+   </context>
+   <context id="connector_sync">
+      <description>Synchronize artifacts</description>
+      <topic label="Synchronize artifacts"
+             href="action/cndesktop_connectorsync.html#connector_sync"/>
+   </context>
+   <context id="xxx">
+      <description>View log files</description>
+      <topic label="View log files" href="action/cndesktop_viewconnectorlogs.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Examine identity mappings</description>
+      <topic label="Examine identity mappings"
+             href="action/eclipsedesktop_editidentitymapping.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Manage failed connector shipments</description>
+      <topic label="Manage failed connector shipments"
+             href="action/eclipsedesktop_failedshipments.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Monitor connector status</description>
+      <topic label="Monitor connector status" href="action/cndesktop_checkstatus.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with CloudForge</description>
+      <topic label="Work with CloudForge" href="action/cndesktop_codesion.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>CloudForge overview</description>
+      <topic label="CloudForge overview" href="faq/cloudforge_overview.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a CloudForge site</description>
+      <topic label="Add a CloudForge site" href="action/cndesktop_addcodesionsite.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a CloudForge project</description>
+      <topic label="Add a CloudForge project"
+             href="action/desktop_addcodesionproject.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with your favorite projects</description>
+      <topic label="Work with your favorite projects"
+             href="action/cndesktop_addfavoritecfprojects.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add CloudForge users</description>
+      <topic label="Add CloudForge users" href="action/desktop_addcfusers.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with Lab Management</description>
+      <topic label="Work with Lab Management" href="action/desktop_cubit.html#xxx"/>
+   </context>
+   <context id="cubit_concept">
+      <description>What is CollabNet Lab Management?</description>
+      <topic label="What is CollabNet Lab Management?"
+             href="faq/cubit_concept.html#cubit_concept"/>
+   </context>
+   <context id="get_api_key">
+      <description>Get a Lab Management API key</description>
+      <topic label="Get a Lab Management API key" href="action/get_api_key.html#get_api_key"/>
+   </context>
+   <context id="axxx">
+      <description>Add a Lab Management Manager site</description>
+      <topic label="Add a Lab Management Manager site"
+             href="action/add_cubit_site.html#axxx"/>
+   </context>
+   <context id="view_host_info">
+      <description>Provision Lab Management hosts</description>
+      <topic label="Provision Lab Management hosts"
+             href="action/view_host_details.html#view_host_info"/>
+   </context>
+   <context id="add_external_SSH">
+      <description>Add an external SSH client</description>
+      <topic label="Add an external SSH client"
+             href="action/add_external_SSH_client.html#add_external_SSH"/>
+   </context>
+   <context id="add_external_RDP">
+      <description>Add an external RDP client</description>
+      <topic label="Add an external RDP client"
+             href="action/add_external_RDP_client.html#add_external_RDP"/>
+   </context>
+   <context id="add_cubit_tunnel">
+      <description>Add a tunnel</description>
+      <topic label="Add a tunnel" href="action/add_cubit_tunnel.html#add_cubit_tunnel"/>
+   </context>
+   <context id="manage_cubit_tunnel">
+      <description>Manage tunnels</description>
+      <topic label="Manage tunnels"
+             href="action/manage_cubit_tunnel.html#manage_cubit_tunnel"/>
+   </context>
+   <context id="cubit_concepts">
+      <description>Lab Management concepts</description>
+      <topic label="Lab Management concepts" href="faq/cubit_concepts.html#cubit_concepts"/>
+   </context>
+   <context id="cubit_concept">
+      <description>What does the Lab Management integration provide?</description>
+      <topic label="What does the Lab Management integration provide?"
+             href="faq/cubit_plugin_concept.html#cubit_concept"/>
+   </context>
+   <context id="cubit_domain">
+      <description>What is the Lab Management Domain?</description>
+      <topic label="What is the Lab Management Domain?"
+             href="faq/cubit_domain.html#cubit_domain"/>
+   </context>
+   <context id="cubit_mgr">
+      <description>What is the Lab Management Manager?</description>
+      <topic label="What is the Lab Management Manager?" href="faq/cubit_mgr.html#cubit_mgr"/>
+   </context>
+   <context id="iz_concept">
+      <description>What is a Client Node?</description>
+      <topic label="What is a Client Node?" href="faq/cubit_client_node.html#iz_concept"/>
+   </context>
+   <context id="xxx">
+      <description>What is a Lab Management host?</description>
+      <topic label="What is a Lab Management host?" href="faq/cubit_host.html#xxx"/>
+   </context>
+   <context id="cubit_user_role">
+      <description>What are Lab Management user roles?</description>
+      <topic label="What are Lab Management user roles?"
+             href="faq/cubit_user_role.html#cubit_user_role"/>
+   </context>
+   <context id="cubit_project">
+      <description>What is a Lab Management project?</description>
+      <topic label="What is a Lab Management project?"
+             href="faq/cubit_project.html#cubit_project"/>
+   </context>
+   <context id="cubit_project">
+      <description>What is a Lab Management profile?</description>
+      <topic label="What is a Lab Management profile?"
+             href="faq/cubit_profile.html#cubit_project"/>
+   </context>
+   <context id="cubit_tunnels">
+      <description>How does tunneling work?</description>
+      <topic label="How does tunneling work?"
+             href="faq/vsdesktop_cubit_tunnels.html#cubit_tunnels"/>
+   </context>
+   <context id="xxx">
+      <description>Work with CollabNet Subversion</description>
+      <topic label="Work with CollabNet Subversion" href="action/cndesktop_csvn.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a Subversion Edge site</description>
+      <topic label="Add a Subversion Edge site" href="action/cndesktop_svnedge.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Customize Subversion repository URLs</description>
+      <topic label="Customize Subversion repository URLs"
+             href="action/cndesktop_svnurl.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with CollabNet community sites</description>
+      <topic label="Work with CollabNet community sites"
+             href="action/windesktop_communitysites.html#xxx"/>
+   </context>
+   <context id="add_site_ocn_view">
+      <description>Add a site to the openCollabNet view</description>
+      <topic label="Add a site to the openCollabNet view"
+             href="action/add_site_ocn_view.html#add_site_ocn_view"/>
+   </context>
+   <context id="xxx">
+      <description>Add a pre-configured CollabNet community site</description>
+      <topic label="Add a pre-configured CollabNet community site"
+             href="action/vsdesktop_addpreconfiguredsite.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Use Mylyn for your tasks</description>
+      <topic label="Use Mylyn for your tasks" href="action/common_cndesktop_tasks.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a task repository</description>
+      <topic label="Add a task repository" href="action/cndesktop_setuptaskrepo.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a TeamForge task list</description>
+      <topic label="Create a TeamForge task list"
+             href="action/create_sfee_tracker_task_list.html#xxx"/>
+   </context>
+   <context id="vsdesktop_cee">
+      <description>Work with CollabNet Enterprise Edition</description>
+      <topic label="Work with CollabNet Enterprise Edition"
+             href="action/vsdesktop_cee.html#vsdesktop_cee"/>
+   </context>
+   <context id="cndesk_addCEEsite">
+      <description>Add a new site</description>
+      <topic label="Add a new site"
+             href="action/cndesktop_addCEEsite.html#cndesk_addCEEsite"/>
+   </context>
+   <context id="vsdesktop_iz">
+      <description>Work with Issue Tracker</description>
+      <topic label="Work with Issue Tracker" href="action/vsdesktop_iz.html#vsdesktop_iz"/>
+   </context>
+   <context id="iz_concept">
+      <description>What is Issue Tracker?</description>
+      <topic label="What is Issue Tracker?" href="faq/vsdesktop_iz_concept.html#iz_concept"/>
+   </context>
+   <context id="vsdesktop_addIZquery">
+      <description>Find Issue Tracker issues</description>
+      <topic label="Find Issue Tracker issues"
+             href="action/desktop_addIZquery.html#vsdesktop_addIZquery"/>
+   </context>
+   <context id="xxx">
+      <description>Create an issue</description>
+      <topic label="Create an issue" href="action/add_iz_task.html#xxx"/>
+   </context>
+   <context id="attach_cndesktop_task">
+      <description>Add an attachment</description>
+      <topic label="Add an attachment"
+             href="action/attach_cndesktop_task.html#attach_cndesktop_task"/>
+   </context>
+   <context id="xxx">
+      <description>Link to other issues</description>
+      <topic label="Link to other issues" href="action/link_iz_task.html#xxx"/>
+   </context>
+   <context id="access_iz_comments">
+      <description>Access comments within an issue</description>
+      <topic label="Access comments within an issue"
+             href="action/access_iz_comments.html#access_iz_comments"/>
+   </context>
+   <context id="pt">
+      <description>Work with Project Tracker</description>
+      <topic label="Work with Project Tracker" href="action/vsdesktop_pt.html#pt"/>
+   </context>
+   <context id="pt_concept">
+      <description>What is Project Tracker?</description>
+      <topic label="What is Project Tracker?"
+             href="faq/vsdesktop_pt_concept.html#pt_concept"/>
+   </context>
+   <context id="vsdesktop_runPTquery">
+      <description>Find Project Tracker artifacts</description>
+      <topic label="Find Project Tracker artifacts"
+             href="action/vsdesktop_runPTquery.html#vsdesktop_runPTquery"/>
+   </context>
+   <context id="xxx">
+      <description>Create an artifact</description>
+      <topic label="Create an artifact" href="action/add_pt_task.html#xxx"/>
+   </context>
+   <context id="attach_cndesktop_task">
+      <description>Add an attachment</description>
+      <topic label="Add an attachment"
+             href="action/attach_cndesktop_task.html#attach_cndesktop_task"/>
+   </context>
+   <context id="xxx">
+      <description>Link to other artifacts</description>
+      <topic label="Link to other artifacts" href="action/link_pt_task.html#xxx"/>
+   </context>
+   <context id="view_pt_commit">
+      <description>Track Subversion commits</description>
+      <topic label="Track Subversion commits"
+             href="action/view_pt_commit.html#view_pt_commit"/>
+   </context>
+   <context id="xxx">
+      <description>Issue tracker reference</description>
+      <topic label="Issue tracker reference"
+             href="reference/cndesktop_ceereference.html#xxx"/>
+   </context>
+   <context id="iz_attributes">
+      <description>Issue Tracker attributes</description>
+      <topic label="Issue Tracker attributes"
+             href="reference/iz_attributes.html#iz_attributes"/>
+   </context>
+   <context id="iz_attributes">
+      <description>Issue Tracker fields for queries</description>
+      <topic label="Issue Tracker fields for queries"
+             href="reference/iz_query_fields.html#iz_attributes"/>
+   </context>
+   <context id="xxx">
+      <description>Frequently Asked Questions</description>
+      <topic label="Frequently Asked Questions" href="faq/desktop_faqs.html#xxx"/>
+   </context>
+   <context id="artf40110">
+      <description>Do I need to have Mylyn installed to use the CollabNet Desktop plugins for Project Tracker or Issue Tracker?</description>
+      <topic label="Do I need to have Mylyn installed to use the CollabNet Desktop plugins for Project Tracker or Issue Tracker?"
+             href="faq/eclipsedesktop_pdeuiplugin.html#artf40110"/>
+   </context>
+   <context id="artf40113">
+      <description>I've installed CollabNet Desktop but can't see any of the Mylyn features. What gives?</description>
+      <topic label="I've installed CollabNet Desktop but can't see any of the Mylyn features. What gives?"
+             href="faq/eclipsedesktop_mylynfeatures.html#artf40113"/>
+   </context>
+   <context id="artf40114">
+      <description>Why do artifact attributes still show up in my Project Tracker Mylyn editor after the project admin hides or removes them?</description>
+      <topic label="Why do artifact attributes still show up in my Project Tracker Mylyn editor after the project admin hides or removes them?"
+             href="faq/eclipsedesktop_artifactattributes.html#artf40114"/>
+   </context>
+   <context id="artf40115">
+      <description>When I press the Validate button I get this message: "Your project is valid, but this server might not be compatible with your version of mylyn. You are running CollabNet API version 1.2.0. CollabNet server is running 1.1.0". What does it mean?</description>
+      <topic label="When I press the Validate button I get this message: &#34;Your project is valid, but this server might not be compatible with your version of mylyn. You are running CollabNet API version 1.2.0. CollabNet server is running 1.1.0&#34;. What does it mean?"
+             href="faq/eclipsedesktop_validateerror.html#artf40115"/>
+   </context>
+   <context id="artf40230">
+      <description>Where do I configure my client proxy settings?</description>
+      <topic label="Where do I configure my client proxy settings?"
+             href="faq/client_proxy_settings.html#artf40230"/>
+   </context>
+   <context id="artf39779">
+      <description>Does CollabNet Desktop - Eclipse Edition work with MyEclipse Enterprise Workbench 6.6.0?</description>
+      <topic label="Does CollabNet Desktop - Eclipse Edition work with MyEclipse Enterprise Workbench 6.6.0?"
+             href="faq/workwitheclipse.html#artf39779"/>
+   </context>
+   <context id="xxx">
+      <description>Does the CollabNet Desktop for Eclipse support client certificates for authorization to TeamForge?</description>
+      <topic label="Does the CollabNet Desktop for Eclipse support client certificates for authorization to TeamForge?"
+             href="faq/cndesktop_clientcert.html#xxx"/>
+   </context>
+   <context id="artf40107">
+      <description>Where can I find more information about the changes in the release?</description>
+      <topic label="Where can I find more information about the changes in the release?"
+             href="faq/eclipsedesktop_releaseinfo.html#artf40107"/>
+   </context>
+</contexts>

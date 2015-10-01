@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="Add a repository mapping"/>
+<meta name="abstract" content="You configure a repository mapping to specify how the connector synchronizes TeamForge with the other participant in the integration. A repository mapping has two directions -- one from TeamForge to Quality Center, and the other from Quality Center to TeamForge."/>
+<meta name="description" content="You configure a repository mapping to specify how the connector synchronizes TeamForge with the other participant in the integration. A repository mapping has two directions -- one from TeamForge to Quality Center, and the other from Quality Center to TeamForge."/>
+<meta name="DC.Relation" scheme="URI" content="../action/cndesktop_qcconnector.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="qcrepomapping"/>
+<meta name="DC.Language" content="en-us"/>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="../css/onlinehelp.css"/>
+<title>Add a repository mapping</title>
+</head>
+<body id="qcrepomapping"><a name="qcrepomapping"><!-- --></a>
+
+
+    <h1 class="title topictitle1">Add a repository mapping</h1>
+
+    
+    
+    <div class="body taskbody"><p class="shortdesc"><span class="ph">You configure a repository mapping to specify how the connector synchronizes
+			TeamForge with the other participant in the integration. A repository mapping has two
+			directions -- one from TeamForge to Quality Center, and the other from Quality Center to TeamForge.</span></p>
+
+        
+        <ol class="ol steps"><li class="li step">
+                <span class="ph cmd">To add a repository mapping with its associated directions, right-click the Repository Mappings node for your connector and select <span class="ph menucascade"><span class="ph uicontrol">New</span> &gt; <span class="ph uicontrol">Repository Mapping Direction(s)</span></span>.</span>
+                  
+                    <p class="p">The repository mapping wizard is launched.</p>
+
+                    <div class="fig fignone">
+                        <img class="image" src="../images/screenshots/eclipsedesktop-addqcrepomapping1.png"/>
+                    </div>
+
+                                
+            </li>
+<li class="li step">
+				<span class="ph cmd">For each selected mapping direction, specify how potential conflicts should be resolved. You can choose to:</span>
+				 
+					<ul class="ul">
+						<li class="li">Replace the target artifact's values with the source artifact's changes</li>
+
+						<li class="li">Discard the changes in the source artifact and not update the target
+							artifact</li>
+
+						<li class="li">Quarantine the conflicting artifact with the failed artifacts</li>
+
+						<li class="li">Overwrite the target artifact, ignoring locks.
+							<div class="note note"><span class="notetitle">Note:</span> This option is available only if the target system is Quality
+								Center. For more information on this feature, see <a class="xref" href="http://ccf.open.collab.net/wiki/Frequently_Asked_Questions#head-ad698c6c198a5730dd237f139449f2ddb1e3bd71" target="_blank">this FAQ topic</a>.</div>
+</li>
+
+					</ul>
+
+					<div class="note tip"><span class="tiptitle">Tip:</span> If you select <span class="ph uicontrol">Overwrite target artifact</span> for one direction, we suggest you select <span class="ph uicontrol">Do not update target artifact</span> for the other, so that one system will prevail in case of a conflict. However, even if you choose <span class="ph uicontrol">Overwrite target artifact</span> for both directions, it’s extremely unlikely that the connector would pick up changes in both systems at the same instant resulting in a conflict.</div>
+
+				
+			</li>
+<li class="li step">
+				<span class="ph cmd">Select a field mapping template from the dropdown, and one of these options:</span>
+				<ul class="ul choices">
+					<li class="li choice">Link to the template -- changes to the template will cause your repository mapping to change as well</li>
+
+					<li class="li choice">Define your own field mapping based on the template -- changes to the template will not affect your repository mapping</li>
+
+				</ul>
+
+			</li>
+<li class="li step">
+				<span class="ph cmd">Click <span class="ph uicontrol">Next</span>.</span>
+				 
+					<div class="fig fignone">
+						<br/><img class="image" src="../shared/../images/screenshots/cndesktop-addqcrepomapping2.png"/><br/>
+					</div>
+
+				
+				
+			</li>
+<li class="li step">
+				<span class="ph cmd">Select the components you want to map in  TeamForge and Quality Center.</span>
+				 The possible mappings are: <ul class="ul">
+					<li class="li">Quality Center defects with TeamForge Tracker artifacts</li>
+
+					<li class="li">Quality Center requirements with TeamForge Tracker artifacts</li>
+
+					<li class="li">Quality Center requirements with TeamForge planning folder artifacts
+						<div class="note note"><span class="notetitle">Note:</span> 
+							While it is possible to map Quality Center "folder like" requirement
+							types to TeamForge tracker artifacts, mapping the requirement
+							hierarchy to TeamForge planning folders is a better option. For more
+							information on planning folders and the advantages they offer, click
+							<a class="xref" href="http://help.collab.net/topic/teamforge530/faq/dynamicplanning.html" target="_blank">here</a>. You should map only
+							Quality Center requirement types that don't mainly act as "folders"
+							in Quality Center to TeamForge trackers. </div>
+</li>
+
+				</ul>
+
+				
+				
+			</li>
+<li class="li step">
+				<span class="ph cmd">Specify the TeamForge component ID.</span>
+				<ul class="ul choices">
+					<li class="li choice">If you chose to map a TeamForge planning
+						folder to Quality Center requirements, browse to a TeamForge project or enter its ID.</li>
+
+					<li class="li choice">If you chose to map a TeamForge tracker to Quality Center requirements,
+						browse to the tracker or enter its ID.</li>
+
+				</ul>
+                
+			</li>
+<li class="li step">
+				<span class="ph cmd">Specify the Quality Center domain and project names.</span>
+			</li>
+<li class="li step">
+				<span class="ph cmd">If you chose to map Quality Center requirements, browse to or enter a
+					Requirement type.</span>
+			</li>
+<li class="li step">
+				<span class="ph cmd">Click <span class="ph uicontrol">Finish</span>.</span>
+			</li>
+</ol>
+
+        <div class="section postreq"><div class="note note"><span class="notetitle">Note:</span> Initially, synchronization is paused and you have the chance to review the mappings. Expand a repository mapping direction to see its field mappings; when the field mappings are in place, activate the repository mapping by <a class="xref" href="cndesktop_connectorsync.html#connector_sync" title="By default, synchronization is paused while you set up repository mappings. You need to explicitly resume synchronization in order to start shipping artifacts.">resuming synchronization</a>.</div>
+</div>
+
+    </div>
+
+    
+<div class="related-links">
+<div class="familylinks">
+</div>
+</div>
+<div class="footer">
+
+<p align="center"><strong>Questions? Comments?</strong> <a href="http://desktop-eclipse.open.collab.net/ds/viewForumSummary.do?dsForumId=779" target="_new">Talk to other CollabNet Desktop users</a></p>
+<!--
+<form name="eMailer">
+<p align="center">Email this page to: 
+<input type="text" name="address" size="25"/>
+<input type="button" value="Send" onClick="mailThisUrl();"/></p>
+</form>
+--> 
+<hr/>
+<div class="fineprint">
+      <p> Copyright 2013 <a href="http://www.open.collab.net" target="_new">CollabNet
+            Corporation</a> | <a href="http://www.open.collab.net/servlets/SiteFeedback" target="_new">Site Feedback</a> | <a href="http://www.open.collab.net/legal/usageterms.html" target="_new">Terms of Use</a> |
+            <a href="http://www.open.collab.net/legal/privacy.html" target="_new">Privacy Policy</a>
+         | <a href="http://www.open.collab.net/legal/copyright.html" target="_new">Copyright and
+            Trademark</a> | <a href="http://www.open.collab.net/support" target="_new">Support</a>
+      </p>
+
+
+   </div>
+   
+<!--Start Google Analytics code-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1220409-8']);
+  _gaq.push(['_setDomainName', 'help.collab.net']);
+  _gaq.push(['_setAllowLinker', true]);
+  if(typeof(_vis_opt_GA_track) == "function") { _vis_opt_GA_track(); }
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+<!--Crazy Egg code-->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6318.js";
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+
+<!--Marketo integration starts here-->
+<script src="http://munchkin.marketo.net/js/munchkin.js" type="text/javascript"/>
+<script>mktoMunchkin("563-XAN-459");</script>
+
+
+</div>
+</body>
+</html>

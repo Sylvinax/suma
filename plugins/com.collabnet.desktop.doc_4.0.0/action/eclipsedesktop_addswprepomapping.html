@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="Add a repository mapping"/>
+<meta name="abstract" content="You configure a repository mapping to specify how the connector synchronizes TeamForge with the other participant in the integration. For this connector, you map TeamForge projects with ScrumWorks Pro products."/>
+<meta name="description" content="You configure a repository mapping to specify how the connector synchronizes TeamForge with the other participant in the integration. For this connector, you map TeamForge projects with ScrumWorks Pro products."/>
+<meta name="DC.Relation" scheme="URI" content="../action/cndesktop_swpconnector.html"/>
+<meta name="DC.Relation" scheme="URI" content="../faq/ccf_swptf_synctasks.html"/>
+<meta name="DC.Relation" scheme="URI" content="../faq/ccf_swptf_syncPBIs.html"/>
+<meta name="DC.Relation" scheme="URI" content="../faq/ccf_swptf_syncmetadata.html"/>
+<meta name="DC.Relation" scheme="URI" content="../reference/ccf_swptf_fieldmappingpbi.html"/>
+<meta name="DC.Relation" scheme="URI" content="../reference/ccf_swptf_fieldmappingtasks.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="eclipse-swprepomapping"/>
+<meta name="DC.Language" content="en-us"/>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="../css/onlinehelp.css"/>
+<title>Add a repository mapping</title>
+</head>
+<body id="eclipse-swprepomapping"><a name="eclipse-swprepomapping"><!-- --></a>
+
+
+    <h1 class="title topictitle1">Add a repository mapping</h1>
+
+    
+    
+    <div class="body taskbody"><p class="shortdesc">You configure a repository mapping to specify how the connector synchronizes
+        TeamForge with the other participant in the integration. For this connector, you map TeamForge projects with ScrumWorks Pro products. </p>
+
+        <div class="section context">As in previous releases of the CollabNet Connector Framework, ScrumWorks Pro
+            synchronizations use a fixed mapping schema that cannot be modified.
+        </div>
+
+ <ol class="ol steps"><li class="li step">
+         <span class="ph cmd">To add a repository mapping, right-click the ScrumWorks Pro connector site and
+             select <span class="ph uicontrol">Map projects</span>.</span>
+          
+             <p class="p">The mapping wizard is launched. The wizard lets you select the ScrumWorks Pro
+                 and TeamForge projects you want to synchronize and will setup the necessary
+                 TeamForge trackers for you. </p>
+
+         
+     </li>
+<li class="li step">
+         <span class="ph cmd">In the <span class="keyword wintitle">ScrumWorks Product</span> screen, select the name of the ScrumWorks Product to be mapped. To add existing users of the selected ScrumWorks product to TeamForge, check the box for <span class="ph uicontrol">Create ScrumWorks product users in TeamForge</span>. Click <span class="ph uicontrol">Next</span>.</span>
+          
+              <div class="fig fignone">
+                  <br/><img class="image" src="../images/screenshots/eclipsedesktop-addswprepomapping1.png"/><br/>
+             </div>
+             
+         
+     </li>
+<li class="li step">
+         <span class="ph cmd">In the <span class="keyword wintitle">TeamForge Project</span> screen, select the name of the TeamForge project to be mapped to the ScrumWorks product specified in the prior step. To create a new project, check the box for “Create new project”. Click <span class="ph uicontrol">Next</span>.</span>
+          
+              <div class="fig fignone">
+                  <br/><img class="image" src="../images/screenshots/eclipsedesktop-addswprepomapping2.png"/><br/>
+             </div>
+          
+         
+     </li>
+<li class="li step">
+         <span class="ph cmd">In the <span class="keyword wintitle">TeamForge Trackers</span> screen, select the TeamForge Trackers to be mapped to ScrumWorks Product Backlog Items and Tasks.</span> 
+          <p class="p">By default, ScrumWorks Product Backlog Items and Tasks map to Trackers using the same terms in TeamForge, but it is possible to overwrite these terms. </p>
+
+              <ol class="ol" type="a">
+                 <li class="li">We recommend that you leave the option <span class="ph uicontrol">Map ScrumWorks Pro
+                     Point Person to TeamForge Assigned To User</span> unchecked.
+                     This will map the Point Person for Tasks in ScrumWorks Pro to the "Point
+                     Person" text field in TeamForge. This is the safest setting for all but
+                     the most expert users who have prepared their integrations to expressly
+                     avoid the pitfalls described below. </li>
+  
+                 
+                 <li class="li">Because the "Point person" field in ScrumWorks uses only ScrumWorks system usernames, whereas the "Assigned To" field in TeamForge uses only TeamForge system usernames, this setting will only work if your TeamForge and ScrumWorks user accounts for the project/product in question are exactly the same, character-for-character.
+                     <div class="p">
+                     <div class="cautiontitle">CAUTION:</div><div class="note caution">Select this option only if you are absolutely certain that all user accounts are identical between TeamForge and ScrumWorks, and moreover, that no artifacts being synchronized are assigned to users other than those whose account usernames are identical in both programs. Neglecting to ensure these conditions will result in inconsistent synchronization failures whose cause may be difficult to trace.</div>
+
+                     <div class="cautiontitle">CAUTION:</div><div class="note caution">If the ScrumWorks Product selected to be mapped in step 2 above was the "Sample Product", DO NOT select the checkbox here for <span class="ph uicontrol">Map ScrumWorks Pro Point Person to TeamForge Assigned To User</span>. The Sample Product contains historical Tasks assigned to users that are no longer in the system, and their absence in TeamForge will result in the failed synchronization warned of above.</div>
+
+                     </div>
+
+                 </li>
+  
+                 </ol>
+ 
+             
+             <p class="p"> Click <span class="ph uicontrol">Next</span>.</p>
+
+             <div class="fig fignone">
+                 <br/><img class="image" src="../images/screenshots/eclipsedesktop-addswprepomapping3.png"/><br/>
+             </div>
+
+          
+     </li>
+<li class="li step">
+         <span class="ph cmd">In the <span class="keyword wintitle">Mappings Preview</span> screen, the project mappings are summarized and the conflict resolution method for each is displayed. The default conflict resolution settings are recommended -- -- however, you may individually select the conflict resolution method for each project mapping.</span>
+          
+             <div class="fig fignone">
+                 <br/><img class="image" src="../images/screenshots/eclipsedesktop-addswprepomapping4.png"/><br/>
+             </div>
+
+          
+     </li>
+<li class="li step">
+         <span class="ph cmd">Click <span class="ph uicontrol">Finish</span>.</span>
+     </li>
+</ol>
+
+    <div class="section result">The specified mappings appear in the <span class="keyword wintitle">CollabNet Sites</span> view.
+       
+   </div>
+
+</div>
+
+
+
+<div class="related-links">
+<div class="familylinks">
+</div>
+<div class="relinfo relconcepts"><strong>Related questions</strong><br/>
+<div><a class="link" href="../faq/ccf_swptf_synctasks.html" title="The connector supports bidirectional synchronization of ScrumWorks Pro Tasks and TeamForge artifacts. All fields synchronize bidirectionally except for the task's parent.">How are SWP Tasks synchronized with TeamForge artifacts?</a></div>
+<div><a class="link" href="../faq/ccf_swptf_syncPBIs.html" title="The connector supports bidirectional synchronization of ScrumWorks Pro Product Backlog Items and TeamForge artifacts. Some fields synchronize birectionally, while others only synchronize from ScrumWorks Pro to TeamForge.">How are SWP Product Backlog Items synchronized with TeamForge artifacts?</a></div>
+<div><a class="link" href="../faq/ccf_swptf_syncmetadata.html" title="All meta-data, which includes teams, sprints, themes, and users, is only synchronized from ScrumWorks Pro to TeamForge. Meta-data usage within Product Backlog Items and Tasks are not always a bidirectional synchronization.">How is SWP MetaData synchronized with TeamForge artifacts?</a></div>
+</div>
+<div class="relinfo relref"><strong>Related reference information</strong><br/>
+<div><a class="link" href="../reference/ccf_swptf_fieldmappingpbi.html" title="Here are the field mappings for a ScrumWorks Pro Product Backlog Item to a TeamForge Tracker.">Mapping for ScrumWorks Pro Product Backlog Item and TeamForge Tracker</a></div>
+<div><a class="link" href="../reference/ccf_swptf_fieldmappingtasks.html" title="Here are the field mappings for a ScrumWorks Pro Task to a TeamForge Tracker.">Mapping for ScrumWorks Pro Task and TeamForge Tracker</a></div>
+</div>
+</div>
+<div class="footer">
+
+<p align="center"><strong>Questions? Comments?</strong> <a href="http://desktop-eclipse.open.collab.net/ds/viewForumSummary.do?dsForumId=779" target="_new">Talk to other CollabNet Desktop users</a></p>
+<!--
+<form name="eMailer">
+<p align="center">Email this page to: 
+<input type="text" name="address" size="25"/>
+<input type="button" value="Send" onClick="mailThisUrl();"/></p>
+</form>
+--> 
+<hr/>
+<div class="fineprint">
+      <p> Copyright 2013 <a href="http://www.open.collab.net" target="_new">CollabNet
+            Corporation</a> | <a href="http://www.open.collab.net/servlets/SiteFeedback" target="_new">Site Feedback</a> | <a href="http://www.open.collab.net/legal/usageterms.html" target="_new">Terms of Use</a> |
+            <a href="http://www.open.collab.net/legal/privacy.html" target="_new">Privacy Policy</a>
+         | <a href="http://www.open.collab.net/legal/copyright.html" target="_new">Copyright and
+            Trademark</a> | <a href="http://www.open.collab.net/support" target="_new">Support</a>
+      </p>
+
+
+   </div>
+   
+<!--Start Google Analytics code-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1220409-8']);
+  _gaq.push(['_setDomainName', 'help.collab.net']);
+  _gaq.push(['_setAllowLinker', true]);
+  if(typeof(_vis_opt_GA_track) == "function") { _vis_opt_GA_track(); }
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+<!--Crazy Egg code-->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6318.js";
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+
+<!--Marketo integration starts here-->
+<script src="http://munchkin.marketo.net/js/munchkin.js" type="text/javascript"/>
+<script>mktoMunchkin("563-XAN-459");</script>
+
+
+</div>
+</body>
+</html>

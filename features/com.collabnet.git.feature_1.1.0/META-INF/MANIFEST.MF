@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: feature.xml
+SHA1-Digest: LID1tL8RiO+SPIzi2kFne1pDlzE=
+
+Name: epl-v10.html
+SHA1-Digest: jmdXGJaceFQCUia/63jvxDO38U8=
+

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='com.ifedorenko.m2e.sourcelookup.repository' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1412384346801'/>
+    <property name='publishPackFilesAsSiblings' value='true'/>
+  </properties>
+  <mappings size='5'>
+    <rule filter='(&amp; (classifier=osgi.bundle) (format=packed))' output='${repoUrl}/plugins/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='6'>
+    <artifact classifier='osgi.bundle' id='com.ifedorenko.m2e.binaryproject' version='1.1.0.201409160038'>
+      <properties size='5'>
+        <property name='artifact.size' value='10668'/>
+        <property name='download.size' value='10668'/>
+        <property name='maven-groupId' value='com.ifedorenko.m2e'/>
+        <property name='maven-artifactId' value='com.ifedorenko.m2e.binaryproject'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ifedorenko.m2e.binaryproject.ui' version='1.1.0.201409160038'>
+      <properties size='5'>
+        <property name='artifact.size' value='10549'/>
+        <property name='download.size' value='10549'/>
+        <property name='maven-groupId' value='com.ifedorenko.m2e'/>
+        <property name='maven-artifactId' value='com.ifedorenko.m2e.binaryproject.ui'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ifedorenko.m2e.sourcelookup.feature' version='1.1.0.201409160038'>
+      <properties size='6'>
+        <property name='artifact.size' value='2730'/>
+        <property name='download.size' value='2730'/>
+        <property name='maven-groupId' value='com.ifedorenko.m2e'/>
+        <property name='maven-artifactId' value='com.ifedorenko.m2e.sourcelookup.feature'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ifedorenko.m2e.sourcelookup.pde' version='1.1.0.201409160038'>
+      <properties size='5'>
+        <property name='artifact.size' value='12784'/>
+        <property name='download.size' value='12784'/>
+        <property name='maven-groupId' value='com.ifedorenko.m2e'/>
+        <property name='maven-artifactId' value='com.ifedorenko.m2e.sourcelookup.pde'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ifedorenko.m2e.sourcelookup' version='1.1.0.201409160038'>
+      <properties size='5'>
+        <property name='artifact.size' value='92632'/>
+        <property name='download.size' value='92632'/>
+        <property name='maven-groupId' value='com.ifedorenko.m2e'/>
+        <property name='maven-artifactId' value='com.ifedorenko.m2e.sourcelookup'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ifedorenko.m2e.sourcelookup.ui' version='1.1.0.201409160038'>
+      <properties size='5'>
+        <property name='artifact.size' value='21902'/>
+        <property name='download.size' value='21902'/>
+        <property name='maven-groupId' value='com.ifedorenko.m2e'/>
+        <property name='maven-artifactId' value='com.ifedorenko.m2e.sourcelookup.ui'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Why is data not synchronizing between TeamForge and ScrumWorks Pro?"/>
+<meta name="abstract" content="There are many possible reasons why data is not synchronized. Below is a list of possibilities:"/>
+<meta name="description" content="There are many possible reasons why data is not synchronized. Below is a list of possibilities:"/>
+<meta name="DC.Relation" scheme="URI" content="../faq/tfconnector_swpconcepts.html"/>
+<meta name="DC.Relation" scheme="URI" content="../action/cndesktop_connectorsync.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="xxx"/>
+<meta name="DC.Language" content="en-us"/>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="../css/onlinehelp.css"/>
+<title>Why is data not synchronizing between TeamForge and ScrumWorks Pro?</title>
+</head>
+<body id="xxx"><a name="xxx"><!-- --></a>
+
+
+   <h1 class="title topictitle1">Why is data not synchronizing between TeamForge and ScrumWorks Pro?</h1>
+
+   
+ <div class="body conbody"><p class="shortdesc">There are many possible reasons why data is not synchronized.  Below is a list of possibilities: </p>
+
+    
+    <div class="section">The connector expects certain tracker field settings for PBIs and Tasks.  Manipulating the tracker field settings could invalidate the synchronization. You can reset the tracker field settings from the GUI, by selecting the 'Fix TeamForge trackers...' option from the  project or mapping type's context menu. </div>
+ 
+    <div class="section">Not all PBI and Task fields are <a class="xref" href="../reference/ccf_swptf_reference.html#swptf_refeence">synchronized from TeamForge to ScrumWorks Pro</a>.</div>
+ 
+    <div class="section">The connector does not synchronize deletions from TeamForge to ScrumWorks.  If you delete a Task in TeamForge, all attempts by the connector to update the deleted Task will go to the hospital.  To fix this, delete the identity mapping for the given Task in the GUI.  The next time the Task synchronizes from ScrumWorks Pro to TeamForge, the task will be created in TeamForge.</div>
+ 
+    <div class="section">Some data is reliant on other data to have synchronized.  For example, if you create a PBI and Task in ScrumWorks, the Task can not be created in TeamForge until after the PBI has been first created.  Resume all project mappings to ensure that nothing hinders the synchronization.</div>
+ 
+    <div class="section">If the CCFUser and/or the CCFResynch user are not Global Administrators in ScrumWorks, artifacts may not be synchronized because these users have insufficient permission to perform some functions. To avoid this, make sure that the CCFUser and CCFResynch user are Global Administrators in ScrumWorks. </div>
+
+ </div>
+
+ 
+<div class="related-links">
+<div class="familylinks">
+</div>
+<div class="relinfo reltasks"><strong>Related actions</strong><br/>
+<div><a class="link" href="../action/cndesktop_connectorsync.html" title="By default, synchronization is paused while you set up repository mappings. You need to explicitly resume synchronization in order to start shipping artifacts.">Synchronize artifacts</a></div>
+</div>
+</div>
+<div class="footer">
+
+<p align="center"><strong>Questions? Comments?</strong> <a href="http://desktop-eclipse.open.collab.net/ds/viewForumSummary.do?dsForumId=779" target="_new">Talk to other CollabNet Desktop users</a></p>
+<!--
+<form name="eMailer">
+<p align="center">Email this page to: 
+<input type="text" name="address" size="25"/>
+<input type="button" value="Send" onClick="mailThisUrl();"/></p>
+</form>
+--> 
+<hr/>
+<div class="fineprint">
+      <p> Copyright 2013 <a href="http://www.open.collab.net" target="_new">CollabNet
+            Corporation</a> | <a href="http://www.open.collab.net/servlets/SiteFeedback" target="_new">Site Feedback</a> | <a href="http://www.open.collab.net/legal/usageterms.html" target="_new">Terms of Use</a> |
+            <a href="http://www.open.collab.net/legal/privacy.html" target="_new">Privacy Policy</a>
+         | <a href="http://www.open.collab.net/legal/copyright.html" target="_new">Copyright and
+            Trademark</a> | <a href="http://www.open.collab.net/support" target="_new">Support</a>
+      </p>
+
+
+   </div>
+   
+<!--Start Google Analytics code-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1220409-8']);
+  _gaq.push(['_setDomainName', 'help.collab.net']);
+  _gaq.push(['_setAllowLinker', true]);
+  if(typeof(_vis_opt_GA_track) == "function") { _vis_opt_GA_track(); }
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+<!--Crazy Egg code-->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6318.js";
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+
+<!--Marketo integration starts here-->
+<script src="http://munchkin.marketo.net/js/munchkin.js" type="text/javascript"/>
+<script>mktoMunchkin("563-XAN-459");</script>
+
+
+</div>
+</body>
+</html>

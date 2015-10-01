@@ -1,0 +1,2565 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/commons-collections_3.2.jar,lib/dom4j_1.6.1.ja
+ r,lib/jaxen_1.1-beta-9.jar,lib/ScrumWorks-soap.jar
+Bundle-Name: CollabNet Connector Framework
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.eclipse.ui
+ .views,org.eclipse.ui.console,org.eclipse.core.resources,org.eclipse.
+ ui.ide,org.eclipse.core.filesystem,org.eclipse.ui.editors,org.eclipse
+ .ui.forms,org.eclipse.core.expressions,com.collabnet.ccf.api;bundle-v
+ ersion="1.0.0",com.collabnet.teamforge.api;bundle-version="6.1.0",com
+ .collabnet.desktop;bundle-version="3.0.3",com.collabnet.ee;bundle-ver
+ sion="3.0.0",org.apache.commons.httpclient;bundle-version="3.1.0",org
+ .apache.commons.codec;bundle-version="1.3.0",org.eclipse.core.net,com
+ .collabnet.ee.tracker.core;bundle-version="3.0.0",org.eclipse.mylyn.t
+ asks.core,org.eclipse.draw2d
+Bundle-Vendor: CollabNet
+Bundle-Version: 1.5.2
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.collabnet.ccf.ui.Activator
+Bundle-SymbolicName: com.collabnet.ccf.ui;singleton:=true
+Eclipse-RegisterBuddy: com.collabnet.webservices.common, com.collabnet
+ .teamforge.api
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsResultsD
+ ialog$ErrorsContentProvider.class
+SHA1-Digest: Nj/Y40Upq+eFt2ABGGjIAAs4lws=
+
+Name: icons/new_landscape_wizban.png
+SHA1-Digest: CT2adMMiFYNhat1h+ABO2lYwG9A=
+
+Name: icons/activate.gif
+SHA1-Digest: pp7DVQi4VPxE8WljjkuHegNo9Vk=
+
+Name: com/collabnet/ccf/ui/actions/CancelReplayHospitalAction.class
+SHA1-Digest: t+fkPGBZ6CtTwdpU1rxbMk4NuZE=
+
+Name: com/collabnet/ccf/ui/wizards/RenameFieldMappingWizardPage.class
+SHA1-Digest: bYWNV/3cl2FhYbneKDxc3UOk7/k=
+
+Name: com/collabnet/ccf/ui/actions/CopyFieldMappingTemplateAction.clas
+ s
+SHA1-Digest: YV1lMZErcb4vZQgJkarBBBqRG4g=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardConstantPage$
+ 3.class
+SHA1-Digest: ttQtA0K2IyPH/MYr7myuIRQXvME=
+
+Name: com/collabnet/ccf/ui/dialogs/TemplateAlreadyExistsDialog$2.class
+SHA1-Digest: qvZXPFJLW6WxHL2oN9EWyz0n4x8=
+
+Name: com/collabnet/ccf/ui/Activator$2.class
+SHA1-Digest: J0Nc4p7ZVOKWMZ9bHg7mucM4RNI=
+
+Name: com/collabnet/ccf/ui/actions/SetTaskPointPersonMappingOptionActi
+ on$1.class
+SHA1-Digest: xIuVUr8cdMV3yH1nWVRLTGxhumc=
+
+Name: com/collabnet/ccf/ui/actions/EditLandscapeAction$1.class
+SHA1-Digest: 1ZNVTr0pkclW1Az/UvO10WlWq14=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksSelectionDialog.class
+SHA1-Digest: GdhLSrbSpGjFoUTjK/oz1xIUN28=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$4.class
+SHA1-Digest: f4jD0FcL04YkHg+GHcvfaJQlAG0=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$1$1$2.class
+SHA1-Digest: x+bRcYBGES0QcObhzGg28DGE06o=
+
+Name: com/collabnet/ccf/ui/dialogs/ParticipantCredentialsDialog$1.clas
+ s
+SHA1-Digest: LG5frdfR+Au9ZbKo0mPnq3z6SmM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$10.class
+SHA1-Digest: p84zo0HEXkR9g6BxqtGmmq71r0A=
+
+Name: com/collabnet/ccf/ui/tf/TFArtifactMetaData$FIELD_TYPE.class
+SHA1-Digest: WRCXRdtc+dkNcf+Be21ELzshDwE=
+
+Name: com/collabnet/ccf/ui/swp/TeamForgeSwpPreferencesPage.class
+SHA1-Digest: r1jj9CbFQ0gYrW89yunncZy4AOM=
+
+Name: com/collabnet/ccf/ui/qc/RequirementTypeSelectionDialog$1.class
+SHA1-Digest: +sl6RHpyTam+iK07hwLTmKsaef0=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$5.class
+SHA1-Digest: NGBLW6cGumys67WhO5X2K3HkiGA=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$4.class
+SHA1-Digest: aWdzwoBnxXtCA2pdoKQ4GEnLeaY=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$5$1.class
+SHA1-Digest: DCwTotQIJxLMmhhzcVKBbjFbQM4=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$5.class
+SHA1-Digest: x/JnuyNpyiKHnuDmUsFMFhLexhM=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$2.class
+SHA1-Digest: EOg9xwuBDgKIpjLdUhgo7Sq2uhg=
+
+Name: scripts/getQCDomains.vbs
+SHA1-Digest: wykyBNMICHAJHam1GMDADYqdxec=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$5$1.class
+SHA1-Digest: KjUJs5zmTnND6QFYEZauF7f5QrU=
+
+Name: com/collabnet/ccf/ui/tf/TFSoapClient.class
+SHA1-Digest: mHVyIQTfnUcy6zsfmsnQEY8FfEA=
+
+Name: com/collabnet/ccf/ui/actions/ChangeRepositoryMappingAction$1$1.c
+ lass
+SHA1-Digest: 5kgxMhaWzsusSvoa0n2c4snpDc4=
+
+Name: com/collabnet/ccf/ui/qc/RequirementTypeSelectionDialog$2.class
+SHA1-Digest: pyQm6AiG0GyUuPQfCAcgq8wAB4g=
+
+Name: xslt/QC2TF/Repository2GenericArtifact.xsl
+SHA1-Digest: g1eAhPtddITe8GulM5SvWTZAue4=
+
+Name: com/collabnet/ccf/ui/actions/LogFileEditorAction$1.class
+SHA1-Digest: gNJF6qEh6CjXF8EnSnmLOk+6bSU=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifact.class
+SHA1-Digest: AtHQtdrNY7gs2ZLqH8j6B4uxmbk=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeTracke
+ rPage$2.class
+SHA1-Digest: rPmcJSddm6tSYAd+uz41iVST208=
+
+Name: com/collabnet/ccf/ui/swp/SWPMetaData$SWPType.class
+SHA1-Digest: ty3XLOinyUeq6oMNd7xVFmMv/3Y=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$3.class
+SHA1-Digest: 1KTxXi3GUrrF7Aejoq1kKMLJbzg=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$3$1$1.class
+SHA1-Digest: n0J0IHV+SiAKZ9QM4MUzILjb/cE=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$4.class
+SHA1-Digest: k/FBgQO5Pql5Ai9R+i2YZKWpuwc=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor.class
+SHA1-Digest: C0ZxjIEKVCmgvHZFq7vXSKZcp/U=
+
+Name: com/collabnet/ccf/ui/CcfSiteProvider$1.class
+SHA1-Digest: RCDuvuNeKL6nGxQLk0OgLysJ5Jg=
+
+Name: com/collabnet/ccf/ui/actions/MapUsersAction.class
+SHA1-Digest: oegTzXq/w4KdtvETt1MBPFreI3o=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$5.class
+SHA1-Digest: TQn6Io3DlZ9UvVoCrJB4aLsXDVg=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$MappingRule
+ sDragSourceListener.class
+SHA1-Digest: wXt4IcFtA1Y+kLgcD0odvHDU1K8=
+
+Name: icons/hospitalEntry_outdated.gif
+SHA1-Digest: t3ROji7MhAzHVvrzy0+QsbS8sG4=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapEntryDialog$3.class
+SHA1-Digest: d8oe/3ImFzxv7ARTwBzYn61dR1E=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifact$ArtifactTypeValue.clas
+ s
+SHA1-Digest: suppKg+kWml7qCO/7F6uc8javpI=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeTracke
+ rPage$1.class
+SHA1-Digest: bWRcAnuZUlQxgz35w5LwWJDyMeM=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizard.class
+SHA1-Digest: LGAx3K3lyw9TOos97Mt7bbmSdtw=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog$5.class
+SHA1-Digest: 174qaHh/6x2sXbnvVI31ZbZcNgU=
+
+Name: com/collabnet/ccf/ui/editors/CcfCcfEditorPage$4.class
+SHA1-Digest: W+gaJ1lyHCXMJ0e+yj4kJmCVuUQ=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage.class
+SHA1-Digest: 2MHeWBSVoPydbD1gMxwuASLkJD8=
+
+Name: com/collabnet/ccf/ui/wizards/FixTrackersWizardPage$TrackerProble
+ mContentProvider.class
+SHA1-Digest: go4MSbaE6zRM9apCiaZY9EkJZWc=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardFil
+ ePage$2.class
+SHA1-Digest: QPVfq5DorbWXG3VAFUIBy5snGsg=
+
+Name: icons/xslt16.png
+SHA1-Digest: 0cY5SOIt0+1w3f0NWy6ou67cyLA=
+
+Name: com/collabnet/ccf/ui/actions/SetTaskPointPersonMappingOptionActi
+ on.class
+SHA1-Digest: ZRO1Sp9o81AYxNrqrG+g3ZkdOkU=
+
+Name: lib/dom4j_1.6.1.jar
+SHA1-Digest: 2+utkE+iBzYov8TcCWQyZN5xVzM=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyFieldMappingTemplateDialog.clas
+ s
+SHA1-Digest: SBpqtTHVyc4RK+Q+H1oVZN5jiZE=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$IdentityMappingDr
+ opAdapter.class
+SHA1-Digest: owb7VnW8HtId/8r0y4qeclMtsiw=
+
+Name: com/collabnet/ccf/ui/preferences/ConsolePreferencePage$1.class
+SHA1-Digest: OeFDBBI2XAIu+pcOHdD8EYWzwM0=
+
+Name: icons/warning.gif
+SHA1-Digest: B813ktKtSfZ54krEOlrcTF6r6+A=
+
+Name: com/collabnet/ccf/ui/actions/FixTrackersAction$1.class
+SHA1-Digest: iRMuWi9F6eFSyRYrxModg/x3tpI=
+
+Name: icons/arrows.png
+SHA1-Digest: h/aUq7QoRIM4gLKUvRrUnoc2toY=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$2$1.class
+SHA1-Digest: vRPtvXvYnENlLSGxzrIY3KBY9xQ=
+
+Name: xslt/QC2TF/GenericArtifact2RepositorySchema.xsl
+SHA1-Digest: lvh3/RdlHha6wTj7VFkLDmzScFA=
+
+Name: scripts/getQCRequirementFieldsPre23.vbs
+SHA1-Digest: m4jotw91XHNu2DnFLbHtR6v3k8Y=
+
+Name: com/collabnet/ccf/ui/dialogs/TemplateAlreadyExistsDialog.class
+SHA1-Digest: SpQTtGaOx+0tao9mw+wTttUOp/c=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$5.class
+SHA1-Digest: PrjRZFT2flYJHcHzwCBwDEPMzFw=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$3.class
+SHA1-Digest: G0iBIcu6mvSesVrIx2jNxMWaEmQ=
+
+Name: com/collabnet/ccf/ui/actions/MigrateRepositoryMappingsAction.cla
+ ss
+SHA1-Digest: Qz2Vu0R0yYtPxlrS2J1qREvpsjs=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeTeamsSprintsWizard$1.cla
+ ss
+SHA1-Digest: XwzdwziRmI4I0u2dLsi9VVGTwEg=
+
+Name: icons/landscape.gif
+SHA1-Digest: Ghj9SQaJ6vJj8hRCpmwiAfHF1uI=
+
+Name: icons/swp_pbi.png
+SHA1-Digest: /HKcxtO18CnXUc1+k06X6OKGrAs=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeMappingSection$1.class
+SHA1-Digest: fFMiI/f5Zbjlx/IvdDQDAVd29Gk=
+
+Name: com/collabnet/ccf/ui/wizards/FixTrackersWizardPage$2.class
+SHA1-Digest: UTgfDGlrT9la8K1j1iPYAQCIhEs=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardProgressMonit
+ orPart.class
+SHA1-Digest: 3TYvtBJzP0Bm+6Vg+YBJJGbkWLg=
+
+Name: com/collabnet/ccf/ui/preferences/FieldMappingsPreferencePage$1.c
+ lass
+SHA1-Digest: 6rDyrHY3J8alA2WrI67LwMCUZGI=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeRepositoryMappingDialog$Confi
+ gLabelProvider.class
+SHA1-Digest: CmO+xo2EgV917t3iLr7BtnV+sP0=
+
+Name: com/collabnet/ccf/ui/schemageneration/FieldNameAmbiguityDissolve
+ r.class
+SHA1-Digest: 2Dkoi7547QL0rLde6ISeZPxNiQ0=
+
+Name: icons/xslt_document.gif
+SHA1-Digest: Z8X539OW9335nMNLLgLjpwmrj+g=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage.class
+SHA1-Digest: UbB0SBYJ74P7VJDFkpofQjDBr7k=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterConnectionTester$1.class
+SHA1-Digest: IJOYZiux3miVG7X/cwT1vF5wlTk=
+
+Name: com/collabnet/ccf/ui/dialogs/ResetProjectMappingDialog.class
+SHA1-Digest: gN164xivGvixNWEr+1CTWTgscHA=
+
+Name: com/collabnet/ccf/ui/actions/ExportFieldMappingTemplateAction.cl
+ ass
+SHA1-Digest: I2ELdFgBFsrXACbDpnr+cQuvuWE=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardSwpProductPage$
+ 2.class
+SHA1-Digest: TbbKxlieNVrUjQR/ZR0/SWgOYtw=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$IdentityMappingSo
+ rter.class
+SHA1-Digest: vuMb/dLr8ZUf0q30F65l1CZOPao=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$1$1.class
+SHA1-Digest: pp7I9iJbeNJajhQcLiDTlC2Adcs=
+
+Name: xslt/TF2QC/Sample_TF_PlanningFolder_2_QC_Req.xsl
+SHA1-Digest: BUtpoUOtN1mPPj+QJH8OfmlAKPA=
+
+Name: com/collabnet/ccf/ui/dialogs/RenameFieldMappingTemplateDialog$2.
+ class
+SHA1-Digest: qZRJQklInWIb1nYj2vFUBWX02zk=
+
+Name: com/collabnet/ccf/ui/editors/HospitalExceptionEditorPage$1.class
+SHA1-Digest: vedAQbxcF/1aJwX75s/eLXXq37U=
+
+Name: com/collabnet/ccf/ui/dialogs/ResetProjectMappingDialog$2.class
+SHA1-Digest: Bn2g9rI+keDZnzrn6XWGHHhSxtQ=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog$2.
+ class
+SHA1-Digest: 4wyB/kcWH0wseu8+dUXPTWrqRh0=
+
+Name: com/collabnet/ccf/ui/fieldmapping/IFieldMappingWizard.class
+SHA1-Digest: QDBO+Wc+EzHCWONkl96KcdE/EGY=
+
+Name: com/collabnet/ccf/ui/editors/HospitalExceptionEditorPage$2.class
+SHA1-Digest: bFH1cypU/c41s88u0yKx9c5j4rw=
+
+Name: com/collabnet/ccf/ui/qc/RequirementTypeSelectionDialog$3.class
+SHA1-Digest: wBLWo37g8m7cJDIDbO4ooWfvQuY=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterPreferencesPage.class
+SHA1-Digest: wntqFIl2YGaYHTJxqq5UYGr73eM=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterPreferencesPage$1.class
+SHA1-Digest: DuK1HLTmoKFNNxH7l69DCg31n40=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizard$3.class
+SHA1-Digest: 1AzUKhYr3C4y4WmT2n2l5Yu0Fxo=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider$3.class
+SHA1-Digest: TVfTDS8+T1VE7W4WPN8bG63NgkQ=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$5.class
+SHA1-Digest: V3+ONDFPiFRMjsgEAwc9avmMf+g=
+
+Name: icons/question_ov.gif
+SHA1-Digest: oiY8PPwd/i8BIlDG7D4Vs5XDCaA=
+
+Name: icons/swp_theme.gif
+SHA1-Digest: mUtH6JOLdcPH0zYHzxxaDo/tNgE=
+
+Name: com/collabnet/ccf/ui/wizards/NewLandscapeWizardMainPage$1.class
+SHA1-Digest: FKoVq+2LC9HXaSDvisdpXzJ3NmY=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$EditAction.
+ class
+SHA1-Digest: mMAe77XY/bPySwRo3FDf6JgyuiY=
+
+Name: com/collabnet/ccf/ui/editors/HospitalEditorPage.class
+SHA1-Digest: 5vhS4Cq7hucr9VkNJammz097R08=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$15.class
+SHA1-Digest: 62Bz/HPccPG2j7VWmc4pmBB7JuI=
+
+Name: com/collabnet/ccf/ui/FieldMappingExternalAppTemplatesSite.class
+SHA1-Digest: 0YnfB+pcrC1n/TJnhEzXzCrHv64=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$6.cl
+ ass
+SHA1-Digest: BdfGFsItevfq6/sTKpOWKKXTI24=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizardMainPage$2
+ .class
+SHA1-Digest: caUW52s6pkE4VH/dAOhT4rTROic=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizard$SnippetError
+ Handler.class
+SHA1-Digest: fzVXMK3pkv/Shr7JFRxkmS9LUMU=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksCcfParticipant.class
+SHA1-Digest: 9FR2vtpcNGhyErcGqU7XAOGSy6E=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$DomainProje
+ ctLabelProvider.class
+SHA1-Digest: rMuMh+tGbj5F5Q1kOk2ktSlwEHo=
+
+Name: icons/edit.gif
+SHA1-Digest: kzw8BMTGd9q7XInpj3tqf5FkLjg=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$8.cl
+ ass
+SHA1-Digest: IgbdN6JQlfDBVUDuFWIC6utFsS0=
+
+Name: com/collabnet/ccf/ui/CcfLandscapeSite$2.class
+SHA1-Digest: xnOyUgeygga+EZ5VygCwXqfZ7us=
+
+Name: icons/nav_backward.gif
+SHA1-Digest: f366O6a4y2hpwMQ8I9u7aC+a+Zs=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage$ProjectsContentProvider.class
+SHA1-Digest: cwgY7PsB4HmmcdJ/N6w/Qmdvg3s=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardSwpProductPage.
+ class
+SHA1-Digest: UvYx1agaPqvzzS3N8Nzl53Y67X0=
+
+Name: com/collabnet/ccf/ui/wizards/NewRepositoryMappingWizard.class
+SHA1-Digest: aqqCoqj32zP8j92eItiBpK2BNPU=
+
+Name: com/collabnet/ccf/ui/actions/ChangeRepositoryMappingAction.class
+SHA1-Digest: ijTVmpn3ToomPYVvEbUC1WgNvzQ=
+
+Name: icons/custom_mapping.gif
+SHA1-Digest: Kp8n/VKFCRiZG0WATxoUzX+l+Ww=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardSou
+ rcePage$1.class
+SHA1-Digest: LVtfT3lpC64T7y/5VRm9OioBe7I=
+
+Name: com/collabnet/ccf/ui/IRepositoryMappingDirectionWithEditableFiel
+ dMappings.class
+SHA1-Digest: ub4rL+5N3CNzfrTJF1rdTNktuo8=
+
+Name: icons/log.gif
+SHA1-Digest: OTIaEAHeJKMlx0H/h+IV9QXx9kE=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeTeamsSprintsWizardPage$1
+ .class
+SHA1-Digest: Ok0FwF0OG7WdqeN+yuFTeHg2bjE=
+
+Name: com/collabnet/ccf/ui/actions/MigrateRepositoryMappingsAction$1$2
+ .class
+SHA1-Digest: 8oxmvAHbMtGXNe1ogumaEpVUEwE=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$DomainProje
+ ctSelectionLabelProvider.class
+SHA1-Digest: 8Yql+ye8lyWWE7vjXQD2aY02uvE=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeTeamsSprintsWizard.class
+SHA1-Digest: 89Ti9KKPFib3gRSZmwghcKMeMzU=
+
+Name: com/collabnet/ccf/ui/actions/DeleteFieldMappingTemplateAction.cl
+ ass
+SHA1-Digest: VPl8hAMHKv59YHzUGx46j/F5QR4=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$2.cl
+ ass
+SHA1-Digest: 6DAdgI6MKxltXh3yoKPp8kUkXCI=
+
+Name: plugin.properties
+SHA1-Digest: Ymm1WQi9uBixhGyhvwWDxMOURK8=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeTracke
+ rPage$3.class
+SHA1-Digest: hUYbhEf0o6DcbbCYQJ45qUgCvC8=
+
+Name: com/collabnet/ccf/ui/actions/NewRepositoryMappingAction$1.class
+SHA1-Digest: xZMSIJL2mqoy+KTQNUzsibgcvi8=
+
+Name: com/collabnet/ccf/ui/swp/SwpRepositoryMappingVisibilityChecker.c
+ lass
+SHA1-Digest: xNveR2XcJzWLK0XukFO4dxBHJx0=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$1.class
+SHA1-Digest: q2r2eiKBv30ii4KoixtFpsPjrCo=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$7.class
+SHA1-Digest: kUM0f2CZAk6AG14p4eMxjKQNUhw=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$ToolTipSupp
+ ort.class
+SHA1-Digest: n1rgd8Qy/BouSZ8ECdujG45pILE=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$2.class
+SHA1-Digest: z+OVtGLpPLPQn45Y2tAqhEsCLIk=
+
+Name: icons/logs.gif
+SHA1-Digest: axz+xTFHl5kkik96c7m8GLLba+w=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifactHelper.class
+SHA1-Digest: smmjndw3zw/AV3QleH93bqO4yyo=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardSel
+ ectionPage$ExportFieldMappingTemplateLabelProvider.class
+SHA1-Digest: eJN1oM+IOxrdUit9G3O6kNZxRtc=
+
+Name: com/collabnet/ccf/ui/console/CcfConsole$1$1.class
+SHA1-Digest: Rx3tzwNLMBMVRW3nxxYCWRzziLE=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$10.class
+SHA1-Digest: Tvs3thKSDEqzg9oYkbkEVF0Q8pQ=
+
+Name: com/collabnet/ccf/ui/editors/CcfCcfEditorPage$1.class
+SHA1-Digest: /LqTYb6vJF5wNZxXUtnySO227vQ=
+
+Name: icons/logo_qc.png
+SHA1-Digest: MY3EiOveL2r60fC1cAgzegWR0Ns=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizardMainPage.c
+ lass
+SHA1-Digest: YoCKfXjgGhZ3HjYJ7D7mKte5YsE=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizardMainPage$2.cla
+ ss
+SHA1-Digest: 2JguGJETgxkIS/T1g5WBKuAT5pw=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapEntryDialog$1.class
+SHA1-Digest: pMxO+zvzzp5fp/fMoEXgNVLj0+E=
+
+Name: scripts/validateQCDomainAndProject.vbs
+SHA1-Digest: 4rxqXUOoR8c+pFexBQjj1Vot420=
+
+Name: com/collabnet/ccf/ui/editors/CcfEditorInput.class
+SHA1-Digest: cwbcPchBMIIg7Hcf010JaE16F8k=
+
+Name: com/collabnet/ccf/ui/swp/MapProjectsHandler.class
+SHA1-Digest: 1IU8fJaKsOB5s8mjsPWiiRu4iH0=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeRepositoryMappingDialog.class
+SHA1-Digest: 68Li9BThkmIF7387DJXCBjIsGWc=
+
+Name: com/collabnet/ccf/ui/actions/NewFieldMappingAction.class
+SHA1-Digest: hpr8y6UTFtrc9PaO7rcKZGsHYIA=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$NewValueMap
+ Action.class
+SHA1-Digest: XZCDdk3eXmonoaBUkQaQh4FU7cc=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardSwpProductPage$
+ 1.class
+SHA1-Digest: /BHtBW5A0H8LcVmcq083hp4PHEQ=
+
+Name: com/collabnet/ccf/ui/actions/RenameFieldMappingAction.class
+SHA1-Digest: rmOvTvLYtyQm/SQpoTnm7zExCoc=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardMainPage$6.cl
+ ass
+SHA1-Digest: +xDux7zKETp9nsk9F1wBEK9+kk4=
+
+Name: com/collabnet/ccf/ui/CcfLandscapeSite$3.class
+SHA1-Digest: Mp+ySL8yp1T4Ys858Dyxlx9sDWE=
+
+Name: icons/logo_tf.png
+SHA1-Digest: rTt+K36fiRkZtsBhSkwQqmd9SLE=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$RefreshAction.class
+SHA1-Digest: jToBHUN3aljj3uBe13fq4X0HIpA=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$2$2.class
+SHA1-Digest: fa1Y+aYACDpG2qoH2FmMxB6nqXI=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider$1.class
+SHA1-Digest: 067PzPQwzjgu/K0qa71tfDnDEYU=
+
+Name: com/collabnet/ccf/ui/swp/ProjectMappingsPropertyTester.class
+SHA1-Digest: ANGJTZa7QGLMUkr09me8FbGIh9g=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksSelectionDialog$ProductsConte
+ ntProvider.class
+SHA1-Digest: HsS9R0HRaWuzr2/A8/sz6qMuKNE=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingActionBarContribut
+ or.class
+SHA1-Digest: 82ceD5RBUcp0UgC9RqhiZd+rUdI=
+
+Name: com/collabnet/ccf/ui/wizards/MapUsersWizardPage.class
+SHA1-Digest: tirt3ewW/OZjz3SXkQbNa5tLNlM=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider$3.class
+SHA1-Digest: ZQY4kHHlZ0ZfBVViQqJuhnm0Be0=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$1.class
+SHA1-Digest: WCL+H41HsDu+paJPg9xY7BvvkHM=
+
+Name: com/collabnet/ccf/ui/wizards/NewLandscapeWizardConfigurationPage
+ $1.class
+SHA1-Digest: tk3GdPfxfI3MqvuZdOhDtPsEXcc=
+
+Name: com/collabnet/ccf/ui/actions/DeleteFieldMappingTemplateAction$1.
+ class
+SHA1-Digest: BlJ+eRP6MNlzUaB5PLHni12OgoM=
+
+Name: com/collabnet/ccf/ui/CcfConnectorSite.class
+SHA1-Digest: q+fYV4LyF8t7+rNkdcgoqzcZemA=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizard$1.
+ class
+SHA1-Digest: /DYPsyPYaN1phBfwIBxHFOYnW0o=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage$2.class
+SHA1-Digest: iCMx+YLxgMwl+DdEWUy2UG/mmK8=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$1.class
+SHA1-Digest: HU11RZf5oI+HxNNSXIwb4KUefmI=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard.class
+SHA1-Digest: zCK5AoeoJVWn+tEbK2zOgWFnq6s=
+
+Name: com/collabnet/ccf/ui/CcfIntegratedAppChildSiteProvider.class
+SHA1-Digest: MTCI6/BaUakS/mwNovYTL7yuFn4=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksMappingSection$1.class
+SHA1-Digest: 9eGXP6xhWO2CKfKAhikcPtaqfaI=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$6.class
+SHA1-Digest: S2bZD8jCsbPw9Kle3nB0Fnjt8cM=
+
+Name: com/collabnet/ccf/ui/FieldMappingTemplatesSite.class
+SHA1-Digest: oPYyHi/aOfiwT2Pt350ZubCUNiY=
+
+Name: com/collabnet/ccf/ui/actions/NewRepositoryMappingAction.class
+SHA1-Digest: cBqwohrzjJD5f9GYE8IAO8PokPk=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingActionBarContributor
+ .class
+SHA1-Digest: A+URjV+J8DQRoRI+W6S+3370wEY=
+
+Name: xslt/TF2QC/Repository2GenericArtifact.xsl
+SHA1-Digest: GVwbulkQBlZFL9yjsYyYeWBg1UM=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$3.cl
+ ass
+SHA1-Digest: wYg0j1+ndWam9njs0mlDIdPasWg=
+
+Name: icons/hospitalEntry_replayFailed.gif
+SHA1-Digest: 0pzFz48G6Dhf47uSXGCx405aNfM=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeConnectionTester.class
+SHA1-Digest: C3tVLKxzoAWwCR6opp2rPZnJm4c=
+
+Name: com/collabnet/ccf/ui/actions/ExaminePayloadAction.class
+SHA1-Digest: c53+DzKIct5Z6LLGnoeRZWUeYr4=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$14.class
+SHA1-Digest: rsebDzy+9JPfWsr399YWH8goWZw=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizardFinishPage
+ .class
+SHA1-Digest: 61KruM+a7Lh1gHUt61Ep4jX9r0k=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$4.class
+SHA1-Digest: mJ0s+nahTloaa/B6pOc6rC9NBWI=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifactField$FieldValueTypeVal
+ ue.class
+SHA1-Digest: 52YIx+Ud2XgPxOsCppecL+L7Upc=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizard$1.class
+SHA1-Digest: p8d8Qd8Q5JhDHJc6V518K7PqY04=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardTar
+ getPage.class
+SHA1-Digest: PsEwHAiVbeA4rFGHqMl+StyV194=
+
+Name: com/collabnet/ccf/ui/actions/DeleteIdentityMappingAction.class
+SHA1-Digest: 905cH3ra6xdbQ6+XYiRsz2QfhUs=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$ValueMapCon
+ tentProvider.class
+SHA1-Digest: SEN+YjCWHVNNkRflzUAB3OxhXgQ=
+
+Name: com/collabnet/ccf/ui/preferences/FieldMappingsPreferencePage.cla
+ ss
+SHA1-Digest: 4C0gpx4UuGmyL7dLCr3Csyx6QfE=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardMainPage$5.cl
+ ass
+SHA1-Digest: Jl5lHeLqwGYW2e2VYILu6f9w6c8=
+
+Name: com/collabnet/ccf/ui/actions/PauseSynchronizationAction.class
+SHA1-Digest: yT8vcDPIqY7t2xPMlmZp3bShHNM=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog.cl
+ ass
+SHA1-Digest: XNg2stydf2i+pr/e2f1ISwBppT8=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardSel
+ ectionPage$2.class
+SHA1-Digest: ZHMx7xZZpJB/LedBx3+GidMeRpo=
+
+Name: com/collabnet/ccf/ui/IPageCompleteListener.class
+SHA1-Digest: NsJcZnwaukFv3mBAck1OoeWZdS4=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$1.class
+SHA1-Digest: M9+HVDa+Qbtqg80s6lt729sQbl8=
+
+Name: com/collabnet/ccf/ui/IConnectionTester.class
+SHA1-Digest: hqOzNd9Ux++J+wUBNCO0bJpQ5s4=
+
+Name: com/collabnet/ccf/ui/dialogs/RenameFieldMappingTemplateDialog$1.
+ class
+SHA1-Digest: a3v9UG7ZJfl3HhUY5ttcdpzGJOo=
+
+Name: com/collabnet/ccf/ui/editors/HospitalDetailsEditorPage$4.class
+SHA1-Digest: oHqPBN/AZwb313jgTlhEa0voh6E=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage.class
+SHA1-Digest: ZcwbBeFQEgweMpkC3My3BWO5mj4=
+
+Name: icons/swp16.png
+SHA1-Digest: NCfNC7HcLGKMjNJdq2vWA4EopjU=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$4.class
+SHA1-Digest: SYcSMB70t6PXN1cEs3yzvukT+qU=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$5.cl
+ ass
+SHA1-Digest: zkCmEYHzxZ61no7R3XKuvrM1dYg=
+
+Name: com/collabnet/ccf/ui/actions/ActivateFieldMappingAction$1.class
+SHA1-Digest: IcSfp2oUrO9BGow3UdiHG3aUMg4=
+
+Name: com/collabnet/ccf/ui/Messages.class
+SHA1-Digest: HN4zwOOH+pDq8GXrEp51kAftWIY=
+
+Name: com/collabnet/ccf/ui/SwpRepositoryMappingsSite.class
+SHA1-Digest: MfrkTmpjr5ok8jSHssTSV0TDTeQ=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$NewValueMap
+ EntryAction.class
+SHA1-Digest: kWm4BSTi0+/gVEb8QowIIKciSTs=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardFieldMappingP
+ age$2.class
+SHA1-Digest: VrTMh740MVdLDhe4ix+k5O33Kj4=
+
+Name: com/collabnet/ccf/ui/wizards/FixTrackersWizardPage$TrackerProble
+ mLabelProvider.class
+SHA1-Digest: 2UJqGbSXHI8gsHuROe5jeTmC+to=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$3.class
+SHA1-Digest: OJN/NcAApcpje9l5ZHMSZNVfON4=
+
+Name: com/collabnet/ccf/ui/actions/DeleteIdentityMappingsAction$1.clas
+ s
+SHA1-Digest: 7/epl6KCv5SWSb60tygph62ISpc=
+
+Name: com/collabnet/ccf/ui/CcfSchedulingRule.class
+SHA1-Digest: kuXG6zeUw9nEzbVZnQIBTywpv1k=
+
+Name: com/collabnet/ccf/ui/preferences/ColumnChooserPreferencePage$3.c
+ lass
+SHA1-Digest: oC+ntfkFUW/7vcRQRZD204DMo2s=
+
+Name: com/collabnet/ccf/ui/dialogs/HospitalFilterDialog.class
+SHA1-Digest: Dw6D5c2bz8wB/5ba0yqLnHhgcKQ=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$23.class
+SHA1-Digest: DsC+yrH2LqLv1PwvGp8aIn+7ZG4=
+
+Name: com/collabnet/ccf/ui/wizards/NewRepositoryMappingWizardMainPage.
+ class
+SHA1-Digest: SJFu274DvfGF5Az4YqHDgOdMk+k=
+
+Name: icons/console.gif
+SHA1-Digest: zUZzXRRtecdO63atvZ4XveqZ878=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifact$IncludesFieldMetaDataV
+ alue.class
+SHA1-Digest: KERme3a+cIvz8iR3akXpyLTSjPo=
+
+Name: scripts/validateQCDomainAndProjectAndRequirementTypePre23.vbs
+SHA1-Digest: b3CoCB5Seyw88sULJPrOyaL/5dw=
+
+Name: com/collabnet/ccf/ui/editors/HospitalExceptionEditorPage$3.class
+SHA1-Digest: MTX0EOXxdmYV6dbtpOddODrrl3c=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$AddAction.c
+ lass
+SHA1-Digest: gUXqLZirintryrWEcW4gXyFHDsc=
+
+Name: com/collabnet/ccf/ui/actions/LogFileEditorAction$1$1.class
+SHA1-Digest: O3+nGIS0Bcd4stKpnFwCxf0/uFs=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardDoc
+ umentPage.class
+SHA1-Digest: eReDJ7pn+VGT8HmuRvITB4GedBc=
+
+Name: com/collabnet/ccf/ui/actions/CopyToFieldMappingTemplateAction$1.
+ class
+SHA1-Digest: IYZGifW7TxN6Y4vUnYK/LU7dJXY=
+
+Name: com/collabnet/ccf/ui/wizards/MapUsersWizard.class
+SHA1-Digest: w9mEyILlRM6U41uiHUylzHD2u94=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksMappingSection$3.class
+SHA1-Digest: /i0kZoI7tkVezTrxy+kisMwn+po=
+
+Name: xslt/TF2QC/GenericArtifact2Repository.xsl
+SHA1-Digest: vPp6Q5a96CmbsDw5DsI5EPFiVOg=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifact$ArtifactActionValue.cl
+ ass
+SHA1-Digest: 3y9KW6p54wEqbYUqkPAcCu987Hg=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardSou
+ rcePage.class
+SHA1-Digest: JUSNcTfIbiKPoFfejt/smMIXPZc=
+
+Name: com/collabnet/ccf/ui/actions/SynchronizeThemesAction$1.class
+SHA1-Digest: Drh1WV6l8baRl5++RxdCLMEjDxY=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$FilterAction.class
+SHA1-Digest: 6ty9jrKgP4rw9KX+faLAIMHovP4=
+
+Name: com/collabnet/ccf/ui/actions/CopyToFieldMappingTemplateAction.cl
+ ass
+SHA1-Digest: DVX8duafZbEX1e5mukgq5LFi7Mg=
+
+Name: com/collabnet/ccf/ui/CcfConnectorSite$1.class
+SHA1-Digest: k58oaSaX3+axgg4PxeKYNSBfyYk=
+
+Name: com/collabnet/ccf/ui/wizards/NewRepositoryMappingWizard$2.class
+SHA1-Digest: BkcKLh7LCegKMRNHw9BZFnN7W7Y=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$FilterAction.clas
+ s
+SHA1-Digest: y/6Rx8f/eDheo9jHfaf1IOVaRnQ=
+
+Name: com/collabnet/ccf/ui/wizards/RenameFieldMappingWizard.class
+SHA1-Digest: zIAYauisdv8LErTZOicMhYLSScg=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardMainPage$3.cl
+ ass
+SHA1-Digest: 13nXfgdyk6t+pLeSY8DBAPVR1kw=
+
+Name: com/collabnet/ccf/ui/actions/ChangeRepositoryMappingAction$1.cla
+ ss
+SHA1-Digest: MiurMR5DmMI5aA/4vXtNNTeWqHE=
+
+Name: com/collabnet/ccf/ui/RepositoryMappingSite.class
+SHA1-Digest: tn8HI029hnc7AU9WyZ1mNkN4lbo=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardProgressMonit
+ orPart$1.class
+SHA1-Digest: LCT0aMyPq7RUT97P8ouzUH80YbA=
+
+Name: com/collabnet/ccf/ui/actions/ExaminePayloadAction$CloseListener.
+ class
+SHA1-Digest: mX7AdXWVv6ZyAhNFrIS67b5CY0A=
+
+Name: com/collabnet/ccf/ui/schemageneration/CCFSchemaAndXSLTFileGenera
+ tor.class
+SHA1-Digest: LHgzxWezDKu5BB2qHhnYEza1FnU=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$2.class
+SHA1-Digest: 443YVo0DvCKrmkTpW8qiZMgBKi4=
+
+Name: com/collabnet/ccf/ui/actions/SetTaskPointPersonMappingOptionActi
+ on$2.class
+SHA1-Digest: 4arz/Hpsn3rn76o86+jN6veaPzA=
+
+Name: com/collabnet/ccf/ui/wizards/NewLandscapeWizard.class
+SHA1-Digest: I8nE3eryh8z2gVMuDFRqiZYb+tc=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$PreviousFilter.cl
+ ass
+SHA1-Digest: 4ykMyhcq2UDkPHLOAehJXVeFmjI=
+
+Name: com/collabnet/ccf/ui/preferences/ColumnChooserPreferencePage$2.c
+ lass
+SHA1-Digest: cKAl+anTzTNjHP5xTxeqCtGoTrQ=
+
+Name: com/collabnet/ccf/ui/actions/EditFieldMappingAction$2.class
+SHA1-Digest: 4ja16VyVVQw3OoO91lESEjebgn0=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardFil
+ ePage$1.class
+SHA1-Digest: N61cpq7sEsPhPvv4MF7yUB4Oa2c=
+
+Name: com/collabnet/ccf/ui/actions/MigrateRepositoryMappingsAction$1$1
+ .class
+SHA1-Digest: 9CjG/WoyQbfNF3By0L6/3+ChsLM=
+
+Name: com/collabnet/ccf/ui/actions/ChangeSiteAction.class
+SHA1-Digest: gGfZjI1tznxf5w5Ghig3ZZ7j6pU=
+
+Name: icons/save.gif
+SHA1-Digest: U9r6zdvy60UCCQJytBcOUSp+Rbg=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$1.class
+SHA1-Digest: QbJGr5WOrILv6CWAeOnOPCeeKVE=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardPreviewPage$2.c
+ lass
+SHA1-Digest: Kx4s4UAdvdzwoLFrOre/uAOT2i4=
+
+Name: com/collabnet/ccf/ui/actions/MigrateRepositoryMappingsAction$1.c
+ lass
+SHA1-Digest: axDHaZdGEHspZPMtcHqJRotPHKc=
+
+Name: icons/hospitalEntry.gif
+SHA1-Digest: x207zTncZlaPgDpOvNbdEPJYHjM=
+
+Name: com/collabnet/ccf/ui/editors/CcfCcfEditorPage$6.class
+SHA1-Digest: E8niz/YcP8gAJaY7ONbs2bw1YLA=
+
+Name: com/collabnet/ccf/ui/actions/CopyHospitalEntryToClipboardAction.
+ class
+SHA1-Digest: JLk9Dk5GKlfH4sQlX0ZIpd55apk=
+
+Name: com/collabnet/ccf/ui/actions/ActivateFieldMappingAction.class
+SHA1-Digest: c7VjRthsCGqKla0dIECVeu+Zleo=
+
+Name: com/collabnet/ccf/ui/dialogs/ExternalAppProjectTitleDialog$1.cla
+ ss
+SHA1-Digest: f0ZOazOQyUyhAJQv3bGvSgVZdd0=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardDoc
+ umentPage$1.class
+SHA1-Digest: ZViw10wJeKNAT7x9eGYXUL8BBrM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$DeleteActio
+ n.class
+SHA1-Digest: 6Hc2ECTy1mKuLPj7i9V7EcwAiAI=
+
+Name: icons/xslt16_active.png
+SHA1-Digest: u06YV4HohdvLG/UffRZXaJrbDO8=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$RefreshConnectorS
+ tatusJob.class
+SHA1-Digest: 0bOVda9ep49SyTzO+HTheqRVqXw=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardValueMapPage$
+ 2.class
+SHA1-Digest: Hcu2MtOtdQv96GRh+7THHp0zq7A=
+
+Name: about.properties
+SHA1-Digest: OhZ84egVvB/Zw/H7T53UbjJXlyM=
+
+Name: scripts/getQCRequirementTypes.vbs
+SHA1-Digest: zpX0NOfcbhTXTZ+pDyCqeF9I40k=
+
+Name: com/collabnet/ccf/ui/editors/CcfCcfEditorPage.class
+SHA1-Digest: UCno2xCyrBxoMVqSx3ioEC38/4Y=
+
+Name: icons/new_repository_mapping_wizban.png
+SHA1-Digest: CT2adMMiFYNhat1h+ABO2lYwG9A=
+
+Name: com/collabnet/ccf/ui/actions/ExportFieldMappingTemplateAction$1.
+ class
+SHA1-Digest: 8zsjTDDU3eRfDo3o+7j9pN7msc8=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage$3.class
+SHA1-Digest: 7cZ3d1dRYn12p+0KviobajvYJIM=
+
+Name: com/collabnet/ccf/ui/console/ConsoleDocument.class
+SHA1-Digest: LGfE+DjNsPtUy3Qz35lj82eYM4w=
+
+Name: com/collabnet/ccf/ui/wizards/NewLandscapeWizardMainPage.class
+SHA1-Digest: Uc0x9rQPDSMt2Bkym7cWwt6lWQI=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeSiteDialog.class
+SHA1-Digest: fK0ISj6cuMNDdzdFt38y/Vk1XF4=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizardFinishPage
+ $2.class
+SHA1-Digest: +H4kSohXQLewKH1qrHU7q3aWW/g=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardSwpProductPage$
+ ProductsLabelProvider.class
+SHA1-Digest: kYxJIDsqXLT2IDC/E+z0KvUQnGs=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeThemesWizard$1$1.class
+SHA1-Digest: zZ2/x4elqjFRNVbasg590WBAE+c=
+
+Name: xslt/QC2TF/GenericArtifact2Repository.xsl
+SHA1-Digest: N3pIkcFU9/vPip/xzzaomo4IWWU=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$ArrangeColumnsAct
+ ion.class
+SHA1-Digest: vjBnJ52yYVYo8leWuOTP84VLD2E=
+
+Name: com/collabnet/ccf/ui/ILandscapeSite.class
+SHA1-Digest: zlA+ZROyK6ZhPJuCCuFNDZqQpdU=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyFieldMappingTemplateDialog$4.cl
+ ass
+SHA1-Digest: lRShY3SVesDdk4cCJwA619VcKb0=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$EditFieldMa
+ ppingRuleAction.class
+SHA1-Digest: QDGOAuH8raEJb/uVGoGz6pC/YL0=
+
+Name: com/collabnet/ccf/ui/IFieldMappingTemplateContainer.class
+SHA1-Digest: VINmHXBDGZlFY8QqiXzcn+FBftU=
+
+Name: com/collabnet/ccf/ui/AbstractCcfSite.class
+SHA1-Digest: bbJ80DC7RGobIafIOhL0gAbZmuM=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardProgressMonit
+ orPart$2.class
+SHA1-Digest: km7sQXrEtihTaIZ5o5eW3RvsRSU=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage.class
+SHA1-Digest: JyWXiYDj6FRIQqMiE/QpqDLDk9g=
+
+Name: xslt/QC2TF/Sample_QC_Req_2_TF_PlanningFolder.xsl
+SHA1-Digest: 95PwjCuTeTy+Ye1hQmUVjud/l8A=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage$4.class
+SHA1-Digest: nkW9x68jnXisG6+pVetDC5u8S/U=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeRepositoryMappingDialog$1.cla
+ ss
+SHA1-Digest: XbsKS2hb9zDbM/WlDKBmO+aS4jQ=
+
+Name: com/collabnet/ccf/ui/wizards/NewRepositoryMappingWizardMainPage$
+ 1.class
+SHA1-Digest: J1KwR4+zKNssnv9rAGau3QQdpWQ=
+
+Name: com/collabnet/ccf/ui/wizards/RenameFieldMappingWizardPage$1.clas
+ s
+SHA1-Digest: oXtS1JM3WMpV3XYCDRGLyGa+5Lo=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$16.class
+SHA1-Digest: 0WYr6vhm3Nq1ey9lCUWKGz5w7Hc=
+
+Name: com/collabnet/ccf/ui/MappingSection.class
+SHA1-Digest: zUNgy69MEeVWbxzBGEOttDUV/po=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeHTTPSender.class
+SHA1-Digest: LxBhfZIZ8bqZHRBxH9+X0UTcrEE=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$3.class
+SHA1-Digest: Y57Az2z8bdEO+zcIP3pWVyNQpOk=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$8.class
+SHA1-Digest: HeFYblLcSnZdR9bB0hYSEN8z7oQ=
+
+Name: icons/nav_forward.gif
+SHA1-Digest: bN/y8M/Ncwa3MBNzDC7XuGQf4xc=
+
+Name: com/collabnet/ccf/ui/CcfRepositoryMappingsSiteWithEditableFieldM
+ appings.class
+SHA1-Digest: ZJtZ9OMUq8KMhOEHPWdxiIZfW4o=
+
+Name: icons/hospitalView.gif
+SHA1-Digest: oTMlt6ZU1DYAcYzYS04AqZ5ZOZw=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog$TeamForgeSelect
+ ionContentProvider.class
+SHA1-Digest: VKvrgKYl4rcII7UBNrPCvv/U6KU=
+
+Name: com/collabnet/ccf/ui/actions/CcfCoreStatusAction.class
+SHA1-Digest: 4g/Mbsr4aJ+GKUJVddP82uJrh88=
+
+Name: com/collabnet/ccf/ui/qc/VbsScriptUtility$1.class
+SHA1-Digest: I3skXotAyRPqGh0lTde4CDcg9eo=
+
+Name: icons/ctf-16.png
+SHA1-Digest: MoOCJu8cVcxh/0hU6e5T3pNYtzo=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$7.class
+SHA1-Digest: LrRg0/j92RvS7s04zjsKJ1h0F4E=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage$3.class
+SHA1-Digest: zxOfKY5eAeQwXNfGBbZSnN1TdH8=
+
+Name: com/collabnet/ccf/ui/tf/TFLayoutExtractor.class
+SHA1-Digest: OPvZVt0Mizfg51Zpg42lB3csEfc=
+
+Name: about.ini
+SHA1-Digest: U8zicSGk1pzzH5vSfuToL2q24UE=
+
+Name: xslt/QC2TF/sample.xsl
+SHA1-Digest: ruOMwBo8rZP/ldoI/Umow8xaCnQ=
+
+Name: com/collabnet/ccf/ui/editors/HospitalActionBarContributor.class
+SHA1-Digest: zjuxx2skoRTToTNPqObh+RGKj5M=
+
+Name: com/collabnet/ccf/ui/generic/GenericMappingSection$1.class
+SHA1-Digest: zOoM8HN7+cYRrMPG99PNApjXhmU=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$11.class
+SHA1-Digest: l5sb3l4C3thgVV0/4its0tFID1o=
+
+Name: com/collabnet/ccf/ui/actions/DeleteFieldMappingAction.class
+SHA1-Digest: gvmq2Ef7mgewYVjAwrxMlED8zgo=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$MenuListene
+ r.class
+SHA1-Digest: 1Oc9tBwQ+5cAl03VOMWeby7rXig=
+
+Name: com/collabnet/ccf/ui/wizards/MapUsersWizard$2.class
+SHA1-Digest: lDs8pyn+jwwdGPUmymVVsNhKcaQ=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage$1.class
+SHA1-Digest: j5jrbeSO3AV8eRas3SUw5rMaLhw=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardSnippetPage$2
+ .class
+SHA1-Digest: uR6VB5JKTX6WXLcqYcVrdtB/EA4=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$4$1.class
+SHA1-Digest: TSSaI78mZKg9d/+NuMT/Towq4+c=
+
+Name: com/collabnet/ccf/ui/IRepositoryMappingVisibilityChecker.class
+SHA1-Digest: KALlZ70d2cO25z5Bec1kxDEUNbY=
+
+Name: com/collabnet/ccf/ui/actions/ResumeSynchronizationAction$1.class
+SHA1-Digest: aZgLkcteDCTxrEK4ddZ2mo4W6mA=
+
+Name: com/collabnet/ccf/ui/actions/ReplayHospitalAction$1.class
+SHA1-Digest: yQc1xFSVtDIW8uemXP/RPJq7uf8=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$19.class
+SHA1-Digest: E8mx7F+/5RY9CCGkp7+I++FbPBY=
+
+Name: com/collabnet/ccf/ui/IMappingSection.class
+SHA1-Digest: ydRPRbcIVAoPUWXV5JDnlF+jJjg=
+
+Name: icons/swp_product.gif
+SHA1-Digest: TAzEv4kYyock9dC9OENnoK2FF1Y=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardSnippetPage.c
+ lass
+SHA1-Digest: WuJWsYfIthCbhZ5V6t14ztG4g/U=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$FilterNavigationA
+ ction.class
+SHA1-Digest: mauJKtfkJ4IbYRNErWoSRTL2/cc=
+
+Name: icons/identityMappingView.gif
+SHA1-Digest: HvOqE8jFjkmtznTtuo0jg9JivOc=
+
+Name: com/collabnet/ccf/ui/wizards/MapUsersWizardPage$1.class
+SHA1-Digest: flZttNP/CPf3YYRFUanNIyKUbZw=
+
+Name: com/collabnet/ccf/ui/actions/ChangeExternalAppTitleAction$1.clas
+ s
+SHA1-Digest: mY1by8FyxfHWdEavO5hwMUrLazw=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$6.class
+SHA1-Digest: 5TVOSVdsBBHfkiHiGtqjXhM+trg=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardMainPage$1.cl
+ ass
+SHA1-Digest: YWi9Y4AwXlIxS8spV9Ia0Vs196A=
+
+Name: com/collabnet/ccf/ui/actions/DeleteRepositoryMappingAction.class
+SHA1-Digest: oLX1OqoiQQSJOmdRjJsNF4Okiws=
+
+Name: com/collabnet/ccf/ui/preferences/HospitalPreferencePage.class
+SHA1-Digest: Mmuqb7o0LEpYWfcNNbPwHSQ9DwA=
+
+Name: com/collabnet/ccf/ui/swp/PbiRepositoryMappingDirectionSite.class
+SHA1-Digest: ZTivBQR4k4l/V1xQiQFPHg8x0Bo=
+
+Name: com/collabnet/ccf/ui/qc/VbsScriptUtility.class
+SHA1-Digest: vbVOXuOr7LF7nXQmwYx/TzYu4Ps=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage$4.class
+SHA1-Digest: c5xnb1dJ2ph0wEDN6ldAigPd8Ew=
+
+Name: com/collabnet/ccf/ui/swp/SwpRepositoryMappingDirectionSite.class
+SHA1-Digest: yhSVnIXtfz7wOi9/6UgY1LvuzX0=
+
+Name: icons/landscape_reverse_started.gif
+SHA1-Digest: sIu0h69TnNzBr/aBDmlw87DzcLs=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$13.class
+SHA1-Digest: PovXR7l7nb7BUHAeV33qM48wxg8=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider$2.class
+SHA1-Digest: Fi9amvsudUM5o/YhYk7gjNlYLXc=
+
+Name: icons/repositoryMappingDirection_running.gif
+SHA1-Digest: xRVlYSaHlPX6Ro8sBejtkj5VSZ4=
+
+Name: icons/landscape_problem.gif
+SHA1-Digest: 2kVRsE/EN9pzbpBJ/MFPiqMpyk4=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeThemesWizard$1.class
+SHA1-Digest: K0BHVSHsJvLsvtPm71s3VaBWMwA=
+
+Name: com/collabnet/ccf/ui/wizards/AbstractMappingWizard.class
+SHA1-Digest: 5ID5D2Y0HxXt+5d5DFobYlh/l8U=
+
+Name: com/collabnet/ccf/ui/editors/CcfCcfEditorPage$3.class
+SHA1-Digest: 5DWI89VaDYc4lL5hXHPDh6PR13w=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$3.class
+SHA1-Digest: jKDSptniDmmWgzxnTVukgXwhO1k=
+
+Name: com/collabnet/ccf/ui/migration/MigrationWarningDialog$2.class
+SHA1-Digest: Qw+oezmquCCpptzpuWIAcifo308=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksSelectionDialog$1.class
+SHA1-Digest: sW620gKqOeATM9DlRGADyJ2+1h0=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$2.class
+SHA1-Digest: OCK4BcwMMudWszJaGUTK1VYMtCg=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardValueMapPage.
+ class
+SHA1-Digest: i95s0p0BhPZCIWxgupTo1PNkf0Q=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardPreviewPage$1.c
+ lass
+SHA1-Digest: W8Tfy84hyLaYAcgVA5MhDCURYfI=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$17.class
+SHA1-Digest: nyVZVjNTMzc3iG0HV+TOFp4UTdE=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizardFinishPage
+ $1.class
+SHA1-Digest: E09tZ3aUU53+okp23JtBuLGZyo8=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterConnectionTester.class
+SHA1-Digest: ww8B3cS7nHvbgUV3rfxGOExZZ8w=
+
+Name: com/collabnet/ccf/ui/CcfLandscapeSite$3$1.class
+SHA1-Digest: rhlha5qz5G8aqOoYouCx4BdHg7Q=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$Domain.clas
+ s
+SHA1-Digest: 88CJGdz6Ye4hWcTPbEH33h0Rpfs=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizard$2.class
+SHA1-Digest: YGPNwvpKQzoYgoncJBynhTqEFDo=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizardMainPage$Templ
+ ateLabelProvider.class
+SHA1-Digest: NIaCVvccXogquMWqfiyvgIuaJW4=
+
+Name: com/collabnet/ccf/ui/actions/ReplayHospitalAction.class
+SHA1-Digest: Fbr9JykPf+7YVWLi4LhHwDcxTPk=
+
+Name: com/collabnet/ccf/ui/schemageneration/RepositoryLayoutExtractor.
+ class
+SHA1-Digest: E+qKtnpqHquGfLpGx9NUeqFxY2o=
+
+Name: icons/field_mapping.gif
+SHA1-Digest: JVU1OAKYzH1IcISspuuGcMhTPcQ=
+
+Name: com/collabnet/ccf/ui/preferences/ColumnChooserPreferencePage$6.c
+ lass
+SHA1-Digest: bRhd4lshYemnVshCDK8jeF6EhIY=
+
+Name: com/collabnet/ccf/ui/editors/ExternalFileEditorInput.class
+SHA1-Digest: FriFStXXcC0p5NFirlb7eN4w6CM=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage$5.class
+SHA1-Digest: wmTjCMH90+wZ8frmqAhYMt8oApA=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizard$1.class
+SHA1-Digest: uel/4xb7jpsMd1qawlYQWtp/Ksk=
+
+Name: icons/field_field_mapping.gif
+SHA1-Digest: 47UWEsUMkBMePm5Wn3YRFTMsvIY=
+
+Name: icons/repositoryMapping.gif
+SHA1-Digest: hkyPhC8txW5Ko6s7j/+E37ndjJU=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsMainPage
+ .class
+SHA1-Digest: v/5IKlAqYMTGyBgP7XwLl1LkSgo=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$MappingRule
+ sDropAdapter.class
+SHA1-Digest: GHg8cBT8oq5aJT693WmMEq6dW6U=
+
+Name: icons/templates.gif
+SHA1-Digest: JVU1OAKYzH1IcISspuuGcMhTPcQ=
+
+Name: com/collabnet/ccf/ui/dialogs/TemplateAlreadyExistsDialog$1.class
+SHA1-Digest: cRtW/FOevPsi4fU/iqjP+DvZJXc=
+
+Name: com/collabnet/ccf/ui/preferences/CcfPreferencePage.class
+SHA1-Digest: MHwKPN5rIIeYlzU+a1GN6GY7/eE=
+
+Name: com/collabnet/ccf/ui/actions/ChangeExternalAppTitleAction$2.clas
+ s
+SHA1-Digest: dAbwsCMYf76jZsM176ct+ZHEsKE=
+
+Name: com/collabnet/ccf/ui/console/CloseConsoleAction.class
+SHA1-Digest: mWrtS3uJMpLRSMjdfnAK/id6mDE=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog$1.
+ class
+SHA1-Digest: U9IeNgw/Q+gKusvjMG4PTCJl8Ug=
+
+Name: com/collabnet/ccf/ui/dialogs/ExternalAppProjectTitleDialog.class
+SHA1-Digest: qcwgbUhtX1/QGPsIK+s+7OhyfbU=
+
+Name: com/collabnet/ccf/ui/actions/LogFileEditorAction.class
+SHA1-Digest: UALsCq79prmNWNBSUUSiaeS+4Mc=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage$4$1.class
+SHA1-Digest: ti5btMhJOqXyeqIwC5H4+vAYsMI=
+
+Name: scripts/getQCProjects.vbs
+SHA1-Digest: GUEYtAoYGw56Vo1Hlt+xYS1Aioo=
+
+Name: com/collabnet/ccf/ui/wizards/CustomWizardDialog.class
+SHA1-Digest: PS8cbwyoZiOKlRAjvtP2fBJLehY=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardMainPage$2.cl
+ ass
+SHA1-Digest: IOivgeAbQEFRJMVAMDz0TeLMNy8=
+
+Name: icons/swp_release.gif
+SHA1-Digest: oGhLFO5zvxwOQGL/tYm1Senvxu0=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$HospitalLabelProvider.cl
+ ass
+SHA1-Digest: tCD5bdA+Vo9JCu7f3iaPcHSM5WM=
+
+Name: icons/edit_field_mappings_wizban.png
+SHA1-Digest: CT2adMMiFYNhat1h+ABO2lYwG9A=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardFil
+ ePage.class
+SHA1-Digest: cOzwzRv/alTQOxiJhOCkif95cbQ=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$7.cl
+ ass
+SHA1-Digest: cpfm6p3dB78A7dBl99+hCUVH5as=
+
+Name: lib/jacob.jar
+SHA1-Digest: nvGQLP7tjDHUc5WKslYbq81SEjA=
+
+Name: com/collabnet/ccf/ui/dialogs/FieldMappingTemplateSelectionDialog
+ .class
+SHA1-Digest: tGotxgGGuOLN03PQOGzO65ZG0HU=
+
+Name: com/collabnet/ccf/ui/actions/HospitalAction.class
+SHA1-Digest: DZ4O7J4nOGgNCSoFpEBm8gnzc1s=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$DeleteValue
+ MapAction.class
+SHA1-Digest: QihsqfjL5s9Olz/a1mKOnU/vprw=
+
+Name: com/collabnet/ccf/ui/wizards/NewCollabNetSiteWizardCcfLandscapeP
+ age$1.class
+SHA1-Digest: HuJDAAWPavAgtydg93cYjuipBjw=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$5.class
+SHA1-Digest: 9+WsUh+omxZxdGIUQtds4I0pGMk=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsWizard.c
+ lass
+SHA1-Digest: v0qQSLghrHclLM0vDUUBdDQ0DQM=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeSiteDialog$2.class
+SHA1-Digest: rlfV1ZuPNQ/x6AKGxP2vgT1qphw=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizard.cl
+ ass
+SHA1-Digest: kkja8YM6e7/EEW8b8RimZeZvgx8=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeRepositoryMappingDialog$2.cla
+ ss
+SHA1-Digest: A8Als98XRNHbMlcUy9nAhSVYTZo=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog.class
+SHA1-Digest: 4RZnBfqN5b6BAcKofkvICRe+Sbk=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$MenuListene
+ r$1.class
+SHA1-Digest: YUrDBKZXwVxI1y2zBeqVC2uUXy4=
+
+Name: com/collabnet/ccf/ui/actions/RenameFieldMappingTemplateAction.cl
+ ass
+SHA1-Digest: AwkzfaKGyoA2GGLanirPElDTK/Q=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksMappingSection.class
+SHA1-Digest: pFssCqRT7pCUZWBGmfwY6fSXL9Y=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterCcfParticipant$1.class
+SHA1-Digest: RL5HlRF6sQ860Cj+HSHE75N+UE4=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog$4.class
+SHA1-Digest: 2F9Q6Qr/IUka/sJvfKB8knTNFpQ=
+
+Name: icons/mapforce16.png
+SHA1-Digest: UkLpkwqCasmLHaAkmXn6U9i0X0g=
+
+Name: com/collabnet/ccf/ui/wizards/NewCollabNetSiteWizardCcfLandscapeP
+ age.class
+SHA1-Digest: AHeAezBSQtJOJlGrmj8Ura56y4k=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$9$1.class
+SHA1-Digest: XUesf+sRM91+IagmdMQ0MfFN2Js=
+
+Name: com/collabnet/ccf/ui/core/DateUtil.class
+SHA1-Digest: j4ocHdI7eT76B2A11uYgrhAW0aI=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection.class
+SHA1-Digest: sUztGpm8EttDuagPgK52Ilmfr0I=
+
+Name: com/collabnet/ccf/ui/CcfLandscapeSite.class
+SHA1-Digest: fXLMmlcG53xqC9lC1EDqgvvuPvM=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$DomainProje
+ ctSelectionContentProvider.class
+SHA1-Digest: lQMXI3LZVdKY+AUZ7q5k7hZ9Pes=
+
+Name: icons/swp_task.png
+SHA1-Digest: 0KkAR2U6/NrIUXHms01ZlTi4l3M=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardDoc
+ umentPage$DocumentLabelProvider.class
+SHA1-Digest: IrpA4oMbn2ZulGjiZSzxN5cdJCo=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardSel
+ ectionPage$1.class
+SHA1-Digest: RqUV18BLWUbaroRPey76HTpBnow=
+
+Name: com/collabnet/ccf/ui/schemageneration/CCFJMXMonitorBean.class
+SHA1-Digest: EjBnBbrQCxTuZrtjIwJ7ohztxQY=
+
+Name: com/collabnet/ccf/ui/qc/QCLayoutExtractor.class
+SHA1-Digest: jotoJq2tSlGvlqFE1TVzDLyMMtE=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapEntryDialog$2.class
+SHA1-Digest: mp5qnd2Su48vtGsw6A1R/oT1nmc=
+
+Name: com/collabnet/ccf/ui/actions/EditFieldMappingAction.class
+SHA1-Digest: DhUWKKhSiYWIWQ3BHu8whFv2FGc=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsResultsD
+ ialog$2.class
+SHA1-Digest: /leiPo33RQMJCtiAKvT78lQhskg=
+
+Name: com/collabnet/ccf/ui/editors/CcfActionBarContributor.class
+SHA1-Digest: BDXOnGNz702ExWVhiJMdZjPrNXk=
+
+Name: com/collabnet/ccf/ui/editors/HospitalExceptionEditorPage.class
+SHA1-Digest: wiuXwQHnO/AaHZpDNLUivwDCRdQ=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardSwpProductPage$
+ 4.class
+SHA1-Digest: k8sfYphm3xxI6BtdO2AEG8ipoVo=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsResultsD
+ ialog$ErrorsLabelProvider.class
+SHA1-Digest: UofCA76j7DC8ei876KKAZ+O7joY=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog$4.
+ class
+SHA1-Digest: +/oZPQ4pVGNG3/KfG+acJL1697U=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog$Te
+ mplateLabelProvider.class
+SHA1-Digest: mF+B6sdW79NGiWZZRNxukisjPPo=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardTar
+ getPage$1.class
+SHA1-Digest: tb11xSiK24fhsf6ED6yS10y0IuQ=
+
+Name: icons/error.gif
+SHA1-Digest: 3aRN2jtVmbYs/+T4uGVq7jEi02g=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditor.class
+SHA1-Digest: btRIYMl+IXJI+rV+EZjFZxWzlFI=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$9.class
+SHA1-Digest: IsOu8IP6Rf8uf4tNmyr/uR64JBU=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$StartStopJob.clas
+ s
+SHA1-Digest: 6qzBAG8GtTHDseAFSOBlD9j7p/w=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeTeamsSprintsWizardPage.c
+ lass
+SHA1-Digest: izFXCwg0q/TnAt5pDb+WzbEJZnk=
+
+Name: com/collabnet/ccf/ui/wizards/NewRepositoryMappingWizardMappingPa
+ ge.class
+SHA1-Digest: peaHNAqQvXLmBuJyZhv/Qi+zn3s=
+
+Name: com/collabnet/ccf/ui/editors/HospitalDetailsEditorPage$1.class
+SHA1-Digest: o1MH4GIUze3FnSXuiJiYvqo78bw=
+
+Name: com/collabnet/ccf/ui/actions/SynchronizeThemesAction.class
+SHA1-Digest: 7fJ7bmBgCw6ZETKTHiLVe9/VcLE=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView.class
+SHA1-Digest: B3p/MG/ZlezVDeE+pKF4dtb8Lq8=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeThemesWizardPage$1.class
+SHA1-Digest: ZIoLTOIPm7HTHzs4vipvw0JHQKI=
+
+Name: com/collabnet/ccf/ui/wizards/FixTrackersWizardPage$1.class
+SHA1-Digest: VB2uanUiZueWB+RGmoW4i1ug0aA=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizardMainPage$4.cla
+ ss
+SHA1-Digest: VdBSzUJrIfHNbyjrFvMCHYp0l6E=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterCcfParticipant.class
+SHA1-Digest: hR1Zf+XndZlTbhtnSQTxc8hj/L8=
+
+Name: lib/ScrumWorks-soap.jar
+SHA1-Digest: zjeWnxNF/TkridM+znqjaFSGuME=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardSel
+ ectionPage$ExportFieldMappingTemplateContentProvider.class
+SHA1-Digest: 1a1hardGIhcli59/mN/2koawEZQ=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardFieldMappingP
+ age.class
+SHA1-Digest: PPT7cnD1oTZw6+M5RiZ7VofDL9s=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog.class
+SHA1-Digest: NaQw5Tz3hkHfwGJ4vwVGEu8dCuo=
+
+Name: com/collabnet/ccf/ui/actions/SynchronizeTeamsSprintsAction.class
+SHA1-Digest: ratE26DJ7pSIKCjcC5euM6dC2vQ=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeTracke
+ rPage$4.class
+SHA1-Digest: gAM1myZESYpelVUbJBOc/eoECLk=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$RefreshAction.cla
+ ss
+SHA1-Digest: RUVSF8/A8FMUdpPRaTeahg5TKMU=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$EditValueMa
+ pAction.class
+SHA1-Digest: dmTZCg/e2QzZsnfDEG5LNRCBfrE=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditorInput.class
+SHA1-Digest: xBb6yiiquSkWBh4JoExB9sMTs1o=
+
+Name: com/collabnet/ccf/ui/actions/ResumeSynchronizationAction.class
+SHA1-Digest: t2S4fiJtgbbPl60FzuuGOee3G6Y=
+
+Name: icons/landscape_both_started.gif
+SHA1-Digest: YP1tmdwc6IsyhraUF3IO2fAcJGw=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeTracke
+ rPage$TrackersLabelProvider.class
+SHA1-Digest: s87MRdABS2nYLcBShZtZF5eQP8U=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardMainPage$2.cl
+ ass
+SHA1-Digest: 0leQD/HNEg232bPjYqtNDTSdJe8=
+
+Name: xslt/TF2QC/GenericArtifact2RepositorySchema.xsl
+SHA1-Digest: lvh3/RdlHha6wTj7VFkLDmzScFA=
+
+Name: com/collabnet/ccf/ui/wizards/MapUsersWizard$1.class
+SHA1-Digest: H43du5Cwf8ca7J3i1wFGmwLwDTI=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$3.class
+SHA1-Digest: DoqB6CY4W3NlUyPgHhmVlfGNDrs=
+
+Name: about.html
+SHA1-Digest: wCgd6ZecvJz88OI1zQaP2TX82cI=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$1.cl
+ ass
+SHA1-Digest: tsYJKHHGpDceqfG3gpX0Ub2r0ZA=
+
+Name: icons/logo_swp.png
+SHA1-Digest: xsIg0j0/mAvuAJtpr7OGuzSxD2g=
+
+Name: com/collabnet/ccf/ui/wizards/NewLandscapeWizard$1.class
+SHA1-Digest: yncJsnf4bOjvda/yx5zWF0qD5BY=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeSiteDialog$1.class
+SHA1-Digest: IHXy435D1qP63XxzY4Xq3kSDVCo=
+
+Name: com/collabnet/ccf/ui/editors/CcfEditorPage$1.class
+SHA1-Digest: m02jeAXvmm9xcnBJZhM7FlCTrpI=
+
+Name: icons/reverse16.png
+SHA1-Digest: hGuGReWRtH6bqpJzhFMFTb75CVI=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView.class
+SHA1-Digest: 6fR77IB/z3ARSkafkI8Yn39vLOI=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksSelectionDialog$ProductsLabel
+ Provider.class
+SHA1-Digest: LgbMkzD0oDyktX5+RwyPb0qJw6U=
+
+Name: mapping_rules_default_field_mapping_templates.xml
+SHA1-Digest: eoMFBQnyL6lLv7lh+FCWbPdPQGY=
+
+Name: scripts/getQCDefectFields.vbs
+SHA1-Digest: c9JqbOWRQxDpStJbUkF194AaXYM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$NewFieldMap
+ pingRuleAction.class
+SHA1-Digest: ZM1u+5dSjhvv0nV4N7FNp2j4YN8=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizard$2.class
+SHA1-Digest: /T/2rumfmO+D/hyxNnt3LlylXLI=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizardMainPage.class
+SHA1-Digest: 1Xc7m2gN0biV7qaP2eHRuPLi6Pk=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardSel
+ ectionPage.class
+SHA1-Digest: NRIfeqQqntd/jTD20GSxcBQm50s=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizard$2$1.class
+SHA1-Digest: Hvszt1pHwTG9fCTOzNF3YAwm7Fk=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyFieldMappingTemplateDialog$3.cl
+ ass
+SHA1-Digest: CTq8szytchLnXAXSJnwEP7XKiJI=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardPreviewPage.cla
+ ss
+SHA1-Digest: LyPyBMz4JyAx/sAvrXyDMvtEOdE=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardFil
+ ePage$2.class
+SHA1-Digest: v6oEITHQfO/AsJ67AlUjqa1asWc=
+
+Name: icons/swp_swpProduct.gif
+SHA1-Digest: C6sy73hNuFN3Mt+IYqojn2okhS4=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog$2.class
+SHA1-Digest: 3YIHCmVFdTVYNvTvWaNed2pFOrk=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$4.class
+SHA1-Digest: Duw6bOLkcddiBi2N1HUc0/Hzdg8=
+
+Name: xslt/CreateCreateInitialMFD.xsl
+SHA1-Digest: 37uCo40nbyxCWD1T5Tub7Jv5wug=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$12.class
+SHA1-Digest: /GWPSGBoJSNOenckJX+jay1Y/JA=
+
+Name: xslt/TF2QC/CreateInitialMFD.xsl
+SHA1-Digest: 0PmbXtIkow4+FAJ2IX4wl+NlaEM=
+
+Name: com/collabnet/ccf/ui/Activator$1.class
+SHA1-Digest: YNYJl5QaUVJ0QIWU1T8f8nVIs7I=
+
+Name: com/collabnet/ccf/ui/preferences/ColumnChooserPreferencePage.cla
+ ss
+SHA1-Digest: rlPB3Ask6fsD9qtYQ7N+Qsq24w0=
+
+Name: icons/landscape_forward_started.gif
+SHA1-Digest: tqUIr/Y05hoPdTL+LcsxOhbNcfc=
+
+Name: com/collabnet/ccf/ui/LogFileSite.class
+SHA1-Digest: DDQuH7cFur/w400Xu8uYtFU/VUM=
+
+Name: com/collabnet/ccf/ui/migration/RepositoryMappingMigrationUtility
+ .class
+SHA1-Digest: rLl3nTkdpFuAts3e3ButglPyFPg=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingFigure.class
+SHA1-Digest: HqdRXaMLBdhxjm3vtFBWVYN8an4=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$2$1.class
+SHA1-Digest: OV4BOlBcVvwSXX4IpCQbgGDz8sg=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog$3.
+ class
+SHA1-Digest: CFIHdjdcEoSUrT/9wzT1BUn2aos=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardMainPage$1.cl
+ ass
+SHA1-Digest: tJ9dQFCmX90deFCa9esd3uE6iFA=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$22.class
+SHA1-Digest: wsxiHC35hT/1AFPiizwbRQq6GLA=
+
+Name: com/collabnet/ccf/ui/preferences/CcfPreferenceInitializer.class
+SHA1-Digest: LOnOXR15sVWfUOVd6Jg5Su/bn4I=
+
+Name: com/collabnet/ccf/ui/ExternalAppSite.class
+SHA1-Digest: ZtInSjYaOI0+VqrpHjqBYD+MkVE=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyFieldMappingTemplateDialog$2.cl
+ ass
+SHA1-Digest: flmdGxwPvWj+ghPym2L5krZj/yU=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$EditValueMa
+ pEntryAction.class
+SHA1-Digest: u9/Ql7WgXFDPtT1FZ+uFMc3fad4=
+
+Name: com/collabnet/ccf/ui/Activator.class
+SHA1-Digest: /02ZSqeiEC3yeOm5btsuB/2+ies=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeConnectionTester$1.class
+SHA1-Digest: YU5u7j9PwIHgobk9upu1yZGZgJM=
+
+Name: com/collabnet/ccf/ui/actions/HospitalEditAction.class
+SHA1-Digest: UEkSg+DFgu2M5jX/soC8alw1904=
+
+Name: com/collabnet/ccf/ui/actions/EditFieldMappingTemplateAction$1.cl
+ ass
+SHA1-Digest: MrxtzgbceiCFZNf2PTJbU4oijR0=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardConstantPage$
+ 2.class
+SHA1-Digest: cLjEpBVE9WxPiBbNkfh/Z79+My0=
+
+Name: xslt/TF2QC/Sample_TF_TrackerItem_2_QC_Req.xsl
+SHA1-Digest: 9+Y6H3ZfQdHoZab57qeP0ZeChMQ=
+
+Name: icons/xslt_snippet.gif
+SHA1-Digest: gbhVbScZ5V97AjvtYXoG9Iy425Y=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsResultsD
+ ialog.class
+SHA1-Digest: Z0BIxI6XnQifcm2L2SU1lDtBiZU=
+
+Name: com/collabnet/ccf/ui/RmdScopedFieldMappingSite.class
+SHA1-Digest: vocUA4Vp6GT4bVlvyG+bp+9/BrA=
+
+Name: com/collabnet/ccf/ui/LogsSite.class
+SHA1-Digest: WqtI/Nykpq6SzgJN7C6U/XWyHwc=
+
+Name: icons/refresh.gif
+SHA1-Digest: 3NWUc5UjsZeI5q6NCFvfEyeUB1I=
+
+Name: com/collabnet/ccf/ui/actions/MigrateRepositoryMappingsAction$2.c
+ lass
+SHA1-Digest: nmrrUxhlWtKfFzfXv/rpmFCptaQ=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizardMainPage$3.cla
+ ss
+SHA1-Digest: UI8xDsh9li4WJSeY/Z3+koThnJA=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog$TeamForgeSelect
+ ionLabelProvider.class
+SHA1-Digest: ci3V4g9Z+iC6omhORkyx52Y9N/8=
+
+Name: com/collabnet/ccf/ui/actions/ChangeExternalAppTitleAction.class
+SHA1-Digest: KFziGU4dRSxsxvfJxJ0q/yMywGA=
+
+Name: com/collabnet/ccf/ui/CcfDecorator$CcfCompositeImage.class
+SHA1-Digest: jnT8Se8LVIsL/vRGJdOoEuWfgsA=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage$2.class
+SHA1-Digest: hDBPtdFZSF+dEuJiC37pQgdpKNQ=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizardMainPage$Templ
+ ateContentProvider.class
+SHA1-Digest: /q7n+bXVb2o1224hcy9y50uOAoU=
+
+Name: icons/export.gif
+SHA1-Digest: zv+eS+3w2VWQ6T4WB4+wbuwBWkw=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage$ProjectsLabelProvider.class
+SHA1-Digest: kjwNFlIupn9Dxu4KDyU+zywAba0=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider.class
+SHA1-Digest: mMN6i4pwVfNyRdA19FioVUtPtjs=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardFieldMappingP
+ age$3.class
+SHA1-Digest: zqXbJiOEojgcO8spiL4Hktxd0Rw=
+
+Name: com/collabnet/ccf/ui/wizards/FixTrackersWizardPage$TrackerProble
+ m.class
+SHA1-Digest: IsYHIh56+A2LjkVz2Dwik7PeuxI=
+
+Name: com/collabnet/ccf/ui/swp/SwpRepositoryMappingSite.class
+SHA1-Digest: HAmEo/CFTdKOPsBJXV8ZK0/4KHs=
+
+Name: com/collabnet/ccf/ui/ProjectRepositoryMappingDirectionSiteWithEd
+ itableFieldMappings.class
+SHA1-Digest: AbWYsvVI0FUHyymILp5xsrCcFCY=
+
+Name: scripts/getQCRequirementTypesPre23.vbs
+SHA1-Digest: U1cqSew4IvbqPh5ZT6sQTVYqArI=
+
+Name: com/collabnet/ccf/ui/RepositoryMappingDirectionSite.class
+SHA1-Digest: 1V4/6WgNhlQfwQLl3W96Ey6dzNI=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog$5.
+ class
+SHA1-Digest: /5gZN5icQHkfskUsCdSmEy4QeXQ=
+
+Name: com/collabnet/ccf/ui/console/CcfConsolePageParticipant.class
+SHA1-Digest: cpy0nNyDecvgrpYnGm0qeW3Q80Q=
+
+Name: com/collabnet/ccf/ui/wizards/FixTrackersWizardPage.class
+SHA1-Digest: rmjzmwXXQjyujLosP/h4hDU5s8I=
+
+Name: com/collabnet/ccf/ui/preferences/IdentityMappingPreferencePage.c
+ lass
+SHA1-Digest: 3olWMhJBn2IjOC0ytz8J0aOt/p4=
+
+Name: com/collabnet/ccf/ui/actions/DeleteIdentityMappingAction$1.class
+SHA1-Digest: pyTXdWgZs+iW0Vamk/9uvvhBYYU=
+
+Name: com/collabnet/ccf/ui/swp/PbiRepositoryMappingSite.class
+SHA1-Digest: A2W2WMYrAsIiQlL+2wQ74Ymv2u8=
+
+Name: lib/jaxen_1.1-beta-9.jar
+SHA1-Digest: 5i0BVdzm6Dru7kTUNz7KcKP//PA=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardMainPage.clas
+ s
+SHA1-Digest: piIls4hGBveYKbtBw9t6H5I6Z/4=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$4.class
+SHA1-Digest: xqs13HwzJbQV1m3iEIxwn+j19ow=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage.clas
+ s
+SHA1-Digest: zPD484BNT7eI9TvR+De050FW9WU=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsResultsD
+ ialog$MappedLabelProvider.class
+SHA1-Digest: QycjNxOu3RwQ7LKJlIbaVk7kVek=
+
+Name: com/collabnet/ccf/ui/actions/EditFieldMappingAction$1.class
+SHA1-Digest: 0uf5s7vxGQsLPodhoTn40D/9JPU=
+
+Name: com/collabnet/ccf/ui/actions/LogFileAction.class
+SHA1-Digest: jhquoLPva0A2rW42cAvyQ9sWpXc=
+
+Name: com/collabnet/ccf/ui/CcfDecorator.class
+SHA1-Digest: Ah0QJO68XEp1ErfiZugZh//MtLg=
+
+Name: com/collabnet/ccf/ui/generic/GenericMappingSection.class
+SHA1-Digest: WKrN+XamML2eZS3Ry+DTj54pZJU=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeThemesWizardPage.class
+SHA1-Digest: sWKxr0s2eZenBy0532FaUKzoT4w=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardFil
+ ePage$1.class
+SHA1-Digest: MRd0k2vAs9DT8O8SMPXnz2oFaUI=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardConstantPage.
+ class
+SHA1-Digest: H5OFrqb0iGotPYx2IEX3a1Y8grA=
+
+Name: com/collabnet/ccf/ui/Obfuscator.class
+SHA1-Digest: 1FwRAD3PKOIq5JW55ydz16K/T3w=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$8.class
+SHA1-Digest: uQV5uvAZpDEgELQWmUNtsMbvH6U=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$3.class
+SHA1-Digest: Tdvwgdke0jZr9yKfhcwxqhqFWR8=
+
+Name: com/collabnet/ccf/ui/CcfLandscapeSite$1.class
+SHA1-Digest: MDQraKe+Z3HqoLWjYVOuff/LIxE=
+
+Name: com/collabnet/ccf/ui/swp/SetTaskPointPersonMappingOptionDialog.c
+ lass
+SHA1-Digest: ewlI6MVh8romijNK4on/4nYFjmA=
+
+Name: lib/commons-collections_3.2.jar
+SHA1-Digest: Wj79oP6p8F9LYfrKJ301/nUSTH4=
+
+Name: com/collabnet/ccf/ui/editors/CcfEditor.class
+SHA1-Digest: 25EqXYF5w6thQUQw2RXdw703F0U=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$NewCustomXs
+ ltAction.class
+SHA1-Digest: IyrEOJ9ieN7nKr3Naqsx4oQgJy0=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider$1.class
+SHA1-Digest: yhRddT4lfCB8qiah/1/evaIMMF8=
+
+Name: com/collabnet/ccf/ui/dialogs/HospitalColumnSelectionDialog.class
+SHA1-Digest: Lr1XZ5mS3NGlzZL5ydRMB+dJzMg=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeTracke
+ rPage$TrackersContentProvider.class
+SHA1-Digest: w5rbJ9VkVYNfAR7gdb+XPiRAvZU=
+
+Name: com/collabnet/ccf/ui/migration/MigrationWarningDialog$1.class
+SHA1-Digest: cQoXhfSNF1j2wUEycoj2vadd2PM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$7.class
+SHA1-Digest: OxEFlpPwX6l6SXzGb8giZdfJCMo=
+
+Name: com/collabnet/ccf/ui/actions/ResetSynchronizationStatusAction$1.
+ class
+SHA1-Digest: 3HeBQhyfdP3h01NvF++gcOZ1NRE=
+
+Name: com/collabnet/ccf/ui/editors/HospitalEditorInput.class
+SHA1-Digest: wZ7zzHSta/HOZ98zS8nA5VIjFCs=
+
+Name: com/collabnet/ccf/ui/migration/RepositoryMappingMigrationResult.
+ class
+SHA1-Digest: IiS2Ozf6LHikXUwziscAPdyUKyY=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifactField$FieldActionValue.
+ class
+SHA1-Digest: hoqYMQaOWVckMZmXuu9mOQwLBU8=
+
+Name: com/collabnet/ccf/ui/migration/MigrationWarningDialog.class
+SHA1-Digest: bAjIDdsu1U2IxwkLq0aF9i5LIBg=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizardMainPage$4.cl
+ ass
+SHA1-Digest: DKJLh4Q9xulbsGSsTZabzjIEClM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$18.class
+SHA1-Digest: MOUPhVBTLrtZu1iS7YZjYv+JLXA=
+
+Name: com/collabnet/ccf/ui/qc/DefectAlreadyLockedException.class
+SHA1-Digest: gJ0SyJ8YTkma9fZ8hpkcJghsMMo=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifactParsingException.class
+SHA1-Digest: c9HxBexbredWvwH1lcpMnGwtits=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage$DocumentLabelProvider.class
+SHA1-Digest: zvCUPcQAC8KCKgr6mhBSu+C9n+4=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardValueMapPage$
+ 4.class
+SHA1-Digest: KBHuriAysQem5oqxrdcUg47cdvo=
+
+Name: com/collabnet/ccf/ui/Credentials.class
+SHA1-Digest: SBqBBtgnVfK4b7Pb9XvAPVdwTt8=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$1.class
+SHA1-Digest: bEN/A77Y5bVgpfYnAhU1tg5O8WM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardConstantPage$
+ 1.class
+SHA1-Digest: 8fWDdtYY2P2R7aK7NtE8w9Kw6V8=
+
+Name: scripts/getQCRequirementFields.vbs
+SHA1-Digest: sVdk2PmALXfuMZIR4FV0/bybxrM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizard.class
+SHA1-Digest: NlNMzqU7RL+aXR64u0ynp5OblBw=
+
+Name: com/collabnet/ccf/ui/actions/EditFieldMappingTemplateAction$2.cl
+ ass
+SHA1-Digest: llKPuvyXScfE+4UEwasGnuwjcNg=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeProjec
+ tPage.class
+SHA1-Digest: ZoAJMM4CeXDxhxGVizC8nHF6f6E=
+
+Name: com/collabnet/ccf/ui/schemageneration/XSLTInitialMFDGeneratorScr
+ iptGenerator.class
+SHA1-Digest: pgl4XnV6O28JF8lPw72ZP1X06DA=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifact$ArtifactModeValue.clas
+ s
+SHA1-Digest: FG6T9JrGjkkjHFavlb+u1cDJJmY=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksMappingSection$5.class
+SHA1-Digest: B+uCVL8jqntDXQpSB9hlXWIywWk=
+
+Name: com/collabnet/ccf/ui/wizards/SynchronizeThemesWizard.class
+SHA1-Digest: namvQHQ2PZituomvyxy0zO82guU=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsResultsD
+ ialog$1.class
+SHA1-Digest: G7ZgplANSW/fvKjggnLxCrtgwGQ=
+
+Name: com/collabnet/ccf/ui/dialogs/BrowserErrorDialog.class
+SHA1-Digest: oN+Ty2608NevtC4eejqYrXo1EX8=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage$2.class
+SHA1-Digest: r7BOS9/j3rfpPv5In767rKrqKoY=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksMappingSection$2.class
+SHA1-Digest: K5SaFjfGs5OsmAS3zmIamL/QMdc=
+
+Name: com/collabnet/ccf/ui/actions/DeleteRepositoryMappingAction$1.cla
+ ss
+SHA1-Digest: P2lL8LvRMCAUvW/2gGPGxFY4uDc=
+
+Name: com/collabnet/ccf/ui/swp/SWPMetaData.class
+SHA1-Digest: n32V0ZBy6mzxKAYQaSkJVHIad/U=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyFieldMappingTemplateDialog$1.cl
+ ass
+SHA1-Digest: E4U0kigs0VYkRqZ6sRZFZtyxtxw=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksCcfParticipant$1.class
+SHA1-Digest: R79SwCbre393tV0Ab08hzFBXTlk=
+
+Name: icons/hp16.png
+SHA1-Digest: dfWpcrHvj69OzkOoe6QSJCC/KtU=
+
+Name: com/collabnet/ccf/ui/actions/ExaminePayloadAction$2$1.class
+SHA1-Digest: HykUCLzZC2uEHcqKr/vI5hN2Tno=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$6.class
+SHA1-Digest: NkLu6Edm6ercnSbtUqc4r6OWDyc=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$1.class
+SHA1-Digest: /t3xJ7orR8c+Z0AYYyX1CrlKylY=
+
+Name: com/collabnet/ccf/ui/FieldMappingLandscapeTemplatesSite.class
+SHA1-Digest: 2QLFM2KwIHgJFGBOQyA1e7kz9sk=
+
+Name: icons/delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: com/collabnet/ccf/ui/actions/PauseSynchronizationAction$1.class
+SHA1-Digest: lFspE7zGZp01JGzXb4ka73IsaJw=
+
+Name: com/collabnet/ccf/ui/ProjectRepositoryMappingDirectionSite.class
+SHA1-Digest: q94XoxmYt8q+bpWGq6P9FZ2oTKQ=
+
+Name: com/collabnet/ccf/ui/console/CcfConsole.class
+SHA1-Digest: aHLHDsLzEH8M0TMK+sWR1UX5ke0=
+
+Name: com/collabnet/ccf/ui/editors/HospitalDetailsEditorPage.class
+SHA1-Digest: LnBYVHeFMG5XOrcqwrL+nD5iRmE=
+
+Name: com/collabnet/ccf/ui/actions/LogFileAction$1.class
+SHA1-Digest: WjT+J5ASgh26AABGA3MJLBLsVOA=
+
+Name: icons/field_value_map.gif
+SHA1-Digest: /PvIa2UOZV+uEthrdoN9PT6ORAg=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage$6.class
+SHA1-Digest: LNZhhedFhw3/WGciKRnSYBsdn6A=
+
+Name: com/collabnet/ccf/ui/dialogs/PasswordDialog.class
+SHA1-Digest: K6pcWpNk5YAe4xwo/vAZUgi+QrY=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizard$1.class
+SHA1-Digest: EMiJ1y/K79W4ZvQqo+epC1t8lx0=
+
+Name: com/collabnet/ccf/ui/messages.properties
+SHA1-Digest: F55qIV2jJfxnmMppB88fei4xSno=
+
+Name: com/collabnet/ccf/ui/actions/DeleteHospitalEntryAction$1.class
+SHA1-Digest: xXlxncloMX/Ppp1k3R+POWVBjLw=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$2.class
+SHA1-Digest: U6omLyeDLH0fe+0VJqfgPWMUh0s=
+
+Name: com/collabnet/ccf/ui/tf/TFArtifactMetaData.class
+SHA1-Digest: 7B5FRnoOP/4piZIvTODkHZXRoJg=
+
+Name: com/collabnet/ccf/ui/views/HospitalView.class
+SHA1-Digest: FPttZqmGeol7/2LpPKDbdyrAUEE=
+
+Name: com/collabnet/ccf/ui/dialogs/HospitalColumnSelectionDialog$2.cla
+ ss
+SHA1-Digest: McljqCnOWS0KwJmSkiIrOD8POII=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$Project.cla
+ ss
+SHA1-Digest: oIrWMqsUfSIWbwj9vyiDRDp/uN4=
+
+Name: icons/constant_field_mapping.gif
+SHA1-Digest: 33OC8YA5yukxohcGvpNAWm7HRlY=
+
+Name: xslt/QC2TF/CreateInitialMFD.xsl
+SHA1-Digest: m2RRTw3gtSYDeNbHZu47xBGmBFQ=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$2.class
+SHA1-Digest: mXUHSylc+gmHu+CFTOQYW+rCzQg=
+
+Name: com/collabnet/ccf/ui/actions/IdentityMappingAction.class
+SHA1-Digest: jwDT6iE8lpoIL7HQ1HVHTCfDQmA=
+
+Name: com/collabnet/ccf/ui/qc/RequirementTypeSelectionDialog.class
+SHA1-Digest: 60M/bAAeT6HtbLVyEjNFNu7co5g=
+
+Name: com/collabnet/ccf/ui/CcfParticipant.class
+SHA1-Digest: ePsdOBqoN432AKrD0m1gJBGo6kg=
+
+Name: com/collabnet/ccf/ui/preferences/ColumnChooserPreferencePage$5.c
+ lass
+SHA1-Digest: 8JBX2OpZsaccWn7vWal+5+uirQM=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$ArrangeColumnsAction.cla
+ ss
+SHA1-Digest: rdQUk9xwn+JFpENIRWFUAK/RUqc=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$9.class
+SHA1-Digest: m1MZxxadELDzSHcZJS2AafxghYg=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$3.class
+SHA1-Digest: H6INDxfW6VblYn6ZNkm8gUPQelc=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$HospitalDropAdapter.clas
+ s
+SHA1-Digest: cPZuNukXGdXD1iovyapwCmyaWKY=
+
+Name: icons/import.gif
+SHA1-Digest: MKszEQjUx2EkgUA9dYuHWm9MBDk=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog$1.class
+SHA1-Digest: /6QEj9S6+9HVqk9AvQiE3jPnNcw=
+
+Name: com/collabnet/ccf/ui/actions/DeleteHospitalEntryAction.class
+SHA1-Digest: Tzw9n7zf1xXtWzjyW419gB8Hqyg=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$ValueMapLab
+ elProvider.class
+SHA1-Digest: Rv06TmoO2soxTdKbfBlMfu0NqEI=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage$7.class
+SHA1-Digest: laCUdGSTC59ohgf47mNFe/daYMc=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizard.class
+SHA1-Digest: Tqmd4trevzwrucfBWq8fdNQFU3c=
+
+Name: com/collabnet/ccf/ui/wizards/NewLandscapeWizardConfigurationPage
+ .class
+SHA1-Digest: xz7vh6OaHA1H+ZBUcn3FRkhuUh0=
+
+Name: com/collabnet/ccf/ui/views/ConnectorStatusView$1$1$1.class
+SHA1-Digest: 9x3W7T27zv+NYvyJOd+s0bMHqFo=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$5.class
+SHA1-Digest: xspGNawLBYj2Y7HF2DI9Pd8mngk=
+
+Name: com/collabnet/ccf/ui/actions/DeleteFieldMappingAction$1.class
+SHA1-Digest: fdr97L7wG2F3YXdjmRHJxaSAgQs=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardTeamForgeTracke
+ rPage.class
+SHA1-Digest: 9nAvRQ+GBV+zUco6ml407gJtGtU=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$RefreshAction.cla
+ ss
+SHA1-Digest: K77Ig694FhfjZZErkdev7SdwgRQ=
+
+Name: icons/active_ovr.gif
+SHA1-Digest: 8MDO4MJMvYcHFgQD6Bdz2Xjjqbg=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$6.class
+SHA1-Digest: b1gCwpOVlXgWuLkGvSJyjxc7oVc=
+
+Name: com/collabnet/ccf/ui/preferences/CcfPreferencePage$1.class
+SHA1-Digest: iHvxmrmP2pjELu/MhDqs56Vg46s=
+
+Name: com/collabnet/ccf/ui/IXmlContentUpdateListener.class
+SHA1-Digest: mShLHicSd7yStPMXWYcKNA7rQNA=
+
+Name: com/collabnet/ccf/ui/wizards/DuplicateUserDialog.class
+SHA1-Digest: luwXeqxDO6EnzrTwZWu8edOQH+0=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardSnippetPage$1
+ .class
+SHA1-Digest: o+r4QqTodnwVpR4YVFIxRmOuwvQ=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider$2.class
+SHA1-Digest: k8hE4uT+9en/el5KKssP5ydYdpE=
+
+Name: com/collabnet/ccf/ui/actions/EditLandscapeAction.class
+SHA1-Digest: +P8Tj6GtpnroQr8ziR1Nca1vNZk=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorInput.class
+SHA1-Digest: GtBMN/5zNZfbkqn+cfNfjZp5d1M=
+
+Name: xslt/QC2TF/Sample_QC_Req_2_TF_TrackerItem.xsl
+SHA1-Digest: G4BK6ts2wdf8UjBwwni1NHx0iYc=
+
+Name: com/collabnet/ccf/ui/actions/IdentityMappingEditAction.class
+SHA1-Digest: XgSzBc0StdmUS37lq+cVfpKZUZw=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$6.class
+SHA1-Digest: +dhEg3cVDBttNg4hmR1RTuAafVk=
+
+Name: icons/repositoryMappingDirection_paused.gif
+SHA1-Digest: 7iR+Ddopmkmsq1s+mRz+A1qkTC0=
+
+Name: com/collabnet/ccf/ui/CcfLandscapeSite$3$2.class
+SHA1-Digest: 0B+a74xKxVGIfMaWYZarztbPeMY=
+
+Name: com/collabnet/ccf/ui/actions/FixTrackersAction.class
+SHA1-Digest: s0ExPtyFfqRsP5r3wgbhqLFcZ1A=
+
+Name: com/collabnet/ccf/ui/CcfRepositoryMappingsSite.class
+SHA1-Digest: IYZQcGJT3dsksSt5Oe1oqmmneJ8=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$7.class
+SHA1-Digest: w8Lp3/YyivgtbmknDMid5ryBuX0=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$FieldCompar
+ ator.class
+SHA1-Digest: GKoNRyQl9uihX/tm9KGe7+A1LrU=
+
+Name: icons/copy.gif
+SHA1-Digest: t2yjkh4Fe/eXbNEAT6ALPln5rBE=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizard$1.class
+SHA1-Digest: CDiYEmgGOYqwTxnAvU8XqgJK+FU=
+
+Name: com/collabnet/ccf/ui/wizards/NewRepositoryMappingWizard$1.class
+SHA1-Digest: fn3QbSpG3YTOcfoPtng8L6ebcEQ=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizardDoc
+ umentPage$1.class
+SHA1-Digest: hTYyo9bTKCHzcsxce98+ZC/fA3M=
+
+Name: com/collabnet/ccf/ui/actions/SynchronizeTeamsSprintsAction$1.cla
+ ss
+SHA1-Digest: PHi72lnilHnM08v54memEvIlDro=
+
+Name: com/collabnet/ccf/ui/dialogs/LandscapeValidationErrorDialog.clas
+ s
+SHA1-Digest: w7KviCP71pxzRbUJBC0ozpQXWaw=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardSwpProductPage$
+ ProductsContentProvider.class
+SHA1-Digest: NMkliOwGQgfBsWWjFXi8bJaMfIM=
+
+Name: com/collabnet/ccf/ui/wizards/FixTrackersWizard.class
+SHA1-Digest: f/3rmtbFtoZBWQ0/xWL+Y2c+MgI=
+
+Name: com/collabnet/ccf/ui/qc/DomainProjectSelectionDialog$2.class
+SHA1-Digest: gQaBnzEmo4mdP3IJ/ulHgqJ3/iA=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$8.class
+SHA1-Digest: ccKrlH6HWC7+JwfGcw/mL0ztpbA=
+
+Name: com/collabnet/ccf/ui/schemageneration/XSLTInitialMFDGenerator.cl
+ ass
+SHA1-Digest: mDT5tnkfNYbfzaVpVAN6y4nRGR4=
+
+Name: com/collabnet/ccf/ui/core/CCFRuntimeException.class
+SHA1-Digest: HvVETjFoLpADdcbBClLQFjrMcJk=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardMainPage.clas
+ s
+SHA1-Digest: qpgipD/4gujsUK+iv942T4OUNUo=
+
+Name: com/collabnet/ccf/ui/editors/CcfCcfEditorPage$5.class
+SHA1-Digest: hap/43b0YtBZesS+SR69GiN6gd0=
+
+Name: com/collabnet/ccf/ui/editors/CcfConnectorBehaviorEditorPage$4.cl
+ ass
+SHA1-Digest: NOCyqiLGmRxYfXhppM7pT8hJtyk=
+
+Name: com/collabnet/ccf/ui/wizards/ExportFieldMappingTemplateWizard.cl
+ ass
+SHA1-Digest: RIenngfom0M8pZgBfW4J98QfBcE=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeMappingSection$3.class
+SHA1-Digest: tx4eXJSO0T/3VFCpSMTfyxc2/7E=
+
+Name: plugin.xml
+SHA1-Digest: Pj1BL6A/ud133TvBRmqwxPxeMSU=
+
+Name: com/collabnet/ccf/ui/actions/MapUsersAction$1.class
+SHA1-Digest: wzxqCbF8u+3HoI+L5YRALbNT/7Y=
+
+Name: com/collabnet/ccf/ui/actions/ReverseFieldMappingAction.class
+SHA1-Digest: G7zMWS5dVm85tXCeT83ziI+1I1Q=
+
+Name: com/collabnet/ccf/ui/editors/HospitalEditor.class
+SHA1-Digest: qtCrVkHH6sgsYB1U8vZTyzJQH7g=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$9.class
+SHA1-Digest: gOb5JS/lIjS6XfeB42XYw8cp0+I=
+
+Name: icons/filters.gif
+SHA1-Digest: Z/PqFWy4IrQgwXdAoSsQaEM3Fws=
+
+Name: com/collabnet/ccf/ui/preferences/ColumnChooserPreferencePage$1.c
+ lass
+SHA1-Digest: frQimozHzIjxSYE+Bilz5ccojqM=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardDoc
+ umentPage$DocumentContentProvider.class
+SHA1-Digest: 0h9/k5QhZsPmFQIn2orlFds9k6U=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizard.class
+SHA1-Digest: 4fBh0/hF2BAicrCp2TXtYzGLcaI=
+
+Name: com/collabnet/ccf/ui/migration/RepositoryMappingMigrationUtility
+ $1.class
+SHA1-Digest: z5OYtsIVOgTyBNGXPTTzbap+4cw=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$2.class
+SHA1-Digest: GR3FkCDgi9skwHzS1Up26ynWYgo=
+
+Name: com/collabnet/ccf/ui/core/GenericArtifactField.class
+SHA1-Digest: Lo5yDGXv7si59M8HsZxCy3qYy9s=
+
+Name: com/collabnet/ccf/ui/fieldmapping/IValueProvider.class
+SHA1-Digest: MZ7SkxilAr/Y4ekvDFqd8J7Qtbw=
+
+Name: com/collabnet/ccf/ui/actions/EditFieldMappingTemplateAction.clas
+ s
+SHA1-Digest: nzbFDyBlP8bCYKRkq4+bZMzEbDo=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksSelectionDialog$2.class
+SHA1-Digest: KuXO07HNZio5oOyepfVobDaMecE=
+
+Name: com/collabnet/ccf/ui/FieldMappingTemplateSite.class
+SHA1-Digest: yL2S/CoUopQk1SCY0N9Ay1+zxaE=
+
+Name: com/collabnet/ccf/ui/tf/TFArtifactMetaData$SFEEFields.class
+SHA1-Digest: RYOQ3Kb2XmmsP7hi0AyRXmjH0BY=
+
+Name: com/collabnet/ccf/ui/preferences/ColumnChooserPreferencePage$4.c
+ lass
+SHA1-Digest: CgGgqglLmbHVmn1ONFfQ47Dp+2g=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapEntryDialog.class
+SHA1-Digest: RRnl4lrCuhXyhA2v23yI25m9u2U=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$1.class
+SHA1-Digest: SZexiHFaX2URrqhKnDxmWynmUJA=
+
+Name: com/collabnet/ccf/ui/migration/RepositoryMappingMovedMigrationRe
+ sult.class
+SHA1-Digest: 2lhYw4zYusdEpKoQs3Ep0WNvCj4=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardValueMapPage$
+ 1.class
+SHA1-Digest: mEyotLKuPCvWNsB3L97bHkdDk1s=
+
+Name: com/collabnet/ccf/ui/dialogs/ChangeRepositoryMappingDialog$Confi
+ gContentProvider.class
+SHA1-Digest: w6iYyQkMx4IL/G2NupdgrcfbHfc=
+
+Name: com/collabnet/ccf/ui/CcfSiteProvider.class
+SHA1-Digest: ts+lTLGnkzN1UTNpqWR4NXoH0PQ=
+
+Name: com/collabnet/ccf/ui/actions/DeleteIdentityMappingsAction.class
+SHA1-Digest: LvdNUnbqw04ynS8YJQYnMPFNI6A=
+
+Name: com/collabnet/ccf/ui/RepositoryMappingDirectionSiteWithEditableF
+ ieldMappings.class
+SHA1-Digest: D36jXxMx9hQF0uLBQEK89C3xWhc=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$21.class
+SHA1-Digest: +c+4SeGLWMfKCyyMPDufaRX0cbk=
+
+Name: com/collabnet/ccf/ui/editors/CcfEditorPage.class
+SHA1-Digest: wvEP9ft66jcCuiTSkf0nDuuRFms=
+
+Name: com/collabnet/ccf/ui/schemageneration/CCFXSLTSchemaAndXSLTFileGe
+ nerator.class
+SHA1-Digest: 0Bpus8XwoAj2uBxBZi+vyxBxDvY=
+
+Name: com/collabnet/ccf/ui/views/IdentityMappingView$IdentityMappingLa
+ belProvider.class
+SHA1-Digest: 993PLsUZ4HHOgPxyn2F0rdsIcnw=
+
+Name: com/collabnet/ccf/ui/dialogs/ResetProjectMappingDialog$1.class
+SHA1-Digest: lEl7GMJ4UPdPA2ZYAlfqXC7+gxE=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$20.class
+SHA1-Digest: 89RtPGuRnrx3K4fWw2OAo+XnOhY=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeMappingSection.class
+SHA1-Digest: UVM0itUSSlFqYzsVWeeVbiV9sfg=
+
+Name: com/collabnet/ccf/ui/generic/GenericCcfParticipant.class
+SHA1-Digest: Ne1YbmQEuIs0t0szXzhL5A118Z8=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizard.class
+SHA1-Digest: OlszgHwlXDkQczaWDKlcxY3+Q3c=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardFieldMappingP
+ age$1.class
+SHA1-Digest: LUhzQIfY5M5oxpZidj/Nl00fBs0=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$8.class
+SHA1-Digest: Katwy3Uk40yZdDk5GMyOEXygzQE=
+
+Name: com/collabnet/ccf/ui/wizards/ReverseFieldMappingWizardMainPage$1
+ .class
+SHA1-Digest: maQD9ueuVOVD+LbWkdLFdrWPxN8=
+
+Name: com/collabnet/ccf/ui/wizards/ProjectMappingWizardSwpProductPage$
+ 3.class
+SHA1-Digest: Y8mXi+OAgW6ULcx6ninGtFE5GmM=
+
+Name: com/collabnet/ccf/ui/editors/HospitalDetailsEditorPage$3.class
+SHA1-Digest: aLhIGPXlDhVDirzgpVmlf+nc8iU=
+
+Name: com/collabnet/ccf/ui/editors/CcfCcfEditorPage$2.class
+SHA1-Digest: fsvKkmPLX/V1Ot+tlLIndRFQ324=
+
+Name: com/collabnet/ccf/ui/console/CcfConsole$1.class
+SHA1-Digest: cxI+Ju09vmdv97SJ3pSpyIr++vU=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeCcfParticipant.class
+SHA1-Digest: bKKVHkCgBlY19iTtTB8utav/xNk=
+
+Name: com/collabnet/ccf/ui/actions/ImportFieldMappingTemplateAction.cl
+ ass
+SHA1-Digest: NDPdCCQcdT2VQuDPaS7U6e4JFqE=
+
+Name: com/collabnet/ccf/ui/console/CcfConsoleFactory.class
+SHA1-Digest: uZHyjaAB4QN2UTFriPGofZrWPz4=
+
+Name: icons/swp_metadata.gif
+SHA1-Digest: mUtH6JOLdcPH0zYHzxxaDo/tNgE=
+
+Name: com/collabnet/ccf/ui/actions/ExaminePayloadAction$2.class
+SHA1-Digest: xDxUkYOE0DdRo3Qy6ylaqzRRaDI=
+
+Name: com/collabnet/ccf/ui/ICcfParticipant.class
+SHA1-Digest: rXOXQxttK8sOZtpvpp9MXfn55nA=
+
+Name: com/collabnet/ccf/ui/wizards/RenameFieldMappingWizard$1.class
+SHA1-Digest: 5epUug89qH5HBFqU2B3HD8xN670=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardConstantPage$
+ 4.class
+SHA1-Digest: auoKU1ezK+wbCropdC3/C9KjuXM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingModelObject.class
+SHA1-Digest: qiJbttI6Yab3QMYpBBqhUp3i6rg=
+
+Name: com/collabnet/ccf/ui/dialogs/HospitalColumnSelectionDialog$1.cla
+ ss
+SHA1-Digest: Dfs3zaz8CMMjpqnqkCjRGMs5uU0=
+
+Name: com/collabnet/ccf/ui/actions/ExaminePayloadAction$1.class
+SHA1-Digest: E0+7hI7IDbw6Z67CrENML4eHEog=
+
+Name: com/collabnet/ccf/ui/dialogs/ParticipantCredentialsDialog.class
+SHA1-Digest: iG5ZDDm5Ny/BOm56vOAKOvNv+OE=
+
+Name: com/collabnet/ccf/ui/actions/EditFieldMappingAction$3.class
+SHA1-Digest: KWuzfzW+WaPn6SPr3tjIr9HC1Ck=
+
+Name: icons/hospitalEntry_replay.gif
+SHA1-Digest: 21fSBmkVrVC+vhAqKtcd7EJM9pU=
+
+Name: com/collabnet/ccf/ui/dialogs/CopyToFieldMappingTemplateDialog$Te
+ mplateContentProvider.class
+SHA1-Digest: xZAyo2H5jICL34eV4IBkGekgaDM=
+
+Name: com/collabnet/ccf/ui/dialogs/PasswordDialog$1.class
+SHA1-Digest: 3PMuCijwaBWsphvCOC7dATZX1SE=
+
+Name: com/collabnet/ccf/ui/editors/IdentityMappingEditorPage$1.class
+SHA1-Digest: 3/SJoKptsHHxSPGUk1aNLDenfs0=
+
+Name: icons/repositoryMappings.gif
+SHA1-Digest: hkyPhC8txW5Ko6s7j/+E37ndjJU=
+
+Name: com/collabnet/ccf/ui/editors/CcfSystemEditorPage$1.class
+SHA1-Digest: l7E7FOM3W3ZUDA7kCBCAK2YMaHk=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$MappingRule
+ sLabelProvider.class
+SHA1-Digest: WKjeHljBq2dGLoCHR/acEQkuo+4=
+
+Name: com/collabnet/ccf/ui/actions/ResetSynchronizationStatusAction.cl
+ ass
+SHA1-Digest: Nji+TsuRT3HDaTKP6PCVl0MwENc=
+
+Name: com/collabnet/ccf/ui/editors/HospitalDetailsEditorPage$2.class
+SHA1-Digest: ZRCfu+3pX9n5rdA18hDTN/PnM5s=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeMappingSection$2.class
+SHA1-Digest: fIUtlM+5qphEHrWF6squasl3NCs=
+
+Name: xslt/TF2QC/sample.xsl
+SHA1-Digest: hqD2Cb+irvU7aC5wT7o29/QPdtM=
+
+Name: com/collabnet/ccf/ui/RepositoryMappingSiteWithEditableFieldMappi
+ ngs.class
+SHA1-Digest: oER8Pqz96+IrZd/qX7JT57rRP6c=
+
+Name: schema/ccfParticipants.exsd
+SHA1-Digest: vxFOrZEyMWEm/wBV0v2H/NT6934=
+
+Name: com/collabnet/ccf/ui/qc/QualityCenterMappingSection$4.class
+SHA1-Digest: ne1ZzRYlmdjNHyqc2hv7zZJc0ts=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$3$1.class
+SHA1-Digest: XUMfq4Am4mYGEsFLb9TM6S0d5N4=
+
+Name: com/collabnet/ccf/ui/migration/InvalidMigrationTarget.class
+SHA1-Digest: nf8N1tqOwgeIFLzGqKUenqJ/4vE=
+
+Name: com/collabnet/ccf/ui/wizards/NewCollabNetSiteWizardCcfLandscapeP
+ age$2.class
+SHA1-Digest: 0QVYbL9rZHs8hZqCZPXBXJvyI48=
+
+Name: com/collabnet/ccf/ui/preferences/ConsolePreferencePage.class
+SHA1-Digest: DrqnYrIzNUCPzb4xEX8C6fQzsPE=
+
+Name: com/collabnet/ccf/ui/wizards/ImportFieldMappingTemplateWizardFil
+ ePage.class
+SHA1-Digest: LvkB85VN9IFKHVO0M5y7cDhM9fs=
+
+Name: com/collabnet/ccf/ui/dialogs/RenameFieldMappingTemplateDialog.cl
+ ass
+SHA1-Digest: vmGay8T7VCdf61/KG1RUt1yjBXM=
+
+Name: com/collabnet/ccf/ui/fieldmapping/MappingRuleWizardValueMapPage$
+ 3.class
+SHA1-Digest: eiLJjfig+LDQC7jfu4CNlh1BtOw=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$DeleteValue
+ MapEntryAction.class
+SHA1-Digest: RHPlVJTnukPQ60vUXd05lLeT4tM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$HospitalSorter.class
+SHA1-Digest: jU0dG/FvLKu24p+dG2dOnSeKh8Q=
+
+Name: com/collabnet/ccf/ui/fieldmapping/ValueMapWizardPage$2.class
+SHA1-Digest: 4epxRdyB4A//HAtK96ufvSqMdcw=
+
+Name: com/collabnet/ccf/ui/wizards/NewFieldMappingWizardMainPage$1.cla
+ ss
+SHA1-Digest: Yz0BzUcFWsF6vDio4/AOvQLQ0J8=
+
+Name: com/collabnet/ccf/ui/swp/ScrumWorksMappingSection$4.class
+SHA1-Digest: NwwAsjWunM8wIxmjXTPiizm3jXs=
+
+Name: scripts/validateQCDomainAndProjectAndRequirementType.vbs
+SHA1-Digest: TybSme1FH7atMd6bD76A71qjcss=
+
+Name: com/collabnet/ccf/ui/views/HospitalView$5.class
+SHA1-Digest: UX+0BHsZ9oZ9vqc1XDv8gU83kEE=
+
+Name: com/collabnet/ccf/ui/dialogs/CcfDialog.class
+SHA1-Digest: AR0sr1rxB8OSoETDee2UjAc4htg=
+
+Name: icons/error_ov.gif
+SHA1-Digest: iplThZy7Tm7qRb2x6bAv54VK63E=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$DeleteField
+ MappingRuleAction.class
+SHA1-Digest: f2MQJ7Jte3nFYhDAbFJuQpFMC18=
+
+Name: com/collabnet/ccf/ui/wizards/EditFieldMappingWizard$7.class
+SHA1-Digest: D2ChQvOk+3QIQVslPGL4b9K0j7Y=
+
+Name: com/collabnet/ccf/ui/migration/MigrateRepositoryMappingsResultsD
+ ialog$MappedContentProvider.class
+SHA1-Digest: fbq+iiWbtjsKMB3uNkM7zcjUPGg=
+
+Name: com/collabnet/ccf/ui/FieldMappingSite.class
+SHA1-Digest: EGGGdosrj7v+eVCN9s6dsNVFHfU=
+
+Name: schema/mappingVisibilityCheckers.exsd
+SHA1-Digest: 9pg4JuiQUIITblFjVmuytdRtxwQ=
+
+Name: com/collabnet/ccf/ui/fieldmapping/FieldMappingEditor$MappingRule
+ sContentProvider.class
+SHA1-Digest: RhVWT1cVgXDH/6DczlyxLmNuZqA=
+
+Name: com/collabnet/ccf/ui/tf/TeamForgeSelectionDialog$3.class
+SHA1-Digest: R+W1ck/xN5R2/+zCNOXm0XwENHc=
+
+Name: cn_icon.png
+SHA1-Digest: cyd2Qk/uT61qLxViVRDCitTZdM0=
+

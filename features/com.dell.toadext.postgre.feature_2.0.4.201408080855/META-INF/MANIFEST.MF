@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 20.2-b06 (Sun Microsystems Inc.)
+
+Name: License.rtf
+SHA1-Digest: foZnrgaSBNiDpnuWb6C99wSi/Uw=
+
+Name: License.htm
+SHA1-Digest: ULhinx5ev2SWRdTtp/IhqZhkaF4=
+
+Name: feature.xml
+SHA1-Digest: iwbaT6rW3KKvZQ3jqEeTHvYHK5c=
+
+Name: feature.properties
+SHA1-Digest: Oa3S7anBi2FEPg25+q8eiRm+G8o=
+

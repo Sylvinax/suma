@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/home/build/ToadExt/build/userbuilds/tee_sites/public - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1407481212708'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='55'>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.qp5.linux.x64' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='5520013'/>
+        <property name='download.size' value='5520013'/>
+        <property name='download.md5' value='ab040c256c33187159b05d7641f82b78'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.oracle.core' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='1124533'/>
+        <property name='download.size' value='1124533'/>
+        <property name='download.md5' value='d2915577c1988b30c1974a372b2dd47c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.sqlviewer' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='447996'/>
+        <property name='download.size' value='447996'/>
+        <property name='download.md5' value='0aba95c0a975abdf7368e067b2d4c83b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.editor' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='758658'/>
+        <property name='download.size' value='758658'/>
+        <property name='download.md5' value='4608d901a841c1555bc846e2623326b0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.dell.toadext.core.feature' version='2.0.4.201408080855'>
+      <properties size='4'>
+        <property name='artifact.size' value='113210'/>
+        <property name='download.size' value='113210'/>
+        <property name='download.md5' value='676ebd3722196d230a6e2ac111d97f50'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.win32' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='9925'/>
+        <property name='download.size' value='9925'/>
+        <property name='download.md5' value='6a7113b96cd1925e02d97f27c9f2fbab'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.dell.toadext.mysql.feature' version='2.0.4.201408080855'>
+      <properties size='4'>
+        <property name='artifact.size' value='80798'/>
+        <property name='download.size' value='80798'/>
+        <property name='download.md5' value='0ada1a7c1b9dd1d2f6f58c8d2a2e6408'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.ui' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='3031861'/>
+        <property name='download.size' value='3031861'/>
+        <property name='download.md5' value='3b3f2c77a8d4f944d299e0c0c37207b6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.mysql.macos' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='7486'/>
+        <property name='download.size' value='7486'/>
+        <property name='download.md5' value='507730480b8ac2ee12038157e2b32ad9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.install' version='2.0.4'>
+      <properties size='3'>
+        <property name='artifact.size' value='4714'/>
+        <property name='download.size' value='4714'/>
+        <property name='download.md5' value='37d314099f2436bc558b5a7b319b8a79'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.search' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='35986'/>
+        <property name='download.size' value='35986'/>
+        <property name='download.md5' value='69809deccaeb7154beeffe2109bf078a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.qp5.win32.x86_64' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='4159454'/>
+        <property name='download.size' value='4159454'/>
+        <property name='download.md5' value='20f3319abf36a72cf676a79c581e033a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.model' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='58293'/>
+        <property name='download.size' value='58293'/>
+        <property name='download.md5' value='57d5d7b1cae80ee22403ccc3a40cc9ab'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.log4j' version='1.2.15.v201005080500'>
+      <properties size='3'>
+        <property name='artifact.size' value='413986'/>
+        <property name='download.size' value='413986'/>
+        <property name='download.md5' value='bf6988fd96c7c331459e9c80f5ff859b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.integration' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='17135'/>
+        <property name='download.size' value='17135'/>
+        <property name='download.md5' value='e1f940720589f9b9685c334cf37a0acb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.postgre.ui' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='628545'/>
+        <property name='download.size' value='628545'/>
+        <property name='download.md5' value='7510047b9916d7820c1b6e39b853d9ec'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.dell.toadext.postgre.feature' version='2.0.4.201408080855'>
+      <properties size='4'>
+        <property name='artifact.size' value='112773'/>
+        <property name='download.size' value='112773'/>
+        <property name='download.md5' value='c359ef733467ed28141b8de6d8e3d119'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.oracle.win32' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='134729'/>
+        <property name='download.size' value='134729'/>
+        <property name='download.md5' value='2098d3d34f4f3011b4e45122cd8bd4d1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.util' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='48011'/>
+        <property name='download.size' value='48011'/>
+        <property name='download.md5' value='3f994ad83c632c0c1cd3e920ffdaf679'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.postgre.win32' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='6377'/>
+        <property name='download.size' value='6377'/>
+        <property name='download.md5' value='1efdecc2889793e4be17f754c918b64f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.postgre.macos' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='7194'/>
+        <property name='download.size' value='7194'/>
+        <property name='download.md5' value='f0dced85818abdc81024a6fe152dbede'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.postgre.core' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='1093810'/>
+        <property name='download.size' value='1093810'/>
+        <property name='download.md5' value='ab3aef5a9f803d896e40302988217fb7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.mysql.core' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='781098'/>
+        <property name='download.size' value='781098'/>
+        <property name='download.md5' value='a03a34013c92f337cbfaee2758cf3aca'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.history' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='593461'/>
+        <property name='download.size' value='593461'/>
+        <property name='download.md5' value='907808b3eb951559e2ba875b588346aa'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.oracle.ui' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='1072086'/>
+        <property name='download.size' value='1072086'/>
+        <property name='download.md5' value='6ba9a39c44d9e4fbb146e5c3f6474c8c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.session' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='27347'/>
+        <property name='download.size' value='27347'/>
+        <property name='download.md5' value='b3524986fdbec7a6ec8a9390ea457dd6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.perspective' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='7264'/>
+        <property name='download.size' value='7264'/>
+        <property name='download.md5' value='16754987f9cbb6a52e1ee8391eb4af3d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.doc' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='11747461'/>
+        <property name='download.size' value='11747461'/>
+        <property name='download.md5' value='5fecea18709aa53faaa58f47c42b1339'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.oracle.macos' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='12151'/>
+        <property name='download.size' value='12151'/>
+        <property name='download.md5' value='ee98b261e4d991ccde6b303a2287622c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.integration.common' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='13154'/>
+        <property name='download.size' value='13154'/>
+        <property name='download.md5' value='ca1385c0bdab4cd81185ffd28b0c6157'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.qp5.macos.x64' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='5142541'/>
+        <property name='download.size' value='5142541'/>
+        <property name='download.md5' value='eaa7b4e9d903a6ef45b54f84a200f51d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.postgre.linux' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='7227'/>
+        <property name='download.size' value='7227'/>
+        <property name='download.md5' value='900f12b777c144edd60fc43a518137a3'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.qp5.linux.x86' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='5322572'/>
+        <property name='download.size' value='5322572'/>
+        <property name='download.md5' value='bfde6a47159dfdfeae295868e5cae49a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='3898678'/>
+        <property name='download.size' value='3898678'/>
+        <property name='download.md5' value='d13f4925770fc5958c25c74954a7c568'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.qp5.win32.x86' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='5440374'/>
+        <property name='download.size' value='5440374'/>
+        <property name='download.md5' value='b0082937447738a2864a823a72cb81d1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.configuration' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='13830'/>
+        <property name='download.size' value='13830'/>
+        <property name='download.md5' value='de0f7b0862257ffd04f3ccb1c273444d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.detailbrowser' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='103346'/>
+        <property name='download.size' value='103346'/>
+        <property name='download.md5' value='89bff375180fdeb0eb2fab1ea9d17f64'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.util.security' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='15372'/>
+        <property name='download.size' value='15372'/>
+        <property name='download.md5' value='8bedadfe2bdb12738f1cce3ae2987bfb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.dell.toadext.oracle.feature' version='2.0.4.201408080855'>
+      <properties size='4'>
+        <property name='artifact.size' value='112756'/>
+        <property name='download.size' value='112756'/>
+        <property name='download.md5' value='4b32c8c9cbd29a6e1c9c864fd67506de'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.qp5' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='223932'/>
+        <property name='download.size' value='223932'/>
+        <property name='download.md5' value='7439b165728c4d58ff2ae0978c414381'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.ide' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='142331'/>
+        <property name='download.size' value='142331'/>
+        <property name='download.md5' value='8ab5d3f8242631a748b2f63a9002bafa'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.schemabrowser' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='762487'/>
+        <property name='download.size' value='762487'/>
+        <property name='download.md5' value='7f5715130913c6b2369ce23b6b009932'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.connection' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='78814'/>
+        <property name='download.size' value='78814'/>
+        <property name='download.md5' value='c56c26e1ab18a86e6f496afc9efc52f6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.plugin' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='80632'/>
+        <property name='download.size' value='80632'/>
+        <property name='download.md5' value='439733c2069ae554b47afdba10cf24cc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.postgre.unix' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='5975'/>
+        <property name='download.size' value='5975'/>
+        <property name='download.md5' value='1fa72ba1585fc8f3336e5c0c2fcb03a1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.oracle.linux' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='11224'/>
+        <property name='download.size' value='11224'/>
+        <property name='download.md5' value='f781ded3099df7e3fdf3c25de8c9689b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.dell.toadext.feature' version='2.0.4.201408080855'>
+      <properties size='4'>
+        <property name='artifact.size' value='112651'/>
+        <property name='download.size' value='112651'/>
+        <property name='download.md5' value='bab4484b9fa918fc05b781441a6aaadc'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.parameter' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='15444'/>
+        <property name='download.size' value='15444'/>
+        <property name='download.md5' value='bdfceffe1f9165fc83197963cd663a31'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.dell.toadext.javaeditor.feature' version='2.0.4.201408080855'>
+      <properties size='4'>
+        <property name='artifact.size' value='80781'/>
+        <property name='download.size' value='80781'/>
+        <property name='download.md5' value='1411b0890f99b518bb1899e593c9b36b'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.mysql.linux' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='7265'/>
+        <property name='download.size' value='7265'/>
+        <property name='download.md5' value='57f8f6f6e1b99ca2c418d52ab62658f6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.messages' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='31552'/>
+        <property name='download.size' value='31552'/>
+        <property name='download.md5' value='e09ad36873e285ebf0b6f317263b6a33'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.project' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='89189'/>
+        <property name='download.size' value='89189'/>
+        <property name='download.md5' value='7e058d462d021d56218bf48a77834079'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.ris' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='125719'/>
+        <property name='download.size' value='125719'/>
+        <property name='download.md5' value='47af2a4ccadfb28f98f8e611faa08507'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.mysql.ui' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='390831'/>
+        <property name='download.size' value='390831'/>
+        <property name='download.md5' value='3f71674b3863caaddb193d50a72bbd15'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.dell.toadext.javaeditor' version='2.0.4.201408080855'>
+      <properties size='3'>
+        <property name='artifact.size' value='99094'/>
+        <property name='download.size' value='99094'/>
+        <property name='download.md5' value='5a0004d427fa325fe8aff20c976bb9d2'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

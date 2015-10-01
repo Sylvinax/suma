@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sonar.ide.eclipse.thirdparty.feature"
+      label="SonarQube Integration for Eclipse Third-Party feature"
+      version="3.4.0.20140404-0949-RELEASE"
+      provider-name="SonarSource">
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="180"
+         install-size="358"
+         version="2.4.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="277"
+         install-size="587"
+         version="2.6.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="1846"
+         install-size="4088"
+         version="13.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.googlecode.json-simple"
+         download-size="23"
+         install-size="42"
+         version="1.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.sonar.ws-client"
+         download-size="223"
+         install-size="439"
+         version="4.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="797"
+         install-size="1523"
+         version="4.2.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpcore"
+         download-size="501"
+         install-size="974"
+         version="4.2.2"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.api"
+         download-size="25"
+         install-size="46"
+         version="1.7.2"
+         unpack="false"/>
+
+   <plugin
+         id="jcl.over.slf4j"
+         download-size="16"
+         install-size="30"
+         version="1.7.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="253"
+         install-size="487"
+         version="1.7.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.sonar.runner.sonar-runner-api"
+         download-size="281"
+         install-size="441"
+         version="2.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="findbugsAnnotations"
+         download-size="72"
+         install-size="102"
+         version="2.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository 
+     name='com.ifedorenko.m2e m2e extensions'
+     type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' 
+     version='1.0.0'>
+
+  <properties size='1'>
+    <property name='p2.timestamp' value='10'/>
+  </properties>
+
+  <children size='4'>
+    <child location='com.ifedorenko.m2e.sourcelookup'/>
+    <child location='com.ifedorenko.m2e.mavendev/0.3'/>
+  </children>
+</repository>

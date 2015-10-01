@@ -1,0 +1,10 @@
+!SESSION 2014-08-13 19:12:24.730 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -Djava.util.Arrays.useLegacyMergeSort=true -product org.eclipse.epp.package.jee.product -Djava.util.Arrays.useLegacyMergeSort=true -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -Djava.util.Arrays.useLegacyMergeSort=true -product org.eclipse.epp.package.jee.product -data D:\hibernatelessons\code -Djava.util.Arrays.useLegacyMergeSort=true -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-08-13 19:12:38.556
+!MESSAGE Unable to find feature.xml in directory: D:\eclipse\features\org.eclipse.datatools.connectivity.oda.designer.core.feature_1.11.1.v201306041610-7B7C7WCcNBGXDfDcDcXY

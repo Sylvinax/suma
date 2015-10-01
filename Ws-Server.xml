@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servers>
+    <workspace>
+        <name>TERA</name>
+        <ip>172.19.82.19</ip>
+        <port>5050</port>
+        <last_user>shilpa</last_user>
+    </workspace>
+    <workspace>
+        <name>dashboard-demo-master</name>
+        <ip>172.19.82.19</ip>
+        <port>5050</port>
+        <last_user>admin</last_user>
+    </workspace>
+    <workspace>
+        <name>Tera</name>
+        <ip>172.19.82.19</ip>
+        <port>5050</port>
+        <last_user>admin</last_user>
+    </workspace>
+    <workspace>
+        <name>VerizonProj_admin</name>
+        <ip>172.19.82.19</ip>
+        <port>5050</port>
+        <last_user>admin</last_user>
+    </workspace>
+    <workspace>
+        <name></name>
+        <ip>172.19.82.19</ip>
+        <port>5050</port>
+        <last_user>admin</last_user>
+    </workspace>
+</servers>

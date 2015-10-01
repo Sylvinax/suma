@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+	<extensionContent id="com.collabnet.subversion" name="CollabNet Subversion"
+		style="css/tutorials.css" path="tutorials/@">
+		<group label="CollabNet Subversion" id="subversion" style-id="content-group">
+			<link 
+				url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.collabnet.subversion.cheatsheet.checkout" 
+				label="Checkout from CollabNet Subversion Repository" id="collabnet-subversion"	style-id="content-link">
+				<text>Learn how to checkout from a CollabNet Subversion Repository.</text>
+			</link>
+			<link 
+				url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.collabnet.subversion.cheatsheet.merge" 
+				label="CollabNet Subversion Merge" id="collabnet-merge"	style-id="content-link">
+				<text>Learn how to merge changes in CollabNet Subversion.</text>
+			</link>
+		</group>
+	</extensionContent>
+</introContent>

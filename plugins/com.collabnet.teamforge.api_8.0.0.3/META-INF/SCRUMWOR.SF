@@ -1,0 +1,515 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: u/smAFD7umh4ak00AtIxZvg3QQI=
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: l6nnS+ktuSq9iEgoh7SZ480AcgY=
+
+Name: com/collabnet/teamforge/api/rbac/RoleRequestList.class
+SHA1-Digest: m/ALBdg5Ji3GApdkQAFfry4Af4U=
+
+Name: com/collabnet/teamforge/api/scm/ReplicatedRepositoryList.class
+SHA1-Digest: DiFF3D2bAQ306hoTTkMmrVCDTsk=
+
+Name: com/collabnet/teamforge/api/main/UserGroupList.class
+SHA1-Digest: oNXC6B22cY9TL+sjjG/GDbHizE0=
+
+Name: com/collabnet/teamforge/api/IOperationConstants.class
+SHA1-Digest: Rsk+HS/lVMZo7WOibuIEdUDjjBg=
+
+Name: com/collabnet/teamforge/api/main/UserList.class
+SHA1-Digest: zlqLG+Lm4YyR2xavH75nlLE416c=
+
+Name: com/collabnet/teamforge/api/task/TaskDO.class
+SHA1-Digest: 0Ycor5Ek6ruPeTaBNH4SHQwLMtw=
+
+Name: com/collabnet/teamforge/api/page/PageRow.class
+SHA1-Digest: ELkBBr1tRWBQo5tMXpBCSwkza2c=
+
+Name: com/collabnet/teamforge/api/main/AttachmentDO.class
+SHA1-Digest: /G8ADz1i7lIUtSY7fwi3+bBctNA=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerRow.class
+SHA1-Digest: mJ5oXglcB/3bH9WF75imSOvMIiM=
+
+Name: com/collabnet/teamforge/api/tracker/ArtifactRow.class
+SHA1-Digest: QT/RaDJrCfKDuQPdhqJnB+6HSJ0=
+
+Name: com/collabnet/teamforge/api/scm/ScmFileList.class
+SHA1-Digest: JpM28R2w40a8KlIPxB/pS/IcKp0=
+
+Name: com/collabnet/teamforge/api/discussion/PostList.class
+SHA1-Digest: BEsbRC2wL1ewKdyMoyZfbeuOQSs=
+
+Name: com/collabnet/teamforge/api/tracker/ArtifactDependencyList.class
+SHA1-Digest: qdibfgUzgMjC+oCL1DTV2FKXEkI=
+
+Name: com/collabnet/teamforge/api/planning/RankedArtifactList.class
+SHA1-Digest: yrJIXudDR24FtQIYqd33OoopzS8=
+
+Name: com/collabnet/teamforge/api/document/DocumentClient.class
+SHA1-Digest: FznU8lgFri79G6ytH1CjqM23ND8=
+
+Name: com/collabnet/teamforge/api/tracker/OrderedTrackerFieldList.clas
+ s
+SHA1-Digest: ApWdXPTpLLkfncDd5PxfsV/OAqA=
+
+Name: com/collabnet/teamforge/api/main/UserRow.class
+SHA1-Digest: AtQExysByzpXRcD5v40gdm/4RXM=
+
+Name: lib/sf_soap60_sdk.jar
+SHA1-Digest: QTmcjvwzVrUIjoQGxOnsk0CXt+0=
+
+Name: com/collabnet/teamforge/api/planning/PlanningFolderList.class
+SHA1-Digest: V+plgF44M+EHkNERO4tP/G9vGcY=
+
+Name: com/collabnet/teamforge/api/document/DocumentRow.class
+SHA1-Digest: bmGqTb/Y3jwcJ43kqMvvnoLLDj0=
+
+Name: com/collabnet/teamforge/api/document/DocumentFolderRow.class
+SHA1-Digest: jRo71YoxTw3EpaT0ZUZ/KhgOxaY=
+
+Name: com/collabnet/teamforge/api/Messages.class
+SHA1-Digest: GxHXEh3R7TsLEhiQ9ZZC5j58ehk=
+
+Name: com/collabnet/teamforge/api/tracker/ArtifactDO.class
+SHA1-Digest: 0A4C8Zm/G8Z0zo0AblW1aeHXDJ4=
+
+Name: com/collabnet/teamforge/api/scm/RepositoryRow.class
+SHA1-Digest: uetKC2a7K5sgXLMAKJHZUs8RslU=
+
+Name: com/collabnet/teamforge/api/main/VersionInformationRow.class
+SHA1-Digest: WsRIhOXvL3mtgzfUIqX+9Kw+UMU=
+
+Name: com/collabnet/teamforge/api/pluggable/PluggableComponentParamete
+ rDO.class
+SHA1-Digest: CptQVD0BFAFqwILyLjuY20LY7xE=
+
+Name: com/collabnet/teamforge/api/rbac/RoleGroupList.class
+SHA1-Digest: kv3KWkU9ySILjLAmfDIOOJzZI0U=
+
+Name: com/collabnet/teamforge/api/main/ProjectList.class
+SHA1-Digest: ECCgjlh3bQmFRM1hUOPmTUBwEhA=
+
+Name: com/collabnet/teamforge/api/planning/PlanningFolderDO.class
+SHA1-Digest: 3xiRH6Pk8oa3yFufaY2IdGtMtsc=
+
+Name: com/collabnet/teamforge/api/scm/ExternalSystemDO.class
+SHA1-Digest: /uMxhkynjtx0yEUewJLLefTneGs=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerUnitRow.class
+SHA1-Digest: Bzon7u8XrNkfglk9zAt4zSo2cMA=
+
+Name: com/collabnet/teamforge/api/planning/PlanningClient.class
+SHA1-Digest: 9gsC/fMaCW+dkYGPu89KYmOM7qI=
+
+Name: com/collabnet/teamforge/api/planning/PlanningFolderSummaryDO.cla
+ ss
+SHA1-Digest: zxccN6V2c1xOOiw/a2BnB7qxOWo=
+
+Name: com/collabnet/teamforge/api/main/ProjectMemberList.class
+SHA1-Digest: XFJFv8fryxF2MHOdo9wBDzM89TY=
+
+Name: com/collabnet/teamforge/api/pluggable/PluggableComponentDO.class
+SHA1-Digest: 9WO5Fr+QIRHGJ6e4yzsLsy4X+zQ=
+
+Name: com/collabnet/teamforge/api/main/UserDO.class
+SHA1-Digest: a8aaS2Z6XjVo5+NYMVJqQHTdmow=
+
+Name: com/collabnet/teamforge/api/discussion/ForumRow.class
+SHA1-Digest: p+/BA8g/gWJkro+w/zOT21Pvomk=
+
+Name: com/collabnet/teamforge/api/main/ProjectGroupList.class
+SHA1-Digest: vrCpayaGhwL41D4wYTj3htD4JrY=
+
+Name: com/collabnet/teamforge/api/Filter.class
+SHA1-Digest: jrIFMqrwMEvJPJi7pW7d8pNGM6c=
+
+Name: com/collabnet/teamforge/api/discussion/PostRow.class
+SHA1-Digest: lW9h6ZkL7g4Dzz2a/zQXp11Bz7Q=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerFieldDO.class
+SHA1-Digest: dFvdCJiOLKEfU7aH3PfVwFQn4xQ=
+
+Name: com/collabnet/teamforge/api/page/PageDO.class
+SHA1-Digest: caReKPeZGogsXcc482uYo85hRZQ=
+
+Name: com/collabnet/teamforge/api/main/UserGroupRow.class
+SHA1-Digest: XXsImL1uFbpXd3UCKJyfwzwQuzU=
+
+Name: com/collabnet/teamforge/api/rbac/RoleDO.class
+SHA1-Digest: PCl2v9YNKwZuFPja0MzVFmi5xJk=
+
+Name: com/collabnet/teamforge/api/task/TaskGroupList.class
+SHA1-Digest: 66yrIzom9BPRkItDFoqFidhCXgY=
+
+Name: com/collabnet/teamforge/api/frs/PackageDO.class
+SHA1-Digest: SdU7facvrdhG47vseuv0ic/cqvA=
+
+Name: com/collabnet/teamforge/api/planning/ArtifactsInPlanningFolderRo
+ w.class
+SHA1-Digest: oB+q1Mg3jwhBbMBjuUVINbFtXFg=
+
+Name: com/collabnet/teamforge/api/task/TaskRow.class
+SHA1-Digest: zfKJwG8KGOt6KXQJqWJzZT3RtpE=
+
+Name: com/collabnet/teamforge/api/scm/CommitList.class
+SHA1-Digest: V9v/xnkBXJblCFI4kPT7BaOiCPk=
+
+Name: com/collabnet/teamforge/api/Connection$LoginType.class
+SHA1-Digest: VOab7CtVsYjDQm3iuhFwEZDEqIw=
+
+Name: com/collabnet/teamforge/api/tracker/ArtifactDependencyRow.class
+SHA1-Digest: Fn7XS8WR++tagmZ+gLBxLXe8+nI=
+
+Name: com/collabnet/teamforge/api/document/DocumentReviewList.class
+SHA1-Digest: dtuepkC/vvv3PVGiOSX923wZL9c=
+
+Name: com/collabnet/teamforge/api/NamedValues.class
+SHA1-Digest: 08zBC9ou01oJkulYxErI8YrIArs=
+
+Name: com/collabnet/teamforge/api/team/TeamRow.class
+SHA1-Digest: TsNkMM17Zx6BNRJIn3/XwwfJtcQ=
+
+Name: com/collabnet/teamforge/api/scm/ScmFileRow.class
+SHA1-Digest: YsjGaj6k4Hot1cUXZpgox3yuJqM=
+
+Name: com/collabnet/teamforge/api/tracker/WorkflowTransitionRow.class
+SHA1-Digest: Aexf6qHTn4PHSvvJt2fhAJFqgrY=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerUnit.class
+SHA1-Digest: d7VH/QuvUgEBXgS2eXDjPsC77Uc=
+
+Name: com/collabnet/teamforge/api/page/PageClient.class
+SHA1-Digest: okjBIdCfQt8ZfcktJ6Wvg+QFmiw=
+
+Name: com/collabnet/teamforge/api/planning/PlanningFolderRow.class
+SHA1-Digest: AiOheQAhzEIJOQtfxi3MRL2sPiQ=
+
+Name: com/collabnet/teamforge/api/Connection.class
+SHA1-Digest: anouW61g5OZT9nwSStB0Ifnj2f8=
+
+Name: com/collabnet/teamforge/api/Connection$Builder.class
+SHA1-Digest: Agz0xdQl6dQPn9MLohKH2dDlyc8=
+
+Name: com/collabnet/teamforge/api/scm/RepositoryList.class
+SHA1-Digest: RZ2xGSw1MW047cxufPaOo1olRKg=
+
+Name: com/collabnet/teamforge/api/integrationdata/IntegrationDataClien
+ t.class
+SHA1-Digest: CHFBEGH2gu8HIMzsSb7lFYIs2s8=
+
+Name: com/collabnet/teamforge/api/discussion/TopicDO.class
+SHA1-Digest: TkdK4xBiKQvUArxp1iBfwx5ZIzY=
+
+Name: com/collabnet/teamforge/api/wiki/WikiPageRow.class
+SHA1-Digest: uN+gqO9LYMGS0Im6Y0T0kCD8Ams=
+
+Name: com/collabnet/teamforge/api/frs/ReleaseDO.class
+SHA1-Digest: /D03eFa4QbGSJEQtox8bBZkzWCY=
+
+Name: com/collabnet/teamforge/api/planning/PlanningFolderSummaryList.c
+ lass
+SHA1-Digest: zHJSVG41XTQHqbrjjtWvq93cJKg=
+
+Name: com/collabnet/teamforge/api/discussion/ForumList.class
+SHA1-Digest: 5mHrZ+9Erz2WeGY5Z1hegVxf0NE=
+
+Name: com/collabnet/teamforge/api/tracker/WorkflowTransitionList.class
+SHA1-Digest: XM3GS5Ja9xiJ2nW1x8TUb+GAC60=
+
+Name: com/collabnet/teamforge/api/discussion/PostDO.class
+SHA1-Digest: 25ZyNX1Rb98uB649FqJqkzHW7F0=
+
+Name: com/collabnet/teamforge/api/wiki/WikiPageList.class
+SHA1-Digest: 5G2t2mYg7okq4TIiu+QEPLjpKRo=
+
+Name: com/collabnet/teamforge/api/wiki/WikiPageDO.class
+SHA1-Digest: Ax89pJgSlYxLN7t2ScqSOhwUNrM=
+
+Name: com/collabnet/teamforge/api/messages.properties
+SHA1-Digest: QhwNrKa8smUe+iTOXRaOswxbWtQ=
+
+Name: com/collabnet/teamforge/api/document/DocumentReviewRow.class
+SHA1-Digest: s0+tDTgbRgD/rrRQivLKeZC8PkQ=
+
+Name: com/collabnet/teamforge/api/main/ProjectGroupRow.class
+SHA1-Digest: fvwSScyEmuJ2hl6yW/bFTmWGYpI=
+
+Name: com/collabnet/teamforge/api/scm/RepositoryDO.class
+SHA1-Digest: NEtYHs+hjKtCj0HGIQPjV4Yc/no=
+
+Name: com/collabnet/teamforge/api/rbac/RoleList.class
+SHA1-Digest: Rt4wsPD2t1qyZbpUYgCN5pNWdls=
+
+Name: com/collabnet/teamforge/api/main/CommentRow.class
+SHA1-Digest: rXQ6hIeJ3wBGt/4hq6a3IjAr6wM=
+
+Name: com/collabnet/teamforge/api/FieldValues.class
+SHA1-Digest: QgBVVzQ4vcXxWySSNL51gVwPAXM=
+
+Name: com/collabnet/teamforge/api/pluggable/PluggableComponentRow.clas
+ s
+SHA1-Digest: 5UvAU+soTXyGHkIFtgmAnuf0TYE=
+
+Name: com/collabnet/teamforge/api/document/DocumentFolderList.class
+SHA1-Digest: spYwKnk9hsIJDu3AcdZkoa2jaFA=
+
+Name: com/collabnet/teamforge/api/scm/ReplicableScmExternalSystemList.
+ class
+SHA1-Digest: jjIxLaDOCe550YwJRa+N5i3PClU=
+
+Name: com/collabnet/teamforge/api/tracker/OrderedTrackerFieldRow.class
+SHA1-Digest: lOlLyrS1DVXARRAeYvfh0rQfwuc=
+
+Name: com/collabnet/teamforge/api/task/TaskClient.class
+SHA1-Digest: s1HTmMTlGuyq8/YjIEspznbRKpA=
+
+Name: com/collabnet/teamforge/api/ILoginHandler.class
+SHA1-Digest: TJovrhXIZHu3u97qR87CyYcxS44=
+
+Name: com/collabnet/teamforge/api/main/AuditHistoryList.class
+SHA1-Digest: bZnSWAGOwGiXajd/w1wHw+D/cfE=
+
+Name: com/collabnet/teamforge/api/frs/PackageList.class
+SHA1-Digest: u0AGG4niiKhk3Nt9AG1etu9dvU0=
+
+Name: com/collabnet/teamforge/api/document/DocumentReviewDO.class
+SHA1-Digest: PrZa58s9hcocGGB4zpf7QfWvNzM=
+
+Name: com/collabnet/teamforge/api/main/ProjectRow.class
+SHA1-Digest: 5LM3oC2yJWboVXBkuMJfhaDMYDA=
+
+Name: com/collabnet/teamforge/api/team/TeamDO.class
+SHA1-Digest: qj8zeE8NJgNQ2Ip+CElKGBS6lGU=
+
+Name: com/collabnet/teamforge/api/rbac/RbacClient.class
+SHA1-Digest: NnYIKpNdomhTd9BaivoWu0/i9UU=
+
+Name: com/collabnet/teamforge/api/discussion/ForumDO.class
+SHA1-Digest: SBMps7cmBr7JZRVdwBkUWvyTcVs=
+
+Name: com/collabnet/teamforge/api/team/TeamList.class
+SHA1-Digest: 4A/Bx9OD+FvBIdOXw+P1QfTipDU=
+
+Name: com/collabnet/teamforge/api/SortKey.class
+SHA1-Digest: nZx55k9h5G52Z4sYdk1pPpbCXso=
+
+Name: com/collabnet/teamforge/api/team/TeamClient.class
+SHA1-Digest: 0v8zD0w+fR0qfcO7IF0vz4IMZ3A=
+
+Name: com/collabnet/teamforge/api/scm/ReplicatedRepositoryRow.class
+SHA1-Digest: YqrsyN3b1iQK5/VDGNubtx2ShEY=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerDO.class
+SHA1-Digest: mSWBOMPHlHb5v+2LlLS7lj0bDhc=
+
+Name: com/collabnet/teamforge/api/scm/ScmClient.class
+SHA1-Digest: e6VwedIXtPb8/q4Yt86PqA0bNsE=
+
+Name: com/collabnet/teamforge/api/main/ProjectGroupDO.class
+SHA1-Digest: iyTdDACpwNBhtikzMI6NGPjlrVY=
+
+Name: com/collabnet/teamforge/api/main/VersionInformationList.class
+SHA1-Digest: c763tP3iK0qNiKxSZz8VuY/Yi0Q=
+
+Name: com/collabnet/teamforge/api/main/ProjectGroupMemberRow.class
+SHA1-Digest: p6PS35X2ouH0aN6NVJjmzp74XVg=
+
+Name: com/collabnet/teamforge/api/rbac/RoleClusterRow.class
+SHA1-Digest: JehsXMEVZJ7ab/vephl0yfo8PJI=
+
+Name: com/collabnet/teamforge/api/PlanningFolderRuleViolationException
+ .class
+SHA1-Digest: JC5JfetnDM1mUegnQPA/gMrFAg0=
+
+Name: com/collabnet/teamforge/api/pluggable/PluggableComponentList.cla
+ ss
+SHA1-Digest: 2IxvOkWN5MoFh7caaEV0j/YEuJE=
+
+Name: com/collabnet/teamforge/api/main/CommentList.class
+SHA1-Digest: KZncPM30DTZQWXgjyEy1pMCKkt0=
+
+Name: com/collabnet/teamforge/api/IConnectionHelper.class
+SHA1-Digest: qenmmNaX9/Gym8JoXy4CIKaCqlY=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerUnitList.class
+SHA1-Digest: 1Qw9VgLxxOXDvQMJwTFLmS8iy+g=
+
+Name: com/collabnet/teamforge/api/wiki/WikiClient.class
+SHA1-Digest: 0pisZdGbIDkMdQ0x2uY+i5+iyQo=
+
+Name: com/collabnet/teamforge/api/discussion/TopicRow.class
+SHA1-Digest: vgjBLN92/wjYZkVHW5993LhykgU=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerList.class
+SHA1-Digest: VUeugDJDre+uyKBHhFSOVwjt7+Y=
+
+Name: com/collabnet/teamforge/api/page/PageList.class
+SHA1-Digest: wKAmwewJTNOxqI/XWbgoEDrwvtk=
+
+Name: com/collabnet/teamforge/api/frs/ReleaseList.class
+SHA1-Digest: ZM0XkCHIWoZYeJ2t8IEhqsmTwQc=
+
+Name: com/collabnet/teamforge/api/tracker/ArtifactList.class
+SHA1-Digest: 30aZGwf/cT/ICl6U/2P7ns1/ZEY=
+
+Name: com/collabnet/teamforge/api/main/AttachmentRow.class
+SHA1-Digest: wdZACEVUW4Xadt3nGUJDyrwdXiM=
+
+Name: com/collabnet/teamforge/api/pluggable/LinkPluggableComponentList
+ .class
+SHA1-Digest: lf735d7mJYcamVyaBi7DWg23QSk=
+
+Name: com/collabnet/teamforge/api/tracker/ArtifactDetailRow.class
+SHA1-Digest: qf7q2SRFfz/OfzTfPqTtgPj9UDQ=
+
+Name: com/collabnet/teamforge/api/document/DocumentFolderDO.class
+SHA1-Digest: tQ96kzASULGJ7/+GbAgNxP02qec=
+
+Name: com/collabnet/teamforge/api/page/PageComponentDO.class
+SHA1-Digest: zDuc/7qstIq4Ybbb+i14jvdL9F0=
+
+Name: com/collabnet/teamforge/api/main/ProjectGroupMemberList.class
+SHA1-Digest: MQEasRlSgiNItKWWdZlPw/rHTyk=
+
+Name: com/collabnet/teamforge/api/scm/CommitDO.class
+SHA1-Digest: T7oxz9gV+L8DTq1ZzsibMF/XnDs=
+
+Name: com/collabnet/teamforge/api/pluggable/LinkPluggableComponentRow.
+ class
+SHA1-Digest: Uulbhc0/Rh1xBMlq+FqjlcA3zDU=
+
+Name: com/collabnet/teamforge/api/main/ProjectMemberRow.class
+SHA1-Digest: DN/DyNcrX/yhAAo5rBawWMihBdI=
+
+Name: com/collabnet/teamforge/api/scm/ReplicableScmExternalSystemRow.c
+ lass
+SHA1-Digest: SET+dPZ+geM3h5aimSo3OatqoSE=
+
+Name: com/collabnet/teamforge/api/pluggable/PluggablePermissionDO.clas
+ s
+SHA1-Digest: r/KCHyMp/VkVqF5QNGnQ0QXPI2I=
+
+Name: com/collabnet/teamforge/api/frs/PackageRow.class
+SHA1-Digest: T9mCq+3Zmli7ALXMh3EHL1tHGPQ=
+
+Name: com/collabnet/teamforge/api/rbac/RoleClusterList.class
+SHA1-Digest: YssNH1mn1vvEslT/37F1RKOXdEk=
+
+Name: com/collabnet/teamforge/api/main/UserGroupDO.class
+SHA1-Digest: gVQJyE30Q3fr9gFc2kZk4jQ3yuo=
+
+Name: com/collabnet/teamforge/api/scm/RepositoryParameterDO.class
+SHA1-Digest: +b0H4BeK83apS491om6mXUJivtw=
+
+Name: com/collabnet/teamforge/api/main/ProjectDO.class
+SHA1-Digest: PmsSGjocCaHK2Svh9Qk794MolXU=
+
+Name: com/collabnet/teamforge/api/tracker/ArtifactDetailList.class
+SHA1-Digest: FDxDzDOd3IR8X9xHnAn2hdxE010=
+
+Name: com/collabnet/teamforge/api/tracker/IFieldValueDO.class
+SHA1-Digest: aShMrm4rUT0q1FHbLiQP31kCFDE=
+
+Name: com/collabnet/teamforge/api/filestorage/FileStorageClient.class
+SHA1-Digest: 2QZgHDJ+uPvtTG3RWnB+A31I7ro=
+
+Name: com/collabnet/teamforge/api/main/AttachmentList.class
+SHA1-Digest: 6L4qYpukKhOWmNeiwjclnHmg1Ow=
+
+Name: com/collabnet/teamforge/api/document/DocumentList.class
+SHA1-Digest: Y4pZjRvN8bqcDW57Mga4hfXm9fY=
+
+Name: com/collabnet/teamforge/api/frs/FrsFileList.class
+SHA1-Digest: vGIA5SCT5MFczku9BJPyGl9C9GA=
+
+Name: com/collabnet/teamforge/api/rbac/RoleGroupRow.class
+SHA1-Digest: LGQ6rcG2mTjrcxxHiv4Cuq5jtuI=
+
+Name: com/collabnet/teamforge/api/frs/FrsFileRow.class
+SHA1-Digest: 5l4+bfbdfa2Y18KFr8lMvh+UHLo=
+
+Name: com/collabnet/teamforge/api/frs/FrsClient.class
+SHA1-Digest: D0kRcE2Up+UTMEAy6kITqkRIxME=
+
+Name: lib/sf_soap50_sdk.jar
+SHA1-Digest: lZLqSeyNdlF/GZsT0Gc0cXfJSE0=
+
+Name: com/collabnet/teamforge/api/document/DocumentDO.class
+SHA1-Digest: ga/29PUE0oAmln6WQITqCKOmdnE=
+
+Name: com/collabnet/teamforge/api/rbac/RoleRequestRow.class
+SHA1-Digest: bsI82pRsnlc3QFF9UhwTS6h9l8o=
+
+Name: com/collabnet/teamforge/api/main/AssociationList.class
+SHA1-Digest: R8Z/LYlKRSvlfkaVHgKSeU4Qh+M=
+
+Name: com/collabnet/teamforge/api/discussion/TopicList.class
+SHA1-Digest: BYekFmLUdGrPTtiR+95eD4wQ0qI=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerClient.class
+SHA1-Digest: 8U3GjpkhZEIo4mJoKvYaa5GDCzI=
+
+Name: com/collabnet/teamforge/api/tracker/TrackerFieldValueDO.class
+SHA1-Digest: 7v1mmCaX4oIgzKIxfO4J8dRLQO8=
+
+Name: com/collabnet/teamforge/api/discussion/DiscussionClient.class
+SHA1-Digest: gK/6pi2VvGASUj4sJ+zrGqw98MM=
+
+Name: com/collabnet/teamforge/api/pluggable/IntegratedApplicationClien
+ t.class
+SHA1-Digest: lMlqSFp1DTZQfaAlnlyFAuQTPps=
+
+Name: com/collabnet/teamforge/api/main/AssociationRow.class
+SHA1-Digest: cDYdbErThWIxgEQXTkuWMS7j3Y4=
+
+Name: com/collabnet/teamforge/api/task/TaskList.class
+SHA1-Digest: PUHdmZ8yuMWlnvS1yyV9UM2imO4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SwPvGXzoqhbu6llulpm8WpBxiUo=
+
+Name: com/collabnet/teamforge/api/planning/ArtifactsInPlanningFolderLi
+ st.class
+SHA1-Digest: IZ79j67nURAGpG2+nJQPUdAy6GI=
+
+Name: com/collabnet/teamforge/api/pluggable/PluggableComponentParamete
+ rValueDO.class
+SHA1-Digest: Ck6Wx5bUbHiDtC0F20W8ndnGVxI=
+
+Name: com/collabnet/teamforge/api/task/TaskGroupRow.class
+SHA1-Digest: 8nWAzlP3fmQGyI+KAZuRW4PhFCQ=
+
+Name: com/collabnet/teamforge/api/planning/PlanningFolderSummaryRow.cl
+ ass
+SHA1-Digest: CZfDaT2PiBq/HwAaRClre4fvrJc=
+
+Name: com/collabnet/teamforge/api/planning/RankedArtifactRow.class
+SHA1-Digest: Oeuo/LBwcWDaSsaxhQk7zsDqey8=
+
+Name: com/collabnet/teamforge/api/main/TeamForgeClient.class
+SHA1-Digest: Oap10o5GnPh2DCBMra/ERcCWSAM=
+
+Name: com/collabnet/teamforge/api/scm/CommitRow.class
+SHA1-Digest: HDL+UhWC/exk5x9WBxSUpAVYldI=
+
+Name: com/collabnet/teamforge/api/rbac/RoleRow.class
+SHA1-Digest: KI3+9TKmgSyePLgPhi2Td35+xPk=
+
+Name: com/collabnet/teamforge/api/main/AuditHistoryRow.class
+SHA1-Digest: gOMJL3DD3TmIqvNd0RevEfvR0oY=
+
+Name: com/collabnet/teamforge/api/frs/FrsFileDO.class
+SHA1-Digest: rMuZVsiWsJhO/Kwg3wXD/uWfln4=
+
+Name: com/collabnet/teamforge/api/planning/PlanningStatusValueDO.class
+SHA1-Digest: NahbNLUgO6RYA/c4He/hxANdj08=
+
+Name: com/collabnet/teamforge/api/task/TaskGroupDO.class
+SHA1-Digest: QDPuJTRnr1HdlLPDn5hbHMrJ7rA=
+
+Name: com/collabnet/teamforge/api/frs/ReleaseRow.class
+SHA1-Digest: qdA21g3y23ojSSR+P1DcwQpdMdE=
+
+Name: com/collabnet/teamforge/api/rbac/UserRolesDO.class
+SHA1-Digest: QCT3zob/yFYJx3Bf9YIGCk1w0R4=
+

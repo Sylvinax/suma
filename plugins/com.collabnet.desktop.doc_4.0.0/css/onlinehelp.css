@@ -1,0 +1,493 @@
+/*
+ This file is part of the DITA Open Toolkit project hosted on
+ Sourceforge.net. See the accompanying license.txt file for
+ applicable licenses.
+ *-->
+ */
+html,body {
+ margin:25;
+ padding:0px 0px 20px 0px;
+}
+
+body {
+ font-family: Tahoma, "Lucida Grande", Verdana, Arial, sans-serif;
+ font-size: 0.75em;
+ line-height: 1.65em;
+ color:#222;
+}
+
+table        { font-size: 100% }
+
+a:link {
+ text-decoration:none;
+ color:#06c;
+}
+
+a:visited, a:active {
+ text-decoration:none;
+ color:#06c;
+}
+
+a:hover {
+ text-decoration:underline;
+ color:#048;
+}
+
+.menu {
+ font-size: 11px;
+}
+
+.keyword {
+ text-decoration: none;
+}
+
+.taskintro {
+ font-style: italic;
+}
+
+/* class terms */
+.relconcepts a, .reltasks a, .relinfo a {
+ display: list-item;
+ margin: 0px 20px 0px;
+ list-style: url outside;
+ list-style-image: url(ajtest/images/arw_subcat.gif);
+}
+
+.relref a {
+ margin: 0px 20px 0px;
+}
+
+a.term {
+ color: #06c;
+ font-weight: normal;
+}
+
+a.term:hover {
+ color: #048;
+ font-weight: normal;
+}
+
+.linklist a {
+ display: list-item;
+ margin: 0px 20px 0px;
+ list-style: url outside;
+ list-style-image: url(../images/arw_subcat.gif);
+}
+
+.ullinks {
+ display: list-item;
+ list-style: url outside;
+ list-style-image: url(ajtest/images/arw_subcat.gif);
+}
+
+/* class definitions */
+.unresolved {
+ background-color: skyblue;
+}
+
+.noTemplate {
+ background-color: yellow;
+}
+
+.base {
+ background-color: #ffffff;
+}
+
+/* Add space for top level topics */
+.nested0 {
+ margin-top : 1em;
+}
+
+/* div with class=p is used for paragraphs that contain blocks, to keep the XHTML valid */
+.p {
+ margin-top: 1em
+}
+
+/* Default of italics to set apart figure captions */
+.figcap {
+ font-style: italic
+}
+
+.figdesc {
+ font-style: normal
+}
+
+/* Use @frame to create frames on figures */
+.figborder {
+ border-style: solid;
+ padding-left : 3px;
+ border-width : 2px;
+ padding-right : 3px;
+ margin-top: 1em;
+ border-color : Silver;
+}
+
+.figsides {
+ border-left : 2px solid;
+ padding-left : 3px;
+ border-right : 2px solid;
+ padding-right : 3px;
+ margin-top: 1em;
+ border-color : Silver;
+}
+
+.figtop {
+ border-top : 2px solid;
+ margin-top: 1em;
+ border-color : Silver;
+}
+
+.figbottom {
+ border-bottom : 2px solid;
+ border-color : Silver;
+}
+
+.figtopbot {
+ border-top : 2px solid;
+ border-bottom : 2px solid;
+ margin-top: 1em;
+ border-color : Silver;
+}
+
+/* Most link groups are created with <div>. Ensure they have space before and after. */
+.ullinks {
+ list-style-type: none;
+}
+
+.ulchildlink {
+margin-top: 1em; margin-bottom: 1em; /* font-size: 12px; font-size: 12px; */
+}
+
+.olchildlink, .linklist {
+ margin-top: 1em;
+ margin-bottom: 1em;
+}
+
+.linklistwithchild, .sublinklist {
+ margin-left: 1.5em;
+ margin-bottom: 1em
+}
+
+div.relref, div.relinfo, div.reltasks, div.relconcepts {
+ margin: 0;
+ padding: 0.8em 0.4em 0.8em 0.8em;
+
+}
+
+.relref{
+ clear: both;
+ }
+
+.breadcrumb {
+ font-size : 0.5em;
+ margin-bottom: 1em;
+}
+
+.prereq {
+ margin-left : 20px;
+}
+
+/* Set heading sizes, getting smaller for deeper nesting */
+.topictitle1 {
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.topictitle2 {
+ margin-top: 1pc;
+ margin-bottom: .45em;
+ font-size: 1.17em;
+ color:#375896;
+}
+
+.topictitle3 {
+ margin-top: 1pc;
+ margin-bottom: .17em;
+ font-size: 1.17em;
+ font-weight: bold;
+ color:#375896;
+}
+
+.topictitle4 {
+ margin-top: .83em;
+ font-size: 1.17em;
+ font-weight: bold;
+ color:#375896;
+}
+
+.topictitle5 {
+ font-size: 1.17em;
+ font-weight: bold;
+ color:#375896;
+}
+
+.topictitle6 {
+ font-size: 1.17em;
+ font-style: italic;
+ color:#375896;
+}
+
+.sectiontitle {
+ margin-top: 1em;
+ margin-bottom: 0em;
+ font-size: 1.17em;
+ font-weight: bold;
+}
+
+.section, .example {
+ margin-top: 1em;
+ margin-bottom: 1em
+}
+
+/* All note formats have the same default presentation */
+.note, .fastpath, .important, .remember, .restriction, .attention, .danger {
+ margin-top: 1em;
+ margin-bottom : 1em;
+}
+
+.notetitle, .notelisttitle, .tiptitle, .fastpathtitle, .importanttitle, .remembertitle, .restrictiontitle, .attentiontitle, .dangertitle, .cautiontitle {
+ font-weight: bold;
+}
+.cautiontitle {
+ float:left;
+ padding:6px 4px 0px 36px;
+}
+.tip {
+ border:1px dotted #F3881F;
+ padding:5px 5px 5px 35px;
+ background: url(images/icons/tip.png) no-repeat left;
+}
+
+.caution {
+ background:#F6BCBC url(images/icons/important.png) no-repeat left;
+ border:1px solid #CE0000;
+ font-weight:bold;
+ padding:5px 5px 5px 35px;
+}
+
+.important {
+ background:#FFFF99 url(images/icons/important.png) no-repeat left;
+ border:1px solid #F8B454;
+ padding:5px 5px 5px 35px;	
+}
+
+.note {
+ background:#BED1EE url(images/icons/info.png) no-repeat left;
+ border:1px solid #2B5EAD;
+ padding:5px 5px 5px 35px;
+}
+
+/* Simple lists do not get a bullet */
+ul.simple {
+ list-style-type: none
+}
+
+/* Used on the first column of a table, when rowheader="firstcol" is used */
+.firstcol {
+ font-weight : bold;
+}
+
+/* Various basic phrase styles */
+.bold {
+ font-weight: bold;
+}
+
+.boldItalic {
+ font-weight: bold;
+ font-style: italic;
+}
+
+.italic {
+ font-style: italic;
+}
+
+.underlined {
+ text-decoration: underline;
+}
+
+.uicontrol {
+ font-weight: bold;
+}
+
+.italic {
+ font-style: italic;
+}
+
+.wintitle {
+ font-style: italic;
+}
+
+.kwd {
+ font-weight: bold;
+}
+
+.defkwd {
+ font-weight: bold;
+ text-decoration: underline;
+}
+
+.var {
+ font-style : italic;
+}
+
+.shortcut {
+ text-decoration: underline;
+}
+
+/* Default of bold for definition list terms */
+.dlterm {
+ font-weight: bold;
+}
+
+/* Use CSS to expand lists with @compact="no" */
+.dltermexpand {
+ font-weight: bold;
+ margin-top: 1em;
+}
+
+*[compact="yes"]>li {
+ margin-top: 0em;
+}
+
+*[compact="no"]>li {
+ margin-top: .53em;
+}
+
+.liexpand {
+ margin-top: 1em;
+ margin-bottom: 1em
+}
+
+.sliexpand {
+ margin-top: 1em;
+ margin-bottom: 1em
+}
+
+.dlexpand {
+ margin-top: 1em;
+ margin-bottom: 1em
+}
+
+.ddexpand {
+ margin-top: 1em;
+ margin-bottom: 1em
+}
+
+.stepexpand {
+ margin-top: 1em;
+ margin-bottom: 1em
+}
+
+.substepexpand {
+ margin-top: 1em;
+ margin-bottom: 1em
+}
+
+/* Align images based on @align on topic/image */
+div.imageleft {
+ text-align: left
+}
+
+div.imagecenter {
+ text-align: center
+}
+
+div.imageright {
+ text-align: right
+}
+
+div.imagejustify {
+ text-align: justify
+}
+
+pre.screen {
+ padding: 5px 5px 5px 5px;
+ border: outset;
+ background-color: #CCCCCC;
+ margin-top: 2px;
+ margin-bottom : 2px;
+ white-space: pre
+}
+
+.userinput {
+ font-family:"Courier New", Courier, monospace;
+ color: red;
+}
+
+.cmdname {
+ font-family:"Courier New", Courier, monospace;
+}
+
+.option {
+ font-family:"Courier New", Courier, monospace;
+}
+
+.codeph {
+ font-family:"Courier New", Courier, monospace;
+}
+
+.codeblock {
+ font-family:"Courier New", Courier, monospace;
+}
+
+.systemoutput {
+ font-family:"Courier New", Courier, monospace;
+}
+
+.filepath {
+ font-family:"Courier New", Courier, monospace;
+ font-weight: bold;
+ font-size: 1.08em;
+}
+
+.varname {
+ font-style:italic;
+}
+
+.simpletableborder {
+ border-collapse: collapse;
+ margin-bottom: 1.2em;
+ margin-top: 1.2em;
+}
+
+.stepexpand ol {
+ margin-top: 10px;
+}
+
+.stepexpand li {
+ margin-top: 10px;
+}
+
+hr {
+ border: 0;
+ color: #9E9E9E;
+ background-color: #9E9E9E;
+ height: 1px;
+}
+
+.fineprint {
+ font-color: #9E9E9E;
+ font-size: 9px;
+ text-align: center
+}
+
+img {
+ /* float: right;*/
+ margin: 0 0 15px 15px;
+}
+
+.reltasks, .relconcepts, .relref, .relinfo {
+ background-color: #e8eef7;
+ padding: 5px 5px 5px 5px;
+}
+
+
+
+div.familylinks div {
+ padding-left: 26px;
+ margin-bottom: 0px;
+}
+
+ol {
+ margin-bottom: 1em;
+}

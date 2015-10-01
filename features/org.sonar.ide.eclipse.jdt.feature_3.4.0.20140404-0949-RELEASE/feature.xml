@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sonar.ide.eclipse.jdt.feature"
+      label="%feature_name"
+      version="3.4.0.20140404-0949-RELEASE"
+      provider-name="%provider_name"
+      plugin="org.sonar.ide.eclipse.ui">
+
+   <description url="http://sonar-ide.codehaus.org/">
+      %description
+   </description>
+
+   <copyright url="http://www.sonarsource.com">
+      %copyright
+   </copyright>
+
+   <license url="http://www.gnu.org/licenses/lgpl.txt">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.platform" version="3.6.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.sonar.ide.eclipse.core"
+         download-size="82"
+         install-size="157"
+         version="3.4.0.20140404-0949-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonar.ide.eclipse.ui"
+         download-size="185"
+         install-size="344"
+         version="3.4.0.20140404-0949-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonar.ide.eclipse.jdt"
+         download-size="11"
+         install-size="18"
+         version="3.4.0.20140404-0949-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonar.ide.eclipse.wsclient"
+         download-size="17"
+         install-size="29"
+         version="3.4.0.20140404-0949-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonar.ide.eclipse.slf4j.pde"
+         download-size="12"
+         install-size="20"
+         version="3.4.0.20140404-0949-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonar.ide.eclipse.common"
+         download-size="6"
+         install-size="7"
+         version="3.4.0.20140404-0949-RELEASE"
+         unpack="false"/>
+
+</feature>

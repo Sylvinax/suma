@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="Add a TeamForge connector"/>
+<meta name="abstract" content="To add a TeamForge connector site to your Desktop, you provide the URL of the connector server, and your account on the TeamForge instance for which the connector server is configured."/>
+<meta name="description" content="To add a TeamForge connector site to your Desktop, you provide the URL of the connector server, and your account on the TeamForge instance for which the connector server is configured."/>
+<meta name="DC.Relation" scheme="URI" content="../action/cndesktop_connectors.html"/>
+<meta name="DC.Relation" scheme="URI" content="../faq/cndesktop_connectoraccess.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="xxx"/>
+<meta name="DC.Language" content="en-us"/>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="../css/onlinehelp.css"/>
+<title>Add a TeamForge connector</title>
+</head>
+<body id="xxx"><a name="xxx"><!-- --></a>
+
+
+    <h1 class="title topictitle1">Add a <span class="keyword">TeamForge</span> connector</h1>
+
+
+    
+    <div class="body taskbody"><p class="shortdesc">To add a <span class="keyword">TeamForge</span> connector site to your Desktop, you provide the URL of the connector server,
+        and your account on the <span class="keyword">TeamForge</span>
+        instance for which the connector server is configured.</p>
+
+        <div class="section prereq p"> To set up the connector server, see these instructions: <ul class="ul">
+            <li class="li"><a class="xref" href="tfconnector_install.html" title="To install the TeamForge connector server (CCF Master), you download and extract a Tomcat distribution, set configuration properties, and run the connector.">Install the TeamForge connector
+                server</a></li>
+
+                
+            </ul>
+ When that's done, users can add the connector to their Desktop.
+            </div>
+
+        <div class="section context">
+            <div class="note note"><span class="notetitle">Note:</span> This version of the Desktop (Development build 3.0.5 and later) integrates CollabNet Connector Framework more closely than earlier versions.
+                <ul class="ul">
+                    <li class="li">To install the latest version, see <a class="xref" href="geteclipsedesktop.html" title="To get TeamForge connector functionality in your Desktop, you need to install the CollabNet Connector Framework components in addition to the CollabNet Desktop component.">these instructions</a>.</li>
+
+                    <li class="li">You no longer need the <span class="keyword wintitle">CCF Explorer</span> to add a connector integration as in earlier versions. You can now do this in the <span class="keyword wintitle">CollabNet Sites</span> view.</li>
+
+                </ul>
+
+            </div>
+
+            Follow these steps to add a <span class="keyword">TeamForge</span> connector site:</div>
+
+        <ol class="ol steps"><li class="li step">
+                <span class="ph cmd"> In the <span class="keyword wintitle">CollabNet sites</span> view, click the <span class="ph uicontrol">Add CollabNet Site</span> icon.</span>
+
+                  The Add a CollabNet Site dialog appears. <div class="fig fignone">
+                    <img class="image" src="../images/screenshots/eclipsedesktop-addtfconnector1.png"/>
+                    </div>
+
+                
+            </li>
+<li class="li step">
+                <span class="ph cmd">Select Connector for the
+                    site type and click <span class="ph uicontrol">Next</span>.</span>
+                 
+                    <div class="fig fignone">
+                        <img class="image" src="../images/screenshots/eclipsedesktop-addtfconnector2.png"/>
+                    </div>
+
+                
+            </li>
+<li class="li step">
+                <span class="ph cmd">Provide the URL for the <span class="keyword">TeamForge</span>
+                    connector server. For example, http://your-ccfhost.example.com/CCFMaster.</span>
+                  This is the connector server where CollabNet Connector Framework 2.0 is set
+                    up and configured for your TeamForge site. 
+            </li>
+<li class="li step">
+                <span class="ph cmd">Enter a description for the <span class="keyword">TeamForge</span>
+                    connector and click <span class="ph uicontrol">Next</span>. </span>
+                 The description is used as the name of the connector in the .
+                 
+                    <div class="fig fignone">
+                        <img class="image" src="../images/screenshots/eclipsedesktop-addtfconnector3.png"/>
+                    </div>
+
+                
+            </li>
+<li class="li step">
+                <span class="ph cmd">Provide your username and password for the <span class="keyword">TeamForge</span> site.</span>
+                 <div class="note note"><span class="notetitle">Note:</span> Initial setup of the connector's repository mappings requires the
+                    credentials of a site administrator on the <span class="keyword">TeamForge</span> site. </div>
+
+            </li>
+<li class="li step">
+                <span class="ph cmd">Click <span class="ph uicontrol">Finish</span>.</span>
+            </li>
+</ol>
+
+        <div class="section result">The <span class="keyword">TeamForge</span> connector appears in the <span class="keyword wintitle">CollabNet Sites</span> view.
+            You can expand it to see the connector's repository mappings, field mapping templates,
+            and log files. Here's an example: <div class="fig fignone">
+                <img class="image" src="../images/screenshots/cndesktop-addtfconnector4.png"/>
+            </div>
+ The connector functionality available in your Desktop depends on the permissions
+            you've been assigned in TeamForge. </div>
+
+    </div>
+
+    <div class="related-links">
+<div class="familylinks">
+</div>
+<div class="relinfo relconcepts"><strong>Related questions</strong><br/>
+<div><a class="link" href="../faq/cndesktop_connectoraccess.html" title="The connector functionality that's available to you depends on the permissions you've been assigned in the TeamForge project involved in the integration.">What connector functionality can you access in your Desktop?</a></div>
+</div>
+</div>
+<div class="footer">
+
+<p align="center"><strong>Questions? Comments?</strong> <a href="http://desktop-eclipse.open.collab.net/ds/viewForumSummary.do?dsForumId=779" target="_new">Talk to other CollabNet Desktop users</a></p>
+<!--
+<form name="eMailer">
+<p align="center">Email this page to: 
+<input type="text" name="address" size="25"/>
+<input type="button" value="Send" onClick="mailThisUrl();"/></p>
+</form>
+--> 
+<hr/>
+<div class="fineprint">
+      <p> Copyright 2013 <a href="http://www.open.collab.net" target="_new">CollabNet
+            Corporation</a> | <a href="http://www.open.collab.net/servlets/SiteFeedback" target="_new">Site Feedback</a> | <a href="http://www.open.collab.net/legal/usageterms.html" target="_new">Terms of Use</a> |
+            <a href="http://www.open.collab.net/legal/privacy.html" target="_new">Privacy Policy</a>
+         | <a href="http://www.open.collab.net/legal/copyright.html" target="_new">Copyright and
+            Trademark</a> | <a href="http://www.open.collab.net/support" target="_new">Support</a>
+      </p>
+
+
+   </div>
+   
+<!--Start Google Analytics code-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1220409-8']);
+  _gaq.push(['_setDomainName', 'help.collab.net']);
+  _gaq.push(['_setAllowLinker', true]);
+  if(typeof(_vis_opt_GA_track) == "function") { _vis_opt_GA_track(); }
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+<!--Crazy Egg code-->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6318.js";
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+
+<!--Marketo integration starts here-->
+<script src="http://munchkin.marketo.net/js/munchkin.js" type="text/javascript"/>
+<script>mktoMunchkin("563-XAN-459");</script>
+
+
+</div>
+</body>
+</html>

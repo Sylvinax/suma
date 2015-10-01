@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.accurev.eclipse_2014.1.1050364.jar" id="com.accurev.eclipse" version="2014.1.1050364">
+      <category name="required"/>
+   </feature>
+
+   <category-def name="required" label="AccuRev Plug-In for Eclipse"/>
+</site>

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: org.sonar.ide.eclipse.ui,org.sonar.ide.eclipse.ui.inte
+ rnal.util;x-friends:="org.sonar.ide.eclipse.mylyn.ui"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Built-By: eric
+Bundle-Name: %bundle_name
+Bundle-Localization: OSGI-INF/l10n/bundle
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.databinding,
+ org.eclipse.core.databinding.beans,org.eclipse.core.databinding.prope
+ rty,org.eclipse.equinox.security,org.eclipse.ui,org.eclipse.ui.ide;vi
+ sibility:=reexport,org.eclipse.ui.console,org.eclipse.ui.workbench.te
+ xteditor,org.eclipse.jface.databinding,org.eclipse.jface.text,org.ecl
+ ipse.compare,org.sonar.ide.eclipse.core,org.eclipse.core.resources,co
+ m.google.guava;bundle-version="10.0.1",org.sonar.ide.eclipse.wsclient
+ ,org.apache.commons.codec;bundle-version="1.7.0",org.eclipse.ui.navig
+ ator,org.sonar.ide.eclipse.common,org.sonar.ide.eclipse.wsclient
+Bundle-Vendor: %bundle_vendor
+Bundle-Version: 3.4.0.20140404-0949-RELEASE
+Build-Jdk: 1.6.0_45
+Bundle-Activator: org.sonar.ide.eclipse.ui.internal.SonarUiPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.sonar.ide.eclipse.ui;singleton:=true
+Archiver-Version: Plexus Archiver
+

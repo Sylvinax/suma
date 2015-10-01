@@ -1,0 +1,417 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 086K8134bM7DQNDS4IjL7vD2F8Y=
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 9ypSidsDxixyZCLUkJkT7Oa68l0=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$1.class
+SHA1-Digest: AnjW/mjyzwZ335ls0qjXywCgx8Q=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ FilePage$1.class
+SHA1-Digest: woANXrHkJjhoCJoB+sqz96INALQ=
+
+Name: com/collabnet/subversion/merge/changeset/ChangeSetMergeAction$1.
+ class
+SHA1-Digest: BPHPsuyar7CaCupTWKSdfcxtpP4=
+
+Name: com/collabnet/subversion/merge/changeset/TeamForgeArtifactSelect
+ ionDialog$3.class
+SHA1-Digest: NWNExe22VKQRLhxESs1NcZwyiIs=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ AttachmentPage$4.class
+SHA1-Digest: CFVVs8Sjav4akYAXRQM4hLG5NoY=
+
+Name: intro/css/graphics/cn_svn.png
+SHA1-Digest: ylCe2RETu9PCMLzZYR/WwqrlFfw=
+
+Name: cheatsheets/merge.xml
+SHA1-Digest: TsQ3DILgpcm60i/FuCM8H+KU+LM=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ AttachmentPage$1.class
+SHA1-Digest: pSse+FybzUrHkyERVOWRwarU3Kc=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$1.c
+ lass
+SHA1-Digest: tdIPvH4dOthiJVr8CNMpLinH2ww=
+
+Name: com/collabnet/subversion/actions/PropertiesAction.class
+SHA1-Digest: vvYrKPnPKwJHrnwZ+Jq5BiRX+kA=
+
+Name: com/collabnet/subversion/SubversionAdapterFactory.class
+SHA1-Digest: hFVjrUaNLPrCXu+BZGksimfda2s=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$9.class
+SHA1-Digest: S3J/Vk0bXIMJbEBkmm5FpzSWVbI=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ AttachmentPage.class
+SHA1-Digest: LeXQhnAsS1t+B/POVAkea3iug7Y=
+
+Name: com/collabnet/subversion/actions/DiscardLocationAction.class
+SHA1-Digest: In1CZYAC30+DlFdlwKUh33zm6nM=
+
+Name: com/collabnet/subversion/merge/changeset/IArtifactCommitUtilProv
+ ider.class
+SHA1-Digest: wh76JFcF7von6W3c1DNfTGFuu1E=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$MergeResource.class
+SHA1-Digest: DG98+F15/VCWP8quPCQYvEkZOEg=
+
+Name: com/collabnet/subversion/Messages.class
+SHA1-Digest: 1LVbTwrlZivR8mmsYMR71VbnMF8=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$3.class
+SHA1-Digest: ayoic5UvqRVCYtt0eBMOObO8wy8=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ NewTaskPage$CustomWizardNode.class
+SHA1-Digest: zky0nPTPxFdyIPArn2mHhhKirCE=
+
+Name: com/collabnet/subversion/SubversionSiteProvider.class
+SHA1-Digest: 7wiRFnMNzBSlzVOvtk2635HBHGw=
+
+Name: com/collabnet/subversion/merge/changeset/TeamForgeArtifactSelect
+ ionDialog$ArtifactContentProvider.class
+SHA1-Digest: JOgXiqucD2DOebHCGbSRmO7cowM=
+
+Name: com/collabnet/subversion/merge/changeset/TeamForgeArtifactSelect
+ ionDialog$1.class
+SHA1-Digest: mOXhHJkDmMwbu1m36GASYijACSc=
+
+Name: com/collabnet/subversion/actions/PropertiesAction$1.class
+SHA1-Digest: huuVas141rsqpK3F2f7musySGWM=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ MainPage$1.class
+SHA1-Digest: tDGDE6X4l7MYNkN7okP3pLYDDPQ=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$4.c
+ lass
+SHA1-Digest: 0FJEOrfHpaDL0dflO8ZkiA6BGO4=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$ChangePathsTreeContentProvider.class
+SHA1-Digest: gFzV/59qBoDatGHwWYbT4zGp7UA=
+
+Name: com/collabnet/subversion/merge/changeset/ChangeSetMergeAction.cl
+ ass
+SHA1-Digest: M9C0A4E9yr6XkdcFCdOXXJEl0SU=
+
+Name: com/collabnet/subversion/SubversionRepositoryItem$1.class
+SHA1-Digest: r3sbLQpg1TsrrxZfLKTK/Zg3GqE=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ MainPage.class
+SHA1-Digest: hOjs5LzV57URJ7+3hs2L0/U/aRY=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$2.class
+SHA1-Digest: Gsxchw3k7dBJPu6aGIm/ZAqWCDY=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$8.class
+SHA1-Digest: 57osVJ/FbaolLcngTm6WjEd9UQ8=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$Tas
+ kSelectionSorter.class
+SHA1-Digest: +rMwjqROBbjYy1jOdqnqD8qWBP0=
+
+Name: com/collabnet/subversion/Activator.class
+SHA1-Digest: /gGhPZsoVk1dUZzisSSGBNoaVKE=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$10.class
+SHA1-Digest: CMgH/oH1b+2dZnjcArm1rmM5PHE=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$6.class
+SHA1-Digest: w83lfyTKKg3l3lthsGq+cWofrCM=
+
+Name: com/collabnet/subversion/SubversionSiteProvider$1.class
+SHA1-Digest: eI20Vpo0N87rX1d4J5qEz8elsYM=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$3.c
+ lass
+SHA1-Digest: ypOfyRMjxP3OgwJ3iHELENohvks=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$5.class
+SHA1-Digest: IsYZiYu9s/OxUgvNjkXYQX/k4sw=
+
+Name: com/collabnet/subversion/merge/changeset/ITaskRepositoryFilter.c
+ lass
+SHA1-Digest: VqKxwUUICsCoQMGqQUk5Lu66SKA=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$Tas
+ kFilter.class
+SHA1-Digest: XoTXH1Yc/vZTDTDFWUx7+4NrL2Q=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$2.class
+SHA1-Digest: H59fHO3+COGwwS87GbFYHv+dAM8=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$9.class
+SHA1-Digest: 0ZlLRqSwfsIuMgoMyACFUe51PxA=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$4.class
+SHA1-Digest: dk5K+5ahCFk8JfKZHFV0QUBY+CM=
+
+Name: com/collabnet/subversion/merge/changeset/IArtifactCommitUtil.cla
+ ss
+SHA1-Digest: vWTNBqyB2/ilPmDFQd0kOnHqGV8=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$Tas
+ ksContentProvider.class
+SHA1-Digest: R9elgxyy8ZjYH6tdarUpwdYpmeo=
+
+Name: intro/tutorials.xml
+SHA1-Digest: jXt94HzBy3EsnLJE4TSy2kseTog=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e.class
+SHA1-Digest: dn2gh7kM0mgEEN/aq9yvE/CRREo=
+
+Name: com/collabnet/subversion/RepositoryListener.class
+SHA1-Digest: 2DujOgDpe2Pjpq9GMc0D7z3ZE1o=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ FilePage$2.class
+SHA1-Digest: kAaMaDQJbK7M+c5JGA1/+Jw+0XM=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputAction
+ .class
+SHA1-Digest: 97USNV+oNdwZ8RU/p63CQ3mGKIY=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$1.class
+SHA1-Digest: NeazQ7d+BajSktZIUf9OisLp4ck=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ NewTaskPage$2.class
+SHA1-Digest: oA2+yFTnEk868MG3vu7q8yEVv+A=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ $1.class
+SHA1-Digest: JMNBwvgnKU3ay55+Urw7sRnT3EQ=
+
+Name: com/collabnet/subversion/merge/changeset/TeamForgeArtifactSelect
+ ionDialog$4.class
+SHA1-Digest: G81UefgBt3wb9touM1TV3ePnavA=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$5.class
+SHA1-Digest: kTcDitPwNn6bFtkuMW/+KjxycRU=
+
+Name: com/collabnet/subversion/merge/changeset/TaskRepositoriesSorter.
+ class
+SHA1-Digest: YmQR6ZdeCaC8uwqtJClWDJxArM8=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog.cla
+ ss
+SHA1-Digest: 5/z6uC5IfWT7QcMlP1NYq2MYWbA=
+
+Name: cheatsheets/checkout.xml
+SHA1-Digest: Bv81YzJ4fdmd8NQmZOIcI4ZnNxA=
+
+Name: plugin.xml
+SHA1-Digest: 3ZzH8UYKwfHcQEo6lQrPcSIxysM=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$6.class
+SHA1-Digest: 1YL+xkHPWmIjhHnatSpYXXOKsEk=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$5.c
+ lass
+SHA1-Digest: cm9Kad22Dcq0MTvi7TCbTB7pZpA=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$MergeContentProvider.class
+SHA1-Digest: VQyzSmS3yESr6FuRhmYLo0LlbQ4=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$6$1.class
+SHA1-Digest: mzKIBXiZbipNNdPlqW4OY4dgOlk=
+
+Name: schema/artifactCommitUtilProvider.exsd
+SHA1-Digest: CNppefX1ZT+jlZznW95h+nP+k+c=
+
+Name: com/collabnet/subversion/merge/changeset/ChangeSetMergeAction$2.
+ class
+SHA1-Digest: rbDo10ac+J2CfnlvgRefiI1ceE0=
+
+Name: com/collabnet/subversion/SubversionRepositorySite.class
+SHA1-Digest: ibAVY4CWq+uR78NrBex/zwqh4qw=
+
+Name: com/collabnet/subversion/RepositoryListener$1.class
+SHA1-Digest: pEW67hlzzbfPvqkN3/DjnwlbWuw=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$4.class
+SHA1-Digest: Ac0iUJYlyGo3w+8KArAeOu7iQDQ=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$10$1.class
+SHA1-Digest: ShMYeYhN1M1nxfgcZKbqvUDkZHw=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ AttachmentPage$TaskFilter.class
+SHA1-Digest: D1MscEr9Xhkl4R90SWJ/C1Fbtu4=
+
+Name: com/collabnet/subversion/actions/DiscardLocationAction$1.class
+SHA1-Digest: FUYenW+GLcH1OZEzN8XvruWuBXY=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputAction
+ $2$1.class
+SHA1-Digest: iQ2Ajep2W6Xq1bVqYLbBnqcYiPU=
+
+Name: icons/merge.gif
+SHA1-Digest: 3UdHW3XaPy9CkPyuzRbx39XJCVQ=
+
+Name: intro/css/tutorials.css
+SHA1-Digest: 4KErALvfl4Lz54TssMXcbg257cM=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ .class
+SHA1-Digest: qwrs/ZGhzZ3zN7/3VWD4obRa1So=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ NewTaskPage$1.class
+SHA1-Digest: CLdw4OfKBpyjBYQS84jI3G7STnU=
+
+Name: plugin.properties
+SHA1-Digest: g+CzHJtRQbvPy5r+LZqmresbKok=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ AttachmentPage$5.class
+SHA1-Digest: kTdUbXnzINA6trLKnBRiOrxGa0M=
+
+Name: com/collabnet/subversion/actions/PropertiesAction$2.class
+SHA1-Digest: ntCTco0HSmYeyHOXEABz4RpT7bg=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$8.class
+SHA1-Digest: sdBdJ58C481s8mhBMf8TtL1D8rk=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ AttachmentPage$3.class
+SHA1-Digest: 8HPoRVVTBmd+dN1cl/K8BcqmPHs=
+
+Name: com/collabnet/subversion/merge/changeset/TeamForgeArtifactSelect
+ ionDialog.class
+SHA1-Digest: erUaFzSI4Z9DMhWJtAvZYlu6EhA=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputAction
+ $1.class
+SHA1-Digest: CvqfTLaaSINXEc8yzPhlE6MJaZ0=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ FilePage.class
+SHA1-Digest: 0QjbUWLE2OO1b14KT6dKe2sHoJE=
+
+Name: icons/svn16.gif
+SHA1-Digest: HHuLjfkLm1mJwhsoFrmTQe7jS0A=
+
+Name: com/collabnet/subversion/messages.properties
+SHA1-Digest: 4S5ebWPdjsOqwop8HWjA5Hy3g1o=
+
+Name: com/collabnet/subversion/merge/changeset/TeamForgeArtifactSelect
+ ionDialog$ArtifactContentProvider$1.class
+SHA1-Digest: QuSORaxJDsfCuHoOPt4sRcK1+pE=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ AttachmentPage$2.class
+SHA1-Digest: l6FkInBH5u2lfPH7jUwehoXyWbc=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$MergeLabelProvider.class
+SHA1-Digest: ivxCL8eWLog9qm4g6sTliHINiRM=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$7.class
+SHA1-Digest: 63UAyKCbXsubulvxZhsMPQwTPmk=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$11.class
+SHA1-Digest: mmMmFL6z6b4pcWmCYGZNZuLuYcQ=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputAction
+ $2.class
+SHA1-Digest: QkzIwzIq7cg9Kl4KPhvqGYTKGSU=
+
+Name: com/collabnet/subversion/SubversionSchedulingRule.class
+SHA1-Digest: uxtk/ORiwqWeTucAR75z7z19u5k=
+
+Name: com/collabnet/subversion/SubversionRepositoryItem.class
+SHA1-Digest: AuqQ3E09cJDfhvoBhzjtRIKy4aI=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage.class
+SHA1-Digest: 0H8NtH/a61oXIY/xGMTAOTIKMQg=
+
+Name: com/collabnet/subversion/merge/changeset/TaskRepositoryLabelProv
+ ider.class
+SHA1-Digest: DaMxxZzMqOFL58bGcMbC5EWNMKg=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ NewTaskPage.class
+SHA1-Digest: p56itNwJJ7bjaPWSbW3blLmcYj0=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$10.class
+SHA1-Digest: xlBA/DQtr/SREUHy5pTy4RdEOIo=
+
+Name: com/collabnet/subversion/merge/changeset/TeamForgeArtifactSelect
+ ionDialog$2.class
+SHA1-Digest: X5oHdkpDohV7AXX0YKPKpFBJTK0=
+
+Name: com/collabnet/subversion/merge/changeset/ExportMergeOutputWizard
+ NewTaskPage$RepositoryContentProvider.class
+SHA1-Digest: ClP/b3VtiKWYYiLrMs6zm5L87OY=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$ToggleSelectionAction.class
+SHA1-Digest: xPgrRaKajMQ2GpqzuXWXu1fY8ac=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SwPvGXzoqhbu6llulpm8WpBxiUo=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$3.class
+SHA1-Digest: Pr7YsaFV9k2wJG9qurZjlS2KIug=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$Tas
+ ksLabelProvider.class
+SHA1-Digest: xu0MjMRQkZOj/MOQs9Ms+vg38ow=
+
+Name: com/collabnet/subversion/merge/changeset/TaskSelectionDialog$2.c
+ lass
+SHA1-Digest: 4A+lWp2XGf9xmK4hR9DRAMdx4Tg=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$7.class
+SHA1-Digest: BUt7Hx4QxKBoafPG1sOWu+qSbug=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$12.class
+SHA1-Digest: Vi5YOa36DI0s1HDwASdh5iz5eW8=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetRev
+ isionsPage$11.class
+SHA1-Digest: RtieClnVWS+k8o0HtOvjlJQ7TyU=
+
+Name: com/collabnet/subversion/merge/changeset/MergeWizardChangeSetPag
+ e$TableDecoratingLabelProvider.class
+SHA1-Digest: VqlEEW6O0IFVvof29kJm1oGQ/bk=
+
+Name: com/collabnet/subversion/merge/changeset/ChangeSetMergeInputProv
+ ider.class
+SHA1-Digest: QLxJURSn29bMlYcb/j608lZ6Ewg=
+

@@ -1,0 +1,14 @@
+a#collabnet-subversion img {
+	background-image: url(graphics/cn_svn.png);
+}
+
+a#collabnet-subversion:hover img {
+	background-image: url(graphics/cn_svn.png);
+}
+a#collabnet-merge img {
+	background-image: url(graphics/cn_svn.png);
+}
+
+a#collabnet-merge:hover img {
+	background-image: url(graphics/cn_svn.png);
+}
