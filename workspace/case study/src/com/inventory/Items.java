@@ -31,7 +31,7 @@ public class Items
 		this.vendor_name = vendor_name;
 	}
 
-
+//bhug
 	public String getWarehousename() {
 		return warehousename;
 	}
